@@ -2,11 +2,40 @@
 <html>
 	<?php
 	require('include/functions.php');
-	$title = 'Work Contents';
+	$title = '';
 	$work = '';
 
 	if($_GET["work"]) {
 		$work = $_GET["work"];
+		
+		$docsXml = array();
+
+		foreach (new DirectoryIterator("./xml/") as $fn) {
+			if (preg_match('/'.$work.'.[.a-zA-Z0-9]{1,}.xml/', $fn->getFilename())) {
+					$fn_t = array();
+					$fn_t['fn'] = $fn->getFilename();
+					$fn_t['file'] = str_replace('.xml', '', $fn_t['fn']);
+					
+					$FullXML = simplexml_load_file('xml/'.$fn_t['fn']); 
+
+					if($title == '') {
+						$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
+						$title = $XMLtitle[0];
+					}
+					
+					$XMLdate = $FullXML->xpath('/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@when');
+					$fn_t['date'] = $XMLdate[0];
+					$XMLnum = $FullXML->xpath('/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/@xml:id');
+					$fn_t['num'] = str_replace('installment', 'Installment ', $XMLnum[0]);
+					$XMLchapTitles = $FullXML->xpath('/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/title[@level="a"]');
+					$fn_t['chapTitles'] = $XMLchapTitles; // array
+					$XMLchapIDs = $FullXML->xpath('/TEI/text/body/div[@type="installment"]/div[@type="chapter"]/head/@xml:id');
+					$fn_t['chapIDs'] = $XMLchapIDs; // array
+					
+					$docsXml[] = $fn_t;
+				}
+		}
+
 	}
 
 	$pt = array($title);
@@ -31,28 +60,6 @@
 						<div id="work-contents">
 			<?php
 				
-			$docsXml = array();
-
-			foreach (new DirectoryIterator("./xml/") as $fn) {
-				if (preg_match('/'.$work.'.[.a-zA-Z0-9]{1,}.xml/', $fn->getFilename())) {
-					$fn_t = array();
-					$fn_t['fn'] = $fn->getFilename();
-					$fn_t['file'] = str_replace('.xml', '', $fn_t['fn']);
-					
-					$FullXML = simplexml_load_file('xml/'.$fn_t['fn']); 
-					$XMLdate = $FullXML->xpath('/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/imprint/date/@when');
-					$fn_t['date'] = $XMLdate[0];
-					$XMLnum = $FullXML->xpath('/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/@xml:id');
-					$fn_t['num'] = str_replace('installment', 'Installment ', $XMLnum[0]);
-					$XMLchapTitles = $FullXML->xpath('/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/title[@level="a"]');
-					$fn_t['chapTitles'] = $XMLchapTitles; // array
-					$XMLchapIDs = $FullXML->xpath('/TEI/text/body/div[@type="installment"]/div[@type="chapter"]/head/@xml:id');
-					$fn_t['chapIDs'] = $XMLchapIDs; // array
-					
-					$docsXml[] = $fn_t;
-				}
-			}
-			
 			//usort($docsXml, 'cmpArticle');
 			foreach ($docsXml as $file) {
 				print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('l, j F Y', strtotime($file['date'])).')</a></p>';
