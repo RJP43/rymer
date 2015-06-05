@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hcorresp="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model hcorresp="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<?xml-stylesheet type="text/css" href="../css/teibp.css" title="teibp" alternate="yes"?>
+
+
+      <!-- very much work in progress on header -->
+
+<?xml-model href="../schema/sepoys.schema.xml" type="application/relax-ng-compact-syntax"?>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author corresp="sepoys.personography.xml#JMR">James Malcolm Rymer</author>
+            <editor corresp="sepoys.personography.xml#RN">Rebecca Nesvet</editor>
+            <editor corresp="sepoys.personography.xml#RXY">Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="installment1" prev="sepoys.frontmatter.xml#frontmatter"
+               next="sepoys.2.20.xml#installment2">
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter I: The Assembly Room at Cawnpore</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-02-13"/>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter II: The Midnight Revel of Nana Sahib</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-02-13"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="installment">
+            <head><date when="1858-02-13">Saturday, February 13, 1858</date></head>
+            <figure>
+               <graphic url="facsimiles/sepoys.2.13.png"/>
+            </figure>
+            <pb n="81"/>
+            <cb n="1"/>
+            <head>THE <orgName type="indian">SEPOYS</orgName>; OR, <persName
+                  corresp="sepoys.personography.xml#jessie">HIGHLAND JESSIE</persName>.</head>
+            <head>A TALE OF THE PRESENT INDIAN REVOLT.</head>
+            <head>BY <persName type="pseudo">M. J. ERRYM</persName>.</head>
+            <head>AUTHOR OF "<title>JANE BRIGHTWELL</title>," "<title>THE SNOW-DRIFT</title>,"
+               ETC.</head>
+            <p>[Given a faithful Account of the Perils and Adventures of Two Families in <placeName
+                  type="country">India</placeName>—the Private and Public life of <persName
+                  corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                     corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>, and numerous
+               romantic Episodes of Rebellion, from authentic and exclusive sources.]</p>
+            <p>The romantic and exciting character of the events in <placeName type="country"
+                  >India</placeName>, both public and private, are here woven into a <cb n="2"/>
+               narrative, which, while it borrowsa little from imagination, presents in a more
+               personal shape than the records of history, events and occurrences which far
+               transcend all that the pages of old romance could hope to present to its readers. The
+               political and public incidents of the Indian Revolt will be the stream, in the
+               current of which will be carried forward the individuals whose adventures we shall
+               pourtray. The names we introduce are not the names of the actual parties, for obvious
+               reasons; but the incidents themselves are derived from the most veritable sources;
+               and it is presumed that so deeply interesting a leaf from the great volume of
+               existence never yet spread its regard before human gaze.</p>
+            <cb n="3"/>
+
+            <div type="chapter">
+               <head xml:id="Ch1">CHAPTER I.</head>
+               <head>THE <placeName type="building">ASSEMBLY ROOM</placeName> AT <placeName
+                     type="city">CAWNPORE</placeName>.</head>
+               <p>Clinging to each other with the frantic grasp of despair—uncertainty and fear upon
+                  every countenance—blanched cheeks and trembling limbs, bespeaking the terror of
+                  those throbbing hearts—eyes quivering through tears of agonised apprehension, as
+                  they cast their hurried glances from door to window, and then from face to face of
+                  the poor horror-stricken throng; listening with an agony of dread for any sound
+                  from without, striving with a preternatural eagerness to separate the sobs and
+                  moans of children from all extraneous noises—silent and hopeless, with the slant
+                     <cb n="1"/> beams <pb n="82"/> of an Indian moon tipping with silver the torn
+                  apparel, and giving a spiritual character to the wan faces—stood, sat, and clung,
+                  breast to breast, or knelt apart and prayed, the throng of victims in the
+                     <placeName type="building">Assembly Room</placeName> at <placeName type="city"
+                     >Cawnpore</placeName>, on the eve of that awful day when Hindoo treachery had
+                  gathered back its victims after the capitulation of the few and faint defenders of
+                     <placeName type="city">Cawnpore</placeName>.</p>
+               <p>There crouched the mother—clasping to her heart the little ones wailing for food,
+                  and dabbled with the blood of the father who had fallen in their defense—despair
+                  on her face, terror of yet unheard-of horrors to come, in her eyes.</p>
+               <p>There the maiden in the first flush and pride of her girlish beauty, so pale and
+                  wan, the very fount of tears dried up with the wild terror of the past, and the
+                  dread of the still more terrible future! Where are the fond hearts that love her?
+                  where the tender arms that would enfold her from even the winds of heaven, should
+                  they visit her cheek too roughly? where is the gallant lover who has looked to her
+                  as the star in the East, by the light of which he hoped to march to flory and
+                  renown? Not there! not there!—where she like a pale spectra, with those clasped
+                  hands and that faint moaning sound from her lips, awaits her dreadful doom.</p>
+               <p>Wives—sisters—gentle little ones, who have but yet, through their blue eyes,
+                  peeped at the great world, which so soon for them is to pass away for ever;—young,
+                  fair children, with the sweet cherub faces of English youth, and the soft voices
+                  of our own happy clime—beings of love, and to be beloved, with all the wild
+                  idolatry of human passion;—beauty, gentleness—every charm that, in the fairest and
+                  the tenderest portion of humanity, graces nature,—all are there—picturesque, yet
+                  awful in their despair!</p>
+               <p>Do not pitying angels crowd those latticed casements and gaze with the ineffable
+                  love of a higher state on these poor victims? Is there no cheering murmur from a
+                  world to come, whence cruelty and oppression are unknown, since all hope is
+                  quenched in this? Oh! it was a sight to make angels weep, if tears are still the
+                  inheritance of the starry host! </p>
+               <p>And higher, and higher still, rose in the soft blue of that Indian sky, the full,
+                  round moon, and a flood of silvery light glistened upon the tears of those who had
+                  them to shed; and the murmured prayer, yet faintly uttered, seemed as though it
+                  took that moonlight path to heaven.</p>
+               <p>"Hush! What sound is that?"</p>
+               <p>A shrill, clarion-like burst of eastern music. The clash of cymbals, and the whirr
+                  of the many-stringed <emph><foreign xml:lang="ur"
+                        corresp="sepoys.backmatter.xml#eeda">eeda</foreign></emph> , with the hoarse
+                  rattle of drums, comes on the soft night air.</p>
+               <p><persName corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName> holds high
+                  revel in his gorgeous halls at <placeName type="city">Cawnpore</placeName>.</p>
+               <p>Then, the mothers clasp their little ones yet closer to their hearts. Then the
+                  young maidens sink to the floor, their breath coming short and thick; and there is
+                  wringing of hands, and there are frantic prayers, and cries of help, where help
+                  there is none—for mercy, which comes not.</p>
+               <p>Loudly clash the cymbals again! The monotonous beat of the Indian drum falls as
+                  though each tap was on some poor victim's heart! A blaze of yellow light mingles
+                  with the moonbeams, and the shouts of many voices awaken echo in the blood-stained
+                  streets of the city.</p>
+               <p>"Death! Death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>!" is the cry.
+                  "Long life to the lord of the earth—the conqueror of nations—<persName
+                     corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>!"</p>
+               <p>Then, with the bray of trumpets—the confused clatter of arms—the crashing of the
+                  cymbals—the jingle of the silver-belled <emph><foreign xml:lang="ur"
+                        corresp="sepoys.backmatter.xml#chunar">chunar</foreign></emph>, and the tap!
+                  tap! of the drums—there sweeps past the <placeName type="building">Assembly
+                     House</placeName>, bearing hundreds of torches, a confused mass of the <orgName
+                     type="indian">Sepoy</orgName> guard of <persName
+                     corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>, bent on a
+                  visit, propitiatory and thankful, to one of the Hindoo temples in the
+                  vicinity.</p>
+               <p>And now, as the rabble band neared the prison-house of these sad victims we have
+                  fairly touched upon there is one who, in her despair—for she thinks the destroyer
+                  is at hand—shrieks aloud. Another, in vain, tries to take her own life—for death,
+                  simply death, has lost its horrors in higher horrors still. A third bemoans her
+                  fate, in bitter anguished words, which keep up a strange cadence with the clash of
+                  barbarous sounds without.</p>
+               <p>"Oh, mercy, heaven! Why is all this? What have we done, to be so lost? So happy
+                  were we in our dear home—kind kindred about us—every word a sound of true
+                  affection—life so dear, so beautiful to us all! The earth so beautiful—the sky so
+                  blue and fair! Each day but the harbinger of new happiness!—and now, death!
+                  death!—worse than death! Help! help!—mercy! help! Father!—mother!—brother! In
+                  mercy help me!—save me! Will you all leave me here to die? Help—Oh, help!"</p>
+               <p>The intellect had tottered and fallen, and the young <cb n="2"/>girl—for such she
+                  was—screamed with the wild energy of a maniac.</p>
+               <p>Then another sat mute and smiled; she was mad! Before her eyes a father and two
+                  brothers had fallen, and heaven spared her further woe. She was weaving a strange
+                  kind of chapel from some Indian grasses that, by chance, were in the place; but
+                  one glance at those cold, stony-looking eyes were enough to freeze the heart.</p>
+               <p>The music still sounded, but more remotely, although the tramp of feet continued.
+                  Suddenly, then, there was a crashing sound, and some splinters of the jalousies of
+                  the windows were scattered into the room, and several shots plunged into the walls
+                  and ceiling.</p>
+               <p>In wanton mischief, as they passed, some of the <orgName xml:lang="ur"
+                     type="indian">Sepoys</orgName> had fired into the <placeName type="building"
+                     >Assembly Room</placeName>, where they knew the English prisoners were
+                  confined.</p>
+               <p>And now all crouched low down, as by an instinct which teaches that death, however
+                  inevitable it may seem, is yet to be avoided, if possible, to the last. All was
+                  still, too, except the moaning of some children, and the painful throbbing of
+                  every heart there. Another—yet another shot, and the splinters from the windows
+                  flew about the room. Another yet—and there is a faint cry. All eyes are turned in
+                  that direction, and in the moonbeams they see a stream of blood. The bullet has
+                  found its home in one fair breast, and soon death is an inhabitant of that fearful
+                  place.</p>
+               <p>Then broke forth the cries that will no longer be suppressed, and there is a rush
+                  to the doors of the apartment. They are fast, and the <orgName type="indian"
+                     >Sepoy</orgName> guard without laugh at the puny efforts to force them. But
+                  still the very walls shake with the frantic efforts of so many hands, and then one
+                  of the guards fires a shot through the door, and it wounds two of the victims
+                  fearfully. They recoil from the door, and as a young mother finds blood upon her
+                  child, she shrieks aloud for the aid, and makes frantic efforts to stanch the
+                  stream of life which is flowing fast. </p>
+               <p>Then from a remote corner, where they had stood clasped in each other's arms, come
+                  forward two sisters. The eldest is but on the verge of womanhood, although the
+                  wife of a <persName corresp="sepoys.personography.xml#fletcher">Major
+                     Fletcher</persName>, who is with the army; a young child of three year of age
+                  is clinging around her neck. Her sister, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>—on whose fair
+                  brow but sixteen summer had shone—clings closely to her, and with gasping sobs
+                  rather strives to keep her back then aid her in making her way to the centre of
+                  the desolate throng, which seems to be <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>'s object. The
+                  latter, however, perseveres, and although tears are streaming from her eyes, and
+                  she is half-choked by emotions, she speaks.</p>
+               <p>"Dear friends, all!—dear in misfortune, and dearer still in this dreadful time—oh!
+                  be patient! Do not—oh! do not let us abandon ourselves, if we have no hope
+                  elsewhere! What but more certain and dreadful destruction can we expect by clamour
+                  and by resistance here? Oh, be still and patient! I cannot—will not think we are
+                  wholly lost! The retribution for any ill that could be done to us will surely make
+                  even <persName corresp="sepoys.personography.xml#nana">Nana <roleName
+                        type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName></persName> tremble to corresplect upon. Oh! be hopeful, and
+                  do not let us exhaust our poor hearts in useless efforts! We are not lost yet, for
+                  we live!"</p>
+               <p>These words spread a calm over the troubled souls there present. They were spoken
+                  with such a holy sweetness, and they came from one whom they all knew suffered
+                  much and had much at stake. The screams and cries ceased, and many a mother strove
+                  to hush her little ones to rest.</p>
+               <p>Then <persName corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>,
+                  as she sobbed upon her sister's breast, murmured to her, "Oh, <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>! <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>! you know that—that
+                  our foes are not all cruel, not all so barbarous and vengeful. There is one in
+                  whom, could he but know of our abandonment, we might yet have hope."</p>
+               <p>"Hush, sister, hush! Do not sob so!"</p>
+               <p>"But, dear <persName corresp="sepoys.personography.xml#annie">Annie</persName>,
+                  you know who I mean! It is strange that his name and the thought of him has ever
+                  been on this dreadful eve uppermost in my mind."</p>
+               <p>"You mean <persName corresp="sepoys.personography.xml#jeffur">Jeffur
+                     Ahib</persName>, the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chivalrous chieftain</roleName>
+                  from the mountains?"</p>
+               <p>"Ah, yes!"</p>
+               <p>"Alas, my poor <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, he is of different mould to these <orgName xml:lang="ur"
+                     type="indian">Sepoys</orgName>, who are working all this ruin!"</p>
+               <p>"But yet is with them! Oh, <persName corresp="sepoys.personography.xml#annie"
+                     >Annie</persName>! I thought I saw his plume in the throng, and as I looked I
+                  saw a confusion on the shore when many were firing at the boats, and it was he who
+                  pressed aside the weapons, and I saw him striving to stop the carnage. He has some
+                  wild notions of the deliverance of <placeName type="country">India</placeName>
+                  from all foreign rule, and that will place him in the ranks against us; but his
+                  noble heart will make him the sworn foe to all cruelty and bloodshed. Listen,
+                  sister—I have yet hope in him!"</p>
+               <p>"Alas! alas! my poor <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>! What hope?"</p>
+               <p>"He loves me!"</p>
+               <p><persName corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>
+                  clasped closer to her side her young sister, and wept.</p>
+               <p>"Yes, he loves me!" sobbed <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie Hope</persName>. "You <cb n="3"/> know our poor father thought much of
+                  him, and had him often to the bungalow, and did you not see how he would sit and
+                  gaze at me, with such love in his dark eyes, that I was fain to leave the room to
+                  recover their ardent gaze? Oh, yes, he loves me! and he is no coward, cruel
+                     <orgName type="indian">Sepoy</orgName>! He belongs to a different race, as we
+                  have often heard our dear father say! Listen! you have seen him on his horse, have
+                  you not, with his chain-mail glittering in the sun? Oh, <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>! <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>! if we could only let
+                  him know—if he could but guess that we—I was here, he would save us yet! Yes, dear
+                     <persName corresp="sepoys.personography.xml#annie">Annie</persName>, he would
+                  save us yet!"</p>
+               <p>"Hush! oh, hush, <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>! How you sob! Be calm! be calm, for the love of heaven! I
+                  would fain hope with you, if I had dared; but, alas! how is one arm to save us,
+                  even if it wished, with thousands raised against us?"</p>
+               <p>"Oh, but he is so brave, so food, so true!"</p>
+               <p><persName corresp="sepoys.personography.xml#annie">Annie</persName> bent down her
+                  head, and kissed her sister through her tears.</p>
+               <p>"My poor, poor <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>! may heaven keep you!"</p>
+               <p>"Hush! Ah, what is that?—this way! Listen! Oh, <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>, God is good and
+                  merciful! If I could only speak—speak, for tears! This way, to the window, here! I
+                  heard something!"</p>
+               <p>"What? Oh, what!"</p>
+               <p>"Hush!—hush!—hush!"</p>
+               <p><persName corresp="sepoys.personography.xml#bessie">Bessie Hope</persName> was too
+                  agitated to say more; but she led her sister to a corner of the large apartment,
+                  where a window, latticed with thin jalousies, let in the slant rays of the moon.
+                  None were at that part of the room but themselves; and when they reached it,
+                     <persName corresp="sepoys.personography.xml#annie">Annie</persName> heard the
+                  faint tickle of one of those small Indian lutes that are in use all over
+                     <placeName type="country">Hindostan</placeName>.</p>
+               <p><persName corresp="sepoys.personography.xml#bessie">Bessie</persName> clung to her
+                  sister with a clutch that was painful, and she sobbed now as though her heart
+                  would break.</p>
+               <p>"<persName corresp="sepoys.personography.xml#bessie">Bessie</persName>, dear
+                     <persName corresp="sepoys.personography.xml#bessie">Bessie</persName>, what is
+                  it? Oh, what is it?"</p>
+               <p>"He—he!—God bless and aid him!—<persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>—'tis he! He will save us yet! He is so good, so—so noble,
+                  and he loves me!"</p>
+               <p>The soft tinkle of the lute came quickly on the night air, and then it paused, and
+                  a few words in different English were spoken from without in a low soft voice.</p>
+               <p>"Is the English angel of the wild heart of the song of the mountains here, or in
+                  the paradise of the blessed and the good!"</p>
+               <p>"'Tis he!" gasped <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, with a half shriek of delight. "Oh, <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>, we shall see them
+                  all again! Our mother—your dear
+                     <persName>Edward</persName><!-- who is Edward!? in 2.27, Annie says her husband's name is George, not sure if Edward is supposed to be Major Fletcher -->—<persName
+                     corresp="sepoys.personography.xml#adrian">Adrian</persName>—all friends! We are
+                  saved!"</p>
+               <p>The lute again was gently touched.</p>
+               <p>The prospect of deliverance now indeed began to dawn on the hopes of <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, and the
+                  mother's first impulse was to cover her child with tears and kisses.
+                  "Sister—sister!" said <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, "how shall I let him know that I am here?—that we are here?
+                  Oh, yes—yes! I know now! Hush!—be still! Oh, I know he loves me! You have a small
+                  knife with you, <persName corresp="sepoys.personography.xml#annie"
+                     >Annie</persName>! Give it me! That is well! Oh, <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>, these are tears of
+                  joy now! I remember once he said my hair was like the clear sunlight of his native
+                  hills. He will know it well—he will be sure to know it! We must not cry out, for
+                  he would be in danger. One tender, good heart among a thousand fiends! He will
+                  know this!—he will know this!"</p>
+               <p>The young girl severed from her head one of the long tresses of her beautiful
+                  hair, and with trembling fingers she thrust it through the narrow crevices of the
+                  jalousies at the window. Then there was a slight cry without of surprise and joy,
+                  and they heard fervent kisses bestowed upon the lock of hair. The lute was struck
+                  just for a few seconds in a joyous strain, and then all was still.</p>
+               <p>The sisters knelt by the window in intense listening; not another sound came to
+                  their ears from without.</p>
+               <p>"All is lost!" sighed <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName>. "He cannot help us!"</p>
+               <p>"He will help us," said Annie, "for he loves me!"</p>
+            </div>
+
+            <div type="chapter">
+               <head xml:id="Ch2">CHAPTER II.</head>
+               <head>THE MIDNIGHT REVEL OF <persName corresp="sepoys.personography.xml#nana">Nana
+                        <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                        >SAHIB</roleName></persName>.</head>
+               <p>In the <placeName type="building">great hall</placeName> of the palace at
+                     <placeName type="city">Cawnpore</placeName>, beneath a canopy of state, and
+                  surrounded by all the gorgeous pomp of eastern magnificence, hastily collected and
+                  so strangely intercomingled that the place looked like a plundered bazaar, sat
+                     <persName corresp="sepoys.personography.xml#nana">Nana <roleName
+                        type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName></persName>.</p>
+               <p>Rich cloths covered the floor. The plunder of the <placeName type="building"
+                     >Residency</placeName>, in the shape of plate, uniforms, arms, and European
+                  luxuries lay strewn about in confusion. The extemporaneous canopy at one end of
+                  the apartment was supported by tall spears, and formed of shawls and tapestries of
+                  rare beauty, and cost. Beneath was a wilderness of embroidered cushions, forming a
+                  huge divan, on which, with the favorites of the hour, sat the arch-spirit of
+                  cruelty. His dress was blazing with <pb n="83"/>
+                  <cb n="1"/> jewels, and the splashes of blood were on every article of his
+                  apparel; his bloodshot eyes looked implacable as a tiger's in their rage; his
+                  naked scimetar lay before him, and an European pair of richly mounted pistols was
+                  in his girdle. Close to his right hand lay a revolver of the highest finish, which
+                  had been found in the <placeName type="building">Residency</placeName>.</p>
+               <p>Reposing on the cushions about him, and which straggled over a third portion of
+                  the hall, were his officers, arrayed partly in European spoils. All were fully
+                  armed, and at the feet of most of them lay a pile of weapons, which ever and anon
+                  they fingered and examined with interest and attention. </p>
+               <p>A vast throng of soldiers of all conditions filled up the lower portion of the
+                  hall, and the rattle of arms and the din of vices, above which could now and then
+                  be heard the cry of "Long live the <persName
+                     corresp="sepoys.personography.xml#nana"><roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>!" were
+                  incessant.</p>
+               <p>Close behind the <persName corresp="sepoys.personography.xml#nana">Nana</persName>
+                  were several attendants, bearing rich wines on golden salvers, to which he
+                  frequently appealed, generally flinging the goblet or crystal from which he drank
+                  far down the hall, or over his head among those behind him. A blaze of light was
+                  produced from a hundred torches of scented wood; and now and then, on a sign from
+                     <persName corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>, the
+                  present minister of the petty satrap, a clangor of wild music would fill the air,
+                  and the clash of the cymbal with the roll of the European drum made up a most
+                  martial discord.</p>
+               <p>The scene was, in truth, a strange and a gorgeous one of wild barbaric pomp. The
+                  flashing of the flambeaux on the arms and jewels—the hum of the multitude—the
+                  crashing sound of the music—the glitter of arms and accoutrements, and the flutter
+                  and sparkling beauty of the rich Oriental hangings—all made a semblance to the
+                  past magnificence of old <placeName type="country">India</placeName> in the height
+                  of her native power and glory.</p>
+               <p>And evidences, too, were there of the recent battle, in which the troops of the
+                     <persName corresp="sepoys.personography.xml#nana">Nana</persName> had been
+                  worsted by <persName corresp="sepoys.personography.xml#havelock"
+                     >Havelock</persName>, and forced, flying and disordered, back to <placeName
+                     type="city">Cawnpore</placeName> but a few short hours before. There were drops
+                  of blood upon many a gorgeous vest, and bound-up heads and arms, and blanched
+                  faces even among those immediately surrounding the Chief. But wine had done much
+                  of its work, and was doing more. A wild revel—the last in <placeName type="city"
+                     >Cawnpore</placeName> before its evacuation—was on hand, and with all the rage
+                  of recent defeat and present semi-intoxication, <persName
+                     corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName> presided
+                  at the fell orgies of the night.</p>
+               <p>"Wine! wine!" he cried. "Death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! Blood shall flow
+                  till the sacred <geogName type="river">Ganges</geogName> is tinted with the
+                  crimson life-stream! Wine, I say! more wine!"</p>
+               <p>The startled attendance who was nearest to him presented, tremblingly, the salver
+                  with a golden goblet on it; but his foot caught slightly in one of the fusions of
+                  the divan, and in his stumble he spilt some of the wine on the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>.</p>
+               <p>With a howl of rage, the latter seized the scimitar at his feet, and made a
+                  furious slash at the peon.</p>
+               <p>"<emph><foreign xml:lang="ur" corresp="sepoys.backmatter.xml#chor"
+                     >Chor</foreign></emph> (thief)!" he said; and the sword drunk deep of the
+                  life-blood of the gasping wretch, who rolled back among his fellows.</p>
+               <p>"Wine, I say! wine! Ah! 'tis well! This is new blood!"</p>
+               <p>He drained the goblet to the bottom that was now presented to him, and then
+                  drawing a long breath, he glanced around him ere he flung it furiously at the
+                  figure of a crouching Hindoo, who was apparently muttering his prayers.</p>
+               <p>"Dog!" he cried, "bring me the goblet back again, and let me fill it with your
+                  blood!"</p>
+               <p>A gaunt figure, the upper portion of which was entirely nude, strode forward with
+                  the goblet, and making a low salaam, said, "I am your highness's dog, but I bite
+                  others!"</p>
+               <p>"Ah! the executioner of <placeName type="city">Cawnpore</placeName>! Is it not
+                  so?"</p>
+               <p>"Even so, <addName corresp="sepoys.personography.xml#nana">Light of my
+                     Eyes</addName>, and <addName corresp="sepoys.personography.xml#nana">Terror of
+                     the World</addName>!"</p>
+               <p>"More sport!" shrieked the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>, "more sport! We have no dancing fair ones to night! Ha! ha!
+                  The war has scared the bright eyes and the supple limbs, but there is other sport!
+                  Sit thou there, friend! We shall want thy cunning hand! Wine here! said I not
+                  wine? Ah, that is rich and rare! Why, there is blood upon my caftan! It looks
+                  well, too! Defeated—defeated, are we? Well, well! such defeats are costly to the
+                     <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! Ah, the foe! But
+                  yet, ere I go, a deed!—a deed! Ha! ha! there will be tears yet—tears of blood!
+                     <persName corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>?</p>
+               <p>"Ay, my good lord!"</p>
+               <p>"The <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName> women!—eh?"</p>
+               <p>He jerked his head in the direction of the <placeName type="building">Assembly
+                     House</placeName>.</p>
+               <p>"Safely confined," whispered the minister.</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> drew a long
+                  breath. "'Tis well! These that can get there will sup to-morrow in Paradise!"</p>
+               <p>The cymbals and the drums again struck up their <cb n="2"/> wild music, and the
+                  wine circulated still more freely! The <orgName xml:lang="ur" type="indian"
+                     >Sepoys</orgName> at the lower pat of the hall uttered loud shouts, and now and
+                  then, one more intoxicated than his fellows would sally out and fire his musket in
+                  the streets. Still, the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName> drunk deeply; and after a potation, he suddenly fixed his eyes
+                  upon the youthful and handsome countenance of a splendidly-attired warrior in the
+                  fanciful costume of the hill tribes, with his buckler slung at his back, who had
+                  approached close to the divan.</p>
+               <p>"Ah! I should have known thee!—I saw thy plume in the fight!"</p>
+               <p>"<persName><roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                        >Sahib</roleName></persName>! I am <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>, son of the
+                  chief of the <orgName type="indian" corresp="sepoys.backmatter.xml#dooctees"
+                     >Dooctees</orgName> of <geogFeat type="hills"
+                     corresp="sepoys.backmatter.xml#dooctees">the hills</geogFeat>! I have fought
+                  for you!"</p>
+               <p>"By our beard, yes! Wine, wine here, for our good soldier! Death to the <orgName
+                     xml:lang="ur" corresp="sepoys.backmatter.xml#feringhee"
+                  >Feringhee</orgName>!"</p>
+               <p>"To <placeName type="country">India</placeName>!" cried <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, as he partook
+                  sparingly of the cup presented to him. "<persName><roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>, all
+                  should revel alike. Shall I relieve the guard at the <placeName type="building"
+                     >Assembly Room</placeName>, where lie the <orgName xml:lang="ur"
+                     type="european" corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>
+                  women and children, prisoners?"</p>
+               <p>The <roleName type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     chief</roleName> trembled slightly as he spoke, and the reeling eyes of the
+                     <persName corresp="sepoys.personography.xml#nana">Nana</persName> glared upon
+                  him. The suspicious character of the savage was aroused at he knew not what.
+                  Moreover he was asked to do something which should have been his own thought, and
+                  thecorrespore it was not to be done.</p>
+               <p>"No, no! Great is the valor of our friend from <geogFeat type="hills"
+                     corresp="sepoys.backmatter.xml#dooctees">the hills</geogFeat>, and we love to
+                  have him near us! There is room on our divan for a warrior. Sit with us!"</p>
+               <p>The parted lips and the show of teeth from the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName> belied his hospitable
+                  words, and to those who knew him well betokened anything but good to the chivalric
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, who, in
+                  the name of <placeName type="country">India</placeName> alone, had taken up arms,
+                  and who was so ill-suited for companionship with those around him, who fought for
+                  plunder and revenge.</p>
+               <p>"The <persName corresp="sepoys.personograhy.xml#nana"><roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>'s words
+                  are good!" said <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">the young chief</roleName>, as he
+                  calmly and gracefully reclined on the cushions near the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>. But there was trouble
+                  in the ye of the young man, and there was sadness at his heart! How to save her he
+                  loved, was the anxious question of his soul. Had he succeeded in obtaining the
+                  command of the relief guard over the prisoners, all would have been easy; but now
+                  his powers of action were more restricted than before, and his heart felt faint
+                  and fluttering as he clasped his hand with a nervous clutch upon the bullion
+                  tassel of the velvet cushion on which he half reclined. </p>
+               <p><persName corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName> looked at
+                  him with a searching glance, and then, as his head reeled to and fro in incipient
+                  intoxication, he whispered, as he thought, but, in reality, spoke sufficiently
+                  aloud for all near at hand to hear, to <persName
+                     corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>, "Double the
+                  guard on the prisoners! Fire on all who approach without the watchword! The dawn
+                  will come!—the dawn will come!"</p>
+               <p>"And the watchword, Light of the World?" said <persName
+                     corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>.</p>
+               <p>The <roleName type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     mountain chief</roleName> strained his sense of hearing to the utmost; but
+                     <persName corresp="sepoys.personography.xml#nana">Nana <roleName
+                        type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName></persName> grabbed <persName
+                     corresp="sepoys.personography.xml#lolltall">Loll Tall</persName> by the neck,
+                  and said a word in his ear, which the nicest attention of the young man could not
+                  catch. </p>
+               <p>"It is well!" said the <persName corresp="sepoys.personography.xml#lolltall">Loll
+                     Tall</persName>. "Words of wisdom fall like pearls from my lord's lips."</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> burst into a
+                  hideous laugh, and then he called for more wine, and glanced at <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, as he yelled, "Who
+                  held back vengeance from the sons of <placeName type="country">India</placeName>?
+                  Ah! what say you?"</p>
+               <p>The executioner had whispered something close to the ear of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>, and the countenance of
+                  the latter literally flushed through the dark skin with pleasure.</p>
+               <p>"Say you so? Prisoners! Nay!"</p>
+               <p>"Even so, my good lord."</p>
+               <p>He clapped his hands loudly, and, in a yelling voice, shouted, "More lights! more
+                  music! more revelling! more wine! more blood! Ha! ha! Prisoners? We live, and some
+                  of the hated race live! By the <persName
+                     corresp="sepoys.backmatter.xml#grandlaama">Grand Laama</persName>, the air is
+                  impure in <placeName type="city">Cawnpore</placeName> while the breath of the
+                     <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName> taints it! Bring
+                  in the prisoners! A hunt!--a hunt! Better than the wild haunts of the jungle will
+                  be the halls of <placeName type="city">Cawnpore</placeName>! Better the game than
+                  the tiger or the jackal! Bring in the prisoners! we hold a feast to-night, and we
+                  invite the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! Ha! ha! We have
+                  had the pale devil before in our halls! The prisoners! Bring in the prisoners!
+                  Why, we are conquerors, yet!"</p>
+               <p>Amid the bray of wind instruments--the clash of cymbals, and the beat of
+                  drums--while countless flambeaux, lit from all quarters, made the <placeName
+                     type="building">hall</placeName> a dazzling scene of light--an <roleName
+                     type="military">English officer</roleName>, his uniform torn, and dabbled in
+                  blood, was thrust from the lower part of the <placeName type="building"
+                     >hall</placeName> towards <persName corresp="sepoys.personography.xml#nana"
+                     >Nana <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                        >Sahib</roleName></persName>.</p>
+               <p>"Wretch!" shrieked the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>. "Know ye your fate? Know you your judge? On your knees,
+                     <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! On your knees,
+                  and beg the life--you shall not get!" he added, in a hoarse whisper.</p>
+               <p>The officer looked calmly and proudly in the face of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>. He pointed with his
+                  outstretched hand at the guilty wretch, and there was an awe-struck stillness in
+                  the hall as he spoke.</p>
+               <cb n="3"/>
+               <p>"Perjured villain!--double-dyed murderer!--wretch without human heart or human
+                  feeling!--I, unarmed and helpless, in the name of my country and my kindred, yet
+                  defy you! Beware, <persName corresp="sepoys.personography.xml#nana">Nana <roleName
+                        type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName></persName>! for the hour of retribution will come!
+                  Treacherous as the tiger--more loathsome than the serpent--"</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> sprung to
+                  his feet with a roar of rage, and then fell back again on the cushions. He grasped
+                  the revolver, and, without the slightest regard to those in the background of the
+                     <placeName type="building">hall</placeName>, he fired at the officer two shots,
+                  in rapid succession. Cries and shouts from those hit--for both the bullets missed
+                  their intended victim--mingled with the concussion of the reports, and the clang
+                  of the cymbals. The fire of desperation flashed from the eyes of the officer, and
+                  he sprung upon a gigantic <orgName type="indian">Sepoy</orgName> guard, and
+                  wrested from him his tulwar. To cut down two men who opposed him, and to rush
+                  towards the <persName corresp="sepoys.personography.xml#nana">Nana</persName>, was
+                  the work of a moment. Fifty swords sprung from their scabbards, and such a clash
+                  of weapons around one man never yet startled the night air. The <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName> rolled backward over
+                  the pile of cushions, and then discharged both his pistols from his gorgeous sash
+                  right into the middle of the throng at a venture, for he had dropped the revolver. </p>
+               <p>The the clash of swords ceased. There was a parting of the mob of <orgName
+                     type="indian">Sepoy</orgName> officers and soldiers; and four bodies lay on the
+                  blood-stained <placeName type="building">hall</placeName>--while some half-dozen
+                  others, dropping blood as they went, tottered to the embrasures of the windows,
+                  and the cushions that strewed the place.</p>
+               <p>The officer lay still in death, with fifty mortal wounds upon him, and a sad, calm
+                  smile upon his face.</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> crouched
+                  upon the cushions, like some wild animal of his native jungles, preparing for a
+                  spring. His hand clutched deeply the velvet, and his bleared and bloodshot eyes
+                  glared over the blazing gold edges of the richly embroidered divan.</p>
+               <p>"Away with the carrion!" he roared. "Away with it! More spoil to-night! The last
+                  in <placeName type="city">Cawnpore</placeName>! Curses on them all! Are you women,
+                  that you are nearly beaten by a single man? Cowards! More prisoners--more
+                  prisoners! Bring in more!--slay! I--I--Stay, yet a moment. By <persName
+                     corresp="sepoys.backmatter.xml#vishnu">Vishnu</persName>, we are all mortal!
+                  Arms! arms! That is well-well! Our life is that of <placeName type="country"
+                     >India</placeName>! We have yet work to do!"</p>
+               <p>Some ten or twelve pistols were reverently handed to the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>, who formed before him
+                  a sort of breast-work of the embroidered cushions, on which he laid them, and then
+                  trying--with his vision imperfect from his deep potations--to pierce the distance,
+                  he waited the approach of the other prisoners. </p>
+               <p>A <roleName type="military">private</roleName>, in a regiment of the line, was,
+                  with kicks and cuffs, forced into the hall.</p>
+               <p>"Silence, all! Cease the music!" shouted <persName
+                     corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>; and then,
+                  seeing the rank of his prisoner, he seemed to fancy that, before ordering him to
+                  death, it might be possible to extract valuable information from him.</p>
+               <p>"Dog!" he cried, "approach!"</p>
+               <p>The prisoner did not move; and when the <orgName xml:lang="ur" type="indian"
+                     >Sepoys</orgName> urged him forward, he cried out in unmistakable brogue,
+                     "<distinct type="irishdialect">Arrah, thin, it's one of ye's the ould sinner is
+                     after wanting, for it's dog he says, says he! And mighty bad-looking curs you
+                     are!</distinct>"</p>
+               <p>"Approach, villain!" yelled the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>.</p>
+               <p>"There, now," said <addName corresp="sepoys.personography.xml#dennis">the
+                     Irishman</addName>, "did ye hear the likes o' that, now? There's so many of ye,
+                  that it must be the biggest blackguard of the whole lot he's after wanting."</p>
+               <p>Kicked, and cuffed, and, indeed, wounded by spears and tulwars, the poor soldier
+                  was forced forward to the front of the divan; and then, <persName
+                     corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>, with a
+                  loaded pistol in each hand, showed all his teeth, like an enraged wolf, as he
+                  said, in what he intended should be encouraging accents, "You want your life?
+                  Answer me what I ask. You want to live?"</p>
+               <p>"<distinct type="irishdialect">Faith, thin, we all live till we die, any
+                     way.</distinct>"</p>
+               <p>"A wise speech! What shall we do for you?"</p>
+               <p>"Do for me? It's pretty well done for, I take it, myself is at this present time
+                  of asking; but a male of victuals, a small taste of whisky, a good-bye to you, and
+                  the likes of you, would be mighty agreeable!"</p>
+               <p>"Give him <distinct type="indianslang" corresp="sepoys.backmatter.xml#bang"
+                     >bang</distinct>"--(an intoxicating liquor made from hemp). "Give him <distinct
+                     type="indianslang" corresp="sepoys.backmatter.xml#bang">bang</distinct>--and
+                  his tongue will loosen."</p>
+               <p>"<distinct type="indianslang" corresp="sepoys.backmatter.xml#bang"
+                  >bang</distinct>, is it? It's a mighty lot of bangs and whacks, too, you and your
+                  heathens have been after giving me already! Twenty <placeName
+                     corresp="sepoys.backmatter.xml#donnybrook">Donnybrook fairs</placeName> is a
+                  fool to it, all rolled into one! Oh, it's something to drink, is it? And it's this
+                  you call bang? Well, here's mighty bad luck to the whole of you, and may the devil
+                  fly away wid you to the place that isn't glory, as soon as his honour has time to
+                  do it! <distinct type="indianslang" corresp="sepoys.backmatter.xml#bang"
+                     >bang</distinct>, is it? Ah! it's mighty poor drink, it is--a trile better than
+                  nothing at all!"</p>
+               <p>"Speak now!" said the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>. "How many soldiers has your general? <persName
+                     corresp="sepoys.personography.xml#havelock">Havelock</persName> they call
+                  him!"</p>
+               <p>"<distinct type="scotsdialect"><persName corresp="sepoys.personography.xml#dennis"
+                        >Dennis</persName>, my mon</distinct>," said a voice from the lower end of
+                  the hall, in the national vernacular of <placeName type="country"
+                     >Scotland</placeName>,<pb n="84"/>
+                  <cb n="1"/>"<dialect type="scotsdialect">you'll no be for telling the brute
+                     onything about the force, you ken!</dialect>"</p>
+               <p>"<dialect type="irishdialect">Is it myself, <persName
+                        corresp="sepoys.personography.xml#sandy">Sandy M'Laren</persName>, that's a
+                     goose on a common?</dialect>" said <persName
+                     corresp="sepoys.personography.xml#dennis">Dennis</persName>.</p>
+               <p>"Who spoke there?" growled the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>.</p>
+               <p>"<addName corresp="sepoys.personography.xml#nana">Lord of the World</addName>, the
+                  other prisoner," said an officer.</p>
+               <p>"Shoot him! Clear a space down yonder, and shoot him in the <placeName
+                     type="building">hall</placeName>! Then fling out the body to the vultures!"</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> himself
+                  began to handle his pistols so suspiciously, that an open space down the hall was
+                  cleared in a moment, in which stood a <roleName type="military"
+                     corresp="sepoys.personography.xml#dennis">Highland soldier</roleName>, in a
+                  torn and blood-stained uniform. The attitude of the man was proud and defiant.</p>
+               <p>"<dialect type="scotsdialect">Fire," he cried, "if you dare, ye black-looking,
+                     ill-faured loons; but you dare not do it!</dialect>"</p>
+               <p>"Fire!" shouted the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>.</p>
+               <p>There was a miscellaneous discharge of fire-arms, and when the smoke cleared away,
+                  the <roleName type="military" corresp="sepoys.personography.xml#dennis">Highland
+                     soldier</roleName> lay motionless on the floor of the
+                     <placeName>hall</placeName>. A sign from an officer, and a couple of <orgName
+                     xml:lang="ur" type="indian">Sepoys</orgName> bore out the body and cast it into
+                  a hollow at the back of the <placeName type="building">compound</placeName>. They
+                  had not left him above two minutes, when the supposed dead <addName
+                     corresp="sepoys.personography.xml#sandy">Highlander</addName> sat up, and
+                  giving a rub to the top of his head, he said, "<dialect type="scotsdialect">'Deed,
+                     then, that was a close touch! It's weel to go doon before you are hit, when you
+                     can! The chiel that fights and get's awa', is good to fight among them
+                     a'!</dialect>"</p>
+               <p>With this remark, the <addName corresp="sepoys.personography.xml#sandy"
+                     >Highlander</addName> bent double, to avoid being seen by the <orgName
+                     type="indian">Sepoy</orgName> sentinels, and ran along the covered way in the
+                  direction of the <placeName type="warfront">British lines</placeName>.</p>
+               <p>Little suspecting the escape of one of his victims, the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>, in a soft, persuasive
+                  voice, although thickened by his deep potations, proceeded to question poor
+                     <persName corresp="sepoys.personography.xml#dennis">Dennis</persName>.</p>
+               <p>"Tell me," he said, "and spare your own life: how many men and guns has your
+                  chief?"</p>
+               <p>"It's how many?"</p>
+               <p>"Yes--how many?"</p>
+               <p>"The number you want to know?"</p>
+               <p>"Wretch! Yes--the number?"</p>
+               <p>"<distinct type="irishdialects">It's rank and file what the boys all comes to when
+                     tould off?</distinct>"</p>
+               <p>"Dog!"</p>
+               <p>"<distinct type="irishdialects">Oh, by the saints! it's his dog he has lost, after
+                     all! What's his name, ould gentleman, and I'll whistle for him? Is it Snap, or
+                     Pincher?</distinct>"</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> half rose
+                  from the divan, and deliberately placing a pistol within two feet of <persName
+                     corresp="sepoys.personography.xml#dennis">Dennis</persName>'s head, he said,
+                  through his clenched teeth, "Answer me, or I fire!"</p>
+               <p>"<distinct type="irishdialects">Hould hard!" cried <persName
+                        corresp="sepoys.personography.xml#dennis">Dennis</persName>; "an', if I tell
+                     yer, will you swear, by the bad saints of
+                        <!-- what does Ingy refer to? --><orgName>Ingy</orgName>, that you'll be
+                     peaceful, and not be blazing away the mother's son of me?</distinct>"</p>
+               <p>"By <persName corresp="seapoys.backmatter.xml#vishnu">Vishnu</persName>! <persName
+                     corresp="sepoys.backmatter.xml#dowga">Dowga</persName>! <persName
+                     corresp="sepoys.backmatter.xml#siva">Siva</persName>!--by <persName
+                     corresp="sepoys.backmatter.xml#kalee">Kalee</persName> and by <persName
+                     corresp="sepoys.backmatter.xml#budda">Budda</persName>, I swear!"</p>
+               <p>"<distinct type="irishdialects">It's a mighty big oath to hear," said <persName
+                        corresp="sepoys.personography.xml#dennis">Dennis</persName>, "Well, this
+                     I'll tell ye. There's four hundred and seventy thousand and twenty-seven, all
+                     from the <placeName type="country">Emerald Isle</placeName>; and a big gun to
+                     every twenty-one men as knows how to fire it off any way.</distinct>"</p>
+               <p>At this moment the sullen boom of cannon in the distance came upon the night air.
+                     <persName corresp="sepoys.personography.xml#nana">Nana <roleName
+                        type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName></persName> let his arm slowly drop, and listened.</p>
+               <p>"What was that?"</p>
+               <p>"<distinct type="irishdialects">Some o' the big guns I made bould to spake
+                     of,</distinct>" said <persName corresp="sepoys.personography.xml#dennis"
+                     >Dennis</persName>.</p>
+               <p>"Silence, on your life! Remove him!--remove him, I say! We have sworn not to kill
+                  him with our own hand! We--ha! ha!--Remove him!"</p>
+               <p>The <orgName type="indian">Sepoy</orgName> guard crowded round <persName
+                     corresp="sepoys.personography.xml#dennis"> Dennis</persName>, and he was
+                  hustled from the <placeName type="building">hall</placeName>. The executioner,
+                  with a lounging step, followed.</p>
+               <p>The <persName corresp="sepoys.personography.xml#nana">Nana</persName> now passed
+                  his hand across his brow, as though he would fain dissipate the fumes of the wine
+                  which had mounted to his brain, and he struggled to his feet. Again, the sullen
+                  sound of cannon shook the air, and his face turned a shade darker, as he leant
+                  heavily on the shoulder of the <persName
+                     corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>.</p>
+               <p>"They come! they come!" he said, "Blood tracks their path and mine! War to the
+                  death! They or I! They come!--the avenging band!--and, as they think, to deliver
+                  and to rescue. Ha! ha! they chase us from <placeName type="city"
+                     >Cawnpore</placeName>--they press onward to victory! But <placeName
+                     type="country">India</placeName> is large, and has he forests and her
+                  hills--her morasses and her arid plains--her gods and her temples--her vengeful
+                  hearts and sharp swords! They will enter <placeName type="city"
+                     >Cawnpore</placeName>, but not as deliverers! They will chase me from the city,
+                  but not as saviours of the lives of those they seek! Blood shall be found, but not
+                  running vital through human veins. Stagnant all--and staining the walls and floors
+                  of the prison-house! Revenge! revenge! That shall be the Hindoo watchword!
+                     <persName corresp="sepoys.personography.xml#lolltall">Loll
+                  Tall</persName>!"</p>
+               <p>"My gracious lord."</p>
+               <p>"Ha! ha! ha!"</p>
+               <p>The laugh was a hideous contortion.</p>
+               <cb n="2"/>
+               <p>"<persName corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>!"</p>
+               <p>"Light of the Earth!"</p>
+               <p>"I--ha! ha!--I have prisoners in the <placeName type="building">Assembly
+                     House</placeName>. Women--helpless women--mere helpless children--ha! ha!
+                     <persName corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>--my
+                  friend!"</p>
+               <p>He clutched the minister by the neck and whispered to him. <persName
+                     corresp="sepoys.personography.xml#lolltall">Loll Tall's</persName> knees shook
+                  as he gasped, "All? all?"</p>
+               <p>"All!" screamed the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>; and then, in a deep guttural voice, he added, "Remember! by
+                  the first light! The <placeName type="building">well</placeName>! the <placeName
+                     type="building">well</placeName>! the <placeName type="building"
+                     >well</placeName>!"</p>
+               <p><persName corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>
+                  salaamed low.</p>
+               <p>The boom of the cannon again sounded.</p>
+               <p>"<persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>!" said the
+                     <persName corresp="sepoys.personography.xml#nana">Nana</persName>: "where is
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>?"</p>
+               <p>All looked around him; but the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young mountain chief</roleName> had
+                  disappeared amid the smoke and tumult of the firing at the Highland soldiers.</p>
+               <p><emph>(To be continued in our next.</emph></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author>James Malcolm Rymer</author>
+            <editor>Rebecca Nesvet</editor>
+            <editor>Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="backmatter">
+               <analytic>
+                  <author>Rebecca Nesvet</author>
+                  <author>Rae X. Yan</author>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <date when="2014" />
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div xml:id="editorial_notes">
+            <note xml:id="sahib">Sahib, a male honorific in colonial India, equivalent to 'sir', 'friend', or 'master', depending on context. Derives from sāhib (Arabic and Urdu); sāhab (Hindi).</note>
+            <note xml:id="eeda">eeda, definition of <!--RAE, what instalment? 'ida' = foundation [of a building] - does this make sense? Also there's an "eeda" in cooking...--></note>
+            <note xml:id="feringhee">Feringhee, derogatory colloquialism for a white-skinned person, i.e., a European. Historically, denoted the Portuguese foreigners who were the first significant group of Europeans to attempt to colonize India.</note>
+            <note xml:id="vishnu">Vishnu, in Hinduism, the Preserver, incarnation of Brahma.</note>
+            <note xml:id="chunar">chunar, definition of <!--RAE: it's a place in Uttar Pradesh, or is this the wrong form? don't know context--></note>
+            <note xml:id="dooctees">Dooctees, definition of -- the hill tribe of which the fictional Jeffur is the chief <!--source? can't find historical basis of this--></note>
+            <note xml:id="grandlaama">Grand Laama, Great Monk</note>
+            <note xml:id="chor">Chor, thief (Hindi)</note>
+            <note xml:id="bang">bang, slang for an intoxicating liquor made from hemp</note>
+            <note xml:id="donnybrook">Di.e., Donnybrook Fair: a fair held in Donnybrook, Ireland, from 1204 until its abolition in the 1850s. In the Victorian era, Donnybrook Fair was famous for its revelry and supposed chaos.</note>
+            <note xml:id="dowga">Dawga, <!--RAE: I don't know but someone who can translate this YouTube video's title might: https://www.youtube.com/watch?v=rdgeLaWG3TY--></note>
+            <note xml:id="siva">Siva, Destroyer, incarnation of the god Brahma in Hinduism; pronounced 'Shiva'.</note>
+            <note xml:id="kalee">Kalee, Hindu goddess of death and destruction, incarnation of Parvati; usually spelled 'Kali' in English. </note>
+            <note xml:id="budda">Budda, lit. "awakened" in Sanskrit. Indian religious leader who lived c.6-4 B.C. E. and founded the Buddhist faith. Born Siddhartha Gautama, a hereditary ruler, Buddha abandoned his terrestrial office and its attendant luxuries to become an ascetic. Most particulars of his biography remain the subject of debate. </note>
+            <note xml:id="havildar">havildar, commander or quartermaster (Hindi; Arabic.) </note>
+            <note xml:id="killmarnock">Killmarnock, city in East Ayrshire, Scotland (Lowlands). Robert Burns' poetry (<em>Poems, Chiefly in the Scottish Dialect</em>, 1786) was first published in Kilmarnock. Also the sometime location of the original Johnnie Walker bottling plant.</note>
+            <note xml:id="netherby">Netherby, a town in North Yorkshire, England.</note>
+            <note xml:id="tulwars">Tulwars, type of curved sword or sabre used in South Asia by cavalry and infantry (Hindi and Urdu).</note>
+            <note xml:id="ghaut">Ghaut, water-stairs (Hindi); a cremation-space on the water; in modern English usually spelled <em>ghat</em>.</note>
+            <note xml:id="cityofthemogul">City of the Mogul,<!--RAE: Delhi? Is it this or the Mughal "Royal City" of Lahore, [contemporary Pakistan?]--></note>
+            <note xml:id="griffins">griffins, military slang for newcomers</note>
+            <note xml:id="punkah"> punkah, a large board hinged to the ceiling of apartments which acts as a fan</note>
+            <note xml:id="ryot">ryot, normally, an Indian peasant or tenant farmer; here, indicating a tenant farmer specifically.</note>
+            <note xml:id="ayah">ayah, nanny (Hindi, from the Portuguese 'aia').</note>
+            <note xml:id="elhareeb">El Hareeb, location of ancient Egyptian tombs. See Richard Lepsius, Letters from Egypt, Ethiopia, and the Peninsula of Sinai, translated by Leonora and Joanna B. Horner (London: Bohn, 1853), 16.</note>
+            <note xml:id="zemindar">zemindar, landed proprietor (Hindi).</note>
+            <note xml:id="manillas">Manillas, pennanular armlets made of bronze or copper, and sometimes gold, serving as currency in Western Africa.</note>
+            <note xml:id="cresset">cresset, metal container used as a lamp.</note>
+            <note xml:id="howdahs">howdahs, carriages usually carried by elephants; often used in hunting or warfare; often a symbol of wealth, decorated with gems.</note>
+            <note xml:id="salaamed">salaamed, verb form of 'salaam', a salute that accompanies a greeting; lit. "peace" (Arabic). </note>
+            <note xml:id="padisha">Padisha, derivative of 'king' (from the Persian).</note>
+            <note xml:id="32nd">British foot regiment that  entered Lucknow in January 1857, relieving the H. M. 52nd, and fought with the Sepoy insurgents. The 32nd Regiment was commanded by Lieutenant-Colonel John Eardley Inglis. In April 1837 it consisted of approximately 700 men. 
+              See Julia Selina Inglis, <em>The Siege of Lucknow: A Diary by the Honourable Lady Inglis</em> (London: Osgood, 1892). University of Pennsylvania Digital Library, http://digital.library.upenn.edu/women/inglis/lucknow/lucknow.html Retrieved November 9, 2014.</note>
+            <note xml:id="11th">11th Cavalry, i.e., 11th "irregular cavalry," a detachment of the British Army in India that joined the revolt. See  Charles Ball, <em>The History of the Indian Revolt</em>, 2 vols (London, 1858), <!--RAE, CAN YOU GET UNC COPY AND LOOK UP PAGE #S? MY LIBRARY DOESN'T HAVE THIS EDN. AND EDN I CHECKED IS WRONG ONE.--></note>
+            <note xml:id="brahmin">Brahmin, priests; highest caste in the Hindu religion.</note>
+            <note xml:id="thug">Thug, Indian hired assassin (Hindi); later became a colloquialism for a ruffian.</note>
+            <note xml:id="childofnature">Child of nature, <!--RAE: this seems to be some combination of the 'noble savage' stereotype and the 'wild children' that you've written about. Can you cite some Wild Child sources? thanks. --></note>
+            <note xml:id="hubaboo">hubaboo, a riot; also a nonsense term used in Victorian Irish published folksong (Hibernian English). See <em>The Dublin Comic Songster</em> (Dublin: Duffy, 1841), 105, 180. </note>
+            <note xml:id="zemindar">zemindar, from the Urdu, a landowner, especially one who leases his land to tenant farmers</note>
+            <note xml:id="creese">creese, of Malay origin from the word "kris", meaning dagger of Malay or Indonesian origin, usually with a wavy blade</note>
+            <note xml:id="shieling">shieling, from the Scottish Gaelic, a type of hut or collection of huts once common to lonely places in the hills and mountains of Scotland and northern England, also a word for mountain pasture grazing</note>
+            <note xml:id="pibroch">pibroch, Scottish Gaelic for piping, traditionally of the Great Highland Bagpipe</note>
+            <note xml:id="bonny">bonny, Scottish Gaelic for attractice or pretty</note>
+            <note xml:id="kitchri">kitchri, according to Rymer, a dish of curried fowl with goat, chillies, and other spicing</note>
+            <note xml:id="chaffratees">chaffratees, according to Rymer, a type of cake</note>
+         </div>
+      </body>
+   </text>
+</TEI>

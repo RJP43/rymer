@@ -1,0 +1,137 @@
+/* General */
+body {
+	font: .9em 'Times New Roman', Times, Georgia, serif;
+	margin: 0 !important;
+}
+a {
+	text-decoration: none;
+	color: #660000;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #661111;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+.clear {
+	display:block;
+	clear:both;
+}
+/* Layout */
+#header {
+	border-bottom: 1px solid black;
+}
+#header-inner, 
+#content-inner {
+	padding-top:5px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#main {
+}
+#core {
+	width: 630px;
+	padding: 10px;
+}
+#footer {
+	margin: 30px 0 30px 0;
+	padding: 20px 0 0 0;
+	border-top: #282d27 1px solid;
+}
+#footer #footer-sponsors {
+	margin-bottom: 10px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+#footer #footer-copyright {
+}
+#footer p {
+	margin: 0;
+	text-align: right;
+	color: #282d27;
+}
+/* Header & Search form */
+#logo {
+	width: 425px;
+	float: left;
+}
+#logo a {
+	color: #FFFFFF;
+}
+#logo a img{
+	margin: 0;
+}
+/* Global Navigation */
+#global_nav {
+	padding:4px 4px 0 4px;
+	margin-top:4px;
+	margin-bottom: 6px;
+	font-family: helvetica,arial,sans-serif;
+	font-size: 16px;
+}
+#global_nav a {
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom:8px;
+}
+#global_nav a:hover {
+	text-decoration: none;
+	padding-bottom:3px;
+	border-bottom:5px solid #660000;
+}
+/* Issue page (single issue) */
+.doc-page div.issue-heading-inner {
+	padding: 0 10px 0 10px;
+	/*margin-right: -100px;*/
+}
+div.issue-heading-inner h1 {
+	margin: 25px 0 0 0 !important;
+	font-variant: small-caps;
+	font-size: 1.5em;
+}
+div.issue-heading-inner h1 a {
+	font-weight: bold;
+}
+div.issue-heading-inner h2 {
+	/*margin: 0 0 15px 5px !important;*/
+	margin: 0 0 .5em 0 !important;
+	font-size: 1.1em;
+	font-style:italic;
+	text-transform: capitalize;
+}
+/* Issue: page numbers */
+span.page-attributes {
+	display:block;
+	font-weight:bold;
+	margin:1em -350px 1em 0;
+	text-align: right;
+	clear: both;
+}
+span.page-attributes span.page-attributes-separator {
+	width: 30px;
+	padding: 0 20px 0 20px;
+}
+span.pb-holder, 
+span.top-link-holder {
+}
+a.pb {
+	color: #000000;
+}
+a.pb:hover {
+	text-decoration: none;
+}
+a.pb span.pagelabel, 
+a.top-link span.top-link-label {
+	font-style:italic;
+	font-weight:normal;
+	font-size:.8em;
+}

@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hcorresp="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model hcorresp="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<?xml-model href="../schema/sepoys.schema.xml" type="application/relax-ng-compact-syntax"?>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author>James Malcolm Rymer</author>
+            <author>
+               <persName type="pseudo">M. J. Errym</persName>
+            </author>
+            <editor>Rebecca Nesvet</editor>
+            <editor>Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="installment9" prev="sepoys.4.03.xml#installment8"
+               next="sepoys.4.17.xml#installment10">
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter XVII: The Beleaguered Force in Cawnpore</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-03-20"/>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter XVIII: The Attack--The Well, and the Rescue.</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-04-10"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="installment">
+            <head>
+               <date when="1858-04-10">Saturday, April 10, 1858</date>
+            </head>
+            <figure>
+               <graphic url="../facsimiles/sepoys.4.10.png"/>
+            </figure>
+            <pb n="209"/>
+            <div type="chapter">
+               <head xml:id="Ch17">CHAPTER XVII.</head>
+               <head>THE BELEAGUERED FORCE IN <placeName type="city">CAWNPORE</placeName></head>
+
+               <p>THE despairing tone in which <persName corresp="sepoys.personography.xml#annie"
+                     >Mrs. Fletcher</persName> spoke, at the same time pressing her little one in
+                  her arms, assured <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName> that it was in vain to urge any course which looked like
+                  seeking danger. She flung her arms around her sister's neck, as she said, "Be
+                  calm!--OH, be calm, dear <persName corresp="sepoys.personography.xml#annie"
+                     >Annie</persName>! The same providence that has protected us till now, will
+                  protect us still! You recollect the counsel we have?--the counsel that so well
+                  accorded with your own thoughts and feelings? It was to seek the route to
+                     <placeName type="city">Cawnpore</placeName>! </p>
+
+               <p>"Yes. My husband is there!" said <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>. "On!--on!--Oh, let
+                  us on!"</p>
+
+               <p>"Alas, I know not the path! Yet let me think! Oh, how the hurry of these events
+                  drive things from the memory? Did not some one say that by following the course of
+                  this little stream, we should find it again across the high-road, or track to
+                  Cawnpore?" inquired <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>.</p>
+
+               <p>"Yes!--yes! I heard that!" hastily replied <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>.</p>
+
+               <p>"Oh, then, in the name of heaven, let us not seek any modes of conveyance but that
+                  which nature has furnished us with! Come, dear <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>, we will follow the
+                  bank of the stream of foot; and we shall be far less likely to be seen than if we
+                  rode on horseback! Let me carry the little one?"</p>
+
+               <p>"No!--no! Not while life if mine! No!--no!"</p>
+
+               <p>There was a strange and almost maniacal manner <cb n="2"/>about <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName> as she clung
+                  to her child, and would not let even her much-loved sister, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, aid her with it,
+                  which gave to the heart of the young girl a pang of alarm, that possibly the
+                  fearful events of the last few hours and days, had affected the intellect of her
+                  sister. She strove to soothe her by words of hopefulness and loving kindness!--by
+                  talking of possible meetings in days to come with those she had loved so
+                  dearly!--and the sounds of the sobs of the young mother, as her poor heart felt
+                  the soft influence of the kind intention, fell gratefully on the ears of <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope </persName>, and
+                  encouraged her in exhorting her sister to bear up against the numerous perils that
+                  surrounded them, and yield not to the almost overwhelming pressure of
+                  misfortune.</p>
+
+               <p>And so these desolate ones proceeded sadly on their way, with a hostile country
+                  around them, and the bright stars of heaven above them--with no one to cheer
+                  them--no arms, even could they have used them, wherewith to defend
+                  themselves--little knowledge of their route--everything to dread, and so little of
+                  hope mingled in the bitter draught of their sad destiny, that they seemed as if
+                  led by some invisible chain to execution. And so delicately nurtured, too, as they
+                  had been, so carressed<!--sic-->, and--if we may use the expression--so pampered
+                  in the lap of luxury, that even the winds of heaven had not been permitted to
+                  visit their cheeks too roughly, ow all unfitted they were to buffet with the
+                  world, and encounter the lowering storm that was bursting over <placeName
+                     type="country">India</placeName>! </p>
+
+               <p>The way was rought; long branches crawled along the rugged route, and entangling
+                  themselves among the feet of the poor wayfarers, both wounded and impeded them.
+                  Now and then, either it was real, or fancy depicted the gliding motion of some
+                  snake-like reptile, as, with a shivering speed, it shot away from before them.
+                  Then they came to a portion of the river's bank, which was a kind of quick-sand,
+                  deep into which they trod at every step, while the water oozed and bubbled up
+                  around their feet.</p>
+
+               <p>And they heard no sound but the occasional cry of a jackal in the woods, and, now
+                  and then, the faint twittering of insect things, disturbed amid the brushwood
+                  close to the stream!</p>
+
+               <cb n="3"/>
+               <p>"Sister?--dear <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>," said <persName corresp="sepoys.personography.xml#annie"
+                     >Mrs. Fletcher</persName>, "I repent me--"</p>
+
+               <p>”Of what, <persName corresp="sepoys.personography.xml#annie"
+                  >Annie</persName>?”</p>
+
+               <p>"I refused to let you take the little one. You are stronger than I am!--you may
+                  reach some place of safety, and save this dear one and yourself! Teach it to pray
+                  for its poor mother!--to bless her name! Say that--that--"</p>
+
+               <p> "<persName corresp="sepoys.personography.xml#annie">Annie</persName>! <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>!--what in the name of
+                  heaven mean you?" exclaimed <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, in a tone of alarm and consternation, as <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName> suddenly
+                  stopped and despairingly cried,-- </p>
+
+               <p>"I can go no further! Leave me here to die! Take the dear one and go on--"</p>
+
+               <p>"Never!--never in life, dear <persName corresp="sepoys.personography.xml#annie"
+                     >Annie</persName>! We will surely, live or die together; and even
+                  now--look!--what is that admit those trees? I see a twinkling light! There may be
+                  some human habitation, and we may get shelter! Oh, surely, let what wars the
+                     <orgName type="religious">Hindoos</orgName> may wage against men, they cannot
+                  deny women and children! There, dear <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>!--do you not see it?
+                  A light like a large star. It shines among some bushes so serenely, and so
+                  hopefully! Strive yet a little! You are better now! You walk bravely! That is
+                  well! Ah, dear <persName corresp="sepoys.personography.xml#annie"
+                  >Annie</persName>, in some happy home, with all those whom we love about us, who
+                  shall say that we may not yet talk over the events of this now fearful-seeming
+                  night! <!--compare with end of String of Pearls-->On!--on!--see, the light
+                  brightens! There is a hut or bungalow of some sort! They will not be Sepoys,
+                  there, but ryots--possibly some zemindar, or proprietor. We shall have a a
+                  welcome, dear sister! Yet a little further! Think of your husband; and that every
+                  step is et nearer and nearer still to him, and how he longs to hold you and this
+                  dear little one to his heart: and see, the river now winds to the left! It is to
+                  cross the road as we have been told. Cheer up, hear heart, and all may yet be
+                  well!"</p>
+
+               <p>Thus encouraging--thus entreating and aiding poor <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher's</persName> faltering
+                  steps with what strength she had, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> played the
+                  ministering angel to her suffering sister!</p>
+
+               <p>The light they had seen moving among the trees brightened as they approached it ;
+                  and they saw that it streamed</p>
+
+               <pb n="210"/>
+               <cb n="1"/>
+
+               <p>from the open casement of a low-roofed bungalow, which, either was the isolated
+                  dewlling of some <!--sic-->
+                  <foreign xml:lang="ur" corresp="sepoys.backmatter.xml#zemindar"
+                  >zemindar</foreign>, or the commencement of a native village. A small cleared
+                  space after they had passed a littlr way from the river to the right among a clump
+                  of trees, brought them to a ruinous-looking shed at some little distance from the
+                  bungalow, and there they paused ; for a dog began to bark furiously, and they
+                  dreaded to advance. </p>
+
+               <p>"Hush!" said <persName corresp="sepoys.personography.xml#bessie"
+                  >Bessie</persName>; and she could not but tremble as she spoke, despite all the
+                  hopeful things she had said to her sister,--"hush, dear <persName
+                     corresp="sepoys.personography.xml#annie">Annie</persName>! Let us wait here for
+                  a moment! The barking of the dog may bring out some one; and then we shall perhaps
+                  be able to judge better, if it be safe to ask the hospitality we so much
+                  need!"</p>
+
+               <p>"You tremble, <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>?" </p>
+
+               <p>"Oh, no, no,--that is, I am chilled! The night air is cold even in <placeName
+                     type="country">India</placeName>. Oh, hush! Crouch down here in the shadow of
+                  the trees. See--see, some one has come out!"</p>
+
+               <p>The alarm brought to the door of the bungalow a Hindoo, who carried with him a
+                  lighted brand of resinous wood, which he held above his head with one hand, while
+                  he shaded his eyes with the other, and stroveto pierce the obscurity beyond him to
+                  see if any one was approaching to account for the alarm that the dog had given.
+                  The appearance of this man was wild and ferocious, and the lower part of his face
+                  was bound up with a white cloth, on which there were dark stains as if of blood.
+                  The handle of a <distinct corresp="sepoys.backmatter.xml#creese"
+                  >creese</distinct>, or dagger, projected from his girdle; and take him or all in
+                  all, his appearance was certainly not calculated to inspire the sisters with faith
+                  in any appeal to his benevolence.</p>
+
+               <p>"Down!--down" they heard him say to the dog. "The curse of bad spirits be upon
+                  you!"</p>
+
+               <p>The animal was silent.</p>
+
+               <p>The Hindoo then muttered something to himself; and placing the torch in the cleft
+                  of a tree, close at hand, he retired hastily into the bungalow.</p>
+
+               <p>"Annie," whispered <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, "I will not trust that man! Can you, by any possibility,
+                  walk further?"</p>
+
+               <p>"I will try! Oh, yes--yes! Save me, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, save me!"</p>
+
+               <p>"Be calm! This way!--this way!"</p>
+
+               <p>Even as <persName corresp="sepoys.personography.xml#bessie">Bessie</persName>
+                  spoke, the man came out of the bungalow againl and this time he had a cloth about
+                  his head and shoulders, and a musket in his hand. <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> drew her sister
+                  back hastily among the trees, and fear for a few moments overcome <!--sic--> all
+                  sense of fatigue in the frame of <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, as they took
+                  their way through briars and brushwood, whither they scarcely knew; but they
+                  suddenly came to a low paling, a portion of which was composed of twisted branches
+                  of the banian tree. Indeed, it was rather a kind of natural hedge, with numerous
+                  large openings among the branches of the shrubs and trees that formed it, than a
+                  paling, although art had evidently assisted at its formation. </p>
+
+               <p>By a sort of instinct, <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName> dragged her sister through one of the gaps; and they then
+                  observed a little outhouse or building, no doubt devoted to some agricultural
+                  purpose connected with the surrounding rice and indigo fields. The feeling, that
+                  any shelter was a short of security, so long as it had a roof to it, prompted
+                     <persName corresp="sepoys.personography.xml#bessie">Bessie</persName> to urge
+                  her sister to enter this place; and stooping low, to get through its doorway, they
+                  found themselves evidently in a fruit storehouse, the floor of which was thickly
+                  strewn with dried grass.</p>
+
+               <p>The odour of the mango, the pomegranate, the guava, the plaintain, and the papaya
+                  came strongly on their senses; and <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName> sunk, with a
+                  deep sigh, in a state of utter exhaustion on the soft grass, which had been laid
+                  some foor or so in depth uponthe hard-beaten earthen floor. </p>
+
+               <p><persName corresp="sepoys.personography.xml#bessie">Bessie</persName> made an
+                  endeavour to fasten the frail door by which they had entered the place; but she
+                  quickly found how futile was such an attempt, so she knelt by it, and with every
+                  sense wound up by the occasion to a painful stretch of acuteness, she strove to
+                  look into the darkness beyond, and to listen for any sound that might indicate
+                  approaching danger. </p>
+
+               <p>A strange creaking noise, like the show progress of wheels over some hard dry
+                  road, reached her ears: and then the dog again barked furiously, and she heard the
+                  animal silenced by the voice of the Hindoo. The creaking noise of wheels
+                  continued; and then to the surprise, as well as the joy, of <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, she suddently
+                  heard an English voice cry "Halt!"</p>
+
+               <p><persName corresp="sepoys.personography.xml#bessie">Bessie</persName> uttered a
+                  cry, and sprang to the side of her sister, whom she embraced and kissed with
+                  almost delirious pleasure, saying with catching breath and tearful tones, "There
+                  is help! Oh, there is help and dear companionshop without! I hear the blessed
+                  tones of <placeName type="country">England</placeName>! Be hopeful and happy, dear
+                     <persName corresp="sepoys.personography.xml#annie">Annie</persName>! Did I not
+                  say that all would be well? I will go see them; and you will hear the deat tones,
+                  and see the honest faces of our countrymen!"</p>
+
+               <p>Without waiting for a moment's, reply, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> rushed fromm the
+                  outhouse, and called out, "Help, here!--help, me! I heard an <placeName
+                     type="country">English</placeName> voice!"</p>
+
+               <cb n="2"/>
+
+               <p>"Who is that?" said some one apparently in pain; and then before another word
+                  could be spoken, Hindoo came through the trees with the torch, and holding it up
+                  in his left hand, while with his right he clutched a very showy sword, the hilt of
+                  which seemed to sparkle as if set with precious stones, he not only gazed upon the
+                  scene before him, himself, but enabled <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName> to do
+                  likewise.</p>
+
+               <p>It was a strange scene, and, at the first glance, difficult to comprehend. There
+                  was a small, half-covered country-waggon, or rather car, drawn by a couple of
+                  tired-looking bullocks. The cart was half-full of hay and Indian grasses, on
+                  which, pale and faint-looking, lay two English officers, one in a rich cavalry
+                  uniform, stained with blood, and torn and hacked in many places ; and the other in
+                  that of an officer of the line. Both of these officers had revolvers, which they
+                  presented over the rickety side of the cart, although they seemed hardly to have
+                  strength to pull the triggers of them, had there been occasion to do so.</p>
+
+               <p>But the most curious part of the cavalcade, if it may be called such, was its
+                  escort, which consisted of a cavalry soldier, with his head and left arm bound up
+                  in bloodstained rages, and a cavalry sabre in his right hand; while a young and
+                  frank-looking girl of some twenty years of age--her face pale with anxiety, but a
+                  look of courage and determination in her blue eyes that was a joy to see--brought
+                  a soldier's musket to the charge and stood resolutely on the defensive. Her dress
+                  was picturesque, for she wore a foraging cap with a gold band and tassel, from
+                  beneath which, in long wavy masses, escaped her fair hair, which was of that
+                  beautiful colour called golden in the north, and upon which the light from the
+                  Hindoo's torch shone as if there were literally threads of gold interwoven among
+                  it. A scarf of tartan was wound tightly about her, and set off her fine figure to
+                  advantage. Her atititude<!--sic--> combined grace with dignity; and there was a
+                  chivalric courage about her, as she there stood with the musket at the charge, and
+                  the bayonet gleaming in the flickering light from the Hindoo's torch, that would
+                  have won the admiration of a painter.</p>
+
+               <p>So suddenly had all these parties confronted each other-- the cart and its
+                  occupants and guard, <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName> and the Hindoo--that for a moment or two, no one uttered a
+                  word. But the light had flashed upon the fair face of <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, and one of the
+                  wounded officers cried out, "English ladies here? Is there a party? Have you
+                  guards? If not, would to God we were in a better condition to aid you!"</p>
+
+               <p>"We are but two!" said <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>. "Myself and <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, my sister,
+                  the wife of <persName corresp="sepoys.personography.xml#fletcher">Major
+                     Fletcher</persName>. We had sought temporary shelter in yonder outhouse--"</p>
+
+               <p>"Halt!" cried the young girl with the musket, suddenly. "Another step, and I
+                  fire!"</p>
+
+               <p>All eyes were now directed to where she now presented the musket; and they saw the
+                  Hindoo, who had made a few steps toward the outhouse, with his hand on the handle
+                  of his <distinct corresp="sepoys.backmatter.xml#creese">creese</distinct>, for he
+                  had sheathed his rich sword, crouching down, and showing, through his retracted
+                  lips, his teeth with a look of snarling rage.</p>
+
+               <p>The tone of the girl was unmistakably Scotch; and it had a kindly sound with it to
+                  the heart of <persName corresp="sepoys.personography.xml#bessie"
+                  >Bessie</persName>. The Hindoo only for a moment suffered his countenance to wear
+                  a look of baffled hate; and then, with the facile cunning of his race, he
+                  recovered himself and <distinct corresp="sepoys.backmatter.xml#salaamed"
+                     >salaamed</distinct> low, as he said, "I am the humble slave of the great
+                     <distinct corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>! I live but
+                  in the light of the eyes of my lords, the <distinct
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</distinct> chiefs! What am
+                  I? Nothing! Let my lords order! It is for me to obey! Great is the goodness of the
+                  Ma'am <distinct corresp="sepoys.backmatter.xml#sahib">Sahib</distinct> with the
+                  musket!"</p>
+
+               <p>"Disarm him, <persName corresp="sepoys.personography.xml#wootton"
+                     >Wootton</persName>!" said the other officer to the cavalry soldier. "I don't
+                  at all like the fellow's looks! Be quick about it!"</p>
+
+               <p>The wounded cavalry soldier quickly deprived the Hindoo of his weapons; and
+                  covered as he was by the musket of the young girl, he saw the wisdom of not
+                  resisting, although the expression of his countenance, while the operation was
+                  going on, was anything but amiable.</p>
+
+               <p>"It is done, sir!" said the soldier, as he saluted the officer who had given him
+                  the order.</p>
+
+               <p>"And well done, too!" said the officer, faintly. "How weak I am, <persName
+                     corresp="sepoys.personography.xml#hargrave">Hargrave</persName>! I fear I shall
+                  not be able to get on any further!"</p>
+
+               <p>The other officer, who was addressed as <persName
+                     corresp="sepoys.personography.xml#hargrave">Hargrave</persName> made an attempt
+                  to rally his own strength, although it was nearly as far gone as that of his
+                  companion, and addressing <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, he said, "Is it possible, think you, with any regard to
+                  safety, to get a night's repose here?"</p>
+
+               <p>"Alas! I know not!" said <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>. "I and my sister are but fugitives like yourselves, and we,
+                  too, are weary and would fain rest! My name is <orgName type="family"
+                     >Hope</orgName>, and we escaped, with friends, from <placeName type="city"
+                     >Delhi</placeName> ; but meeting a force of Sepoys, are all scattered, if not
+                  murdered, but ourselves. You will permit us, gentlemen, to join your party! We are
+                  so very friendless!"</p>
+
+               <cb n="3"/>
+               <p>"Surely, surely!" cried both the officers, and at that moment there was heard the
+                  sound of footsteps through the little wood, and pale and anxious, with the child
+                  clasped to her breast, <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName> appeared. At the first sight of the uniforms of the cavalry
+                  soldier and the the officers, she uttered a cry of joy, and the tears gushed from
+                  her eyes, as she exclaimed,</p>
+
+               <p>"Saved! saved! Oh, <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, we are saved! Thank heaven, here are dear English
+                  faces!"</p>
+
+               <p>"We will do what we can to aid you," said the senior of the two officers; "but you
+                  see, ladies, that we are in poor case ourselves! We were both badly wounded at an
+                  out station, and had to escape the best way we could; and but for this heroic girl
+                  here, and my servant, <persName corresp="sepoys.personography.xml#wootton"
+                     >Wootton</persName>, we must ere have perished! We are trying to make our way
+                  to <placeName type="city">Lucknow</placeName>! We will try, after a rest, if we
+                  can crawl along on foot, and you shall have the cart to yourselves. It only holds
+                  two!"</p>
+
+               <p>"No, no!" said <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName>, as she trembled with fresh apprehension. "You are both
+                  wounded, and it will be our provinces to tend you as bst we may, and heaven will
+                  help us all!"</p>
+
+               <p>And now the young girl to whom the officer pointed as so gallant a friend and
+                  preserver of the party, handed her musket to the soldier, and advancing kindly to
+                     <persName corresp="sepoys.personography.xml#annie">Mrs. Fletcherr</persName>,
+                  she said, "You are weary and faint! Let me carry the little one for you! Nay, you
+                  may trust me with it; for though but a soldier's daughter, I have the heart of a
+                  dear countrywoman of your own I fancy--<orgName typ="family">Hope</orgName> is a
+                  good Scotch name!"</p>
+
+               <p>With a gentleness that won the heart of <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, the young
+                  girl took the infant and kissed its pale face. They saw a tear fall upon its
+                  cheek, as she murmured, "Poor little one! These are sad times, indeed, for the
+                  young and the helpless!"</p>
+
+               <p>Sad times for all!" said the officer; "but you must not turn nurse, my good girl!
+                  What should we have done without your bold spirit and ready arm? You have saved us
+                  more than once from death! You are a heroine, <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName>! </p>
+
+               <p>The girl blushed, and in answer to <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, she drew
+                  herself rather proudly to her full height, as she said, "My name is <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie Campbell</persName>! They call
+                  me <persName>Highland Jessie</persName>, because I come from dear old <placeName
+                     type="country">Scotland</placeName>, the land of the mountain and the flood! I
+                  have a woman's heart, but the spirit of my race at times nerves my arm! I have
+                  brothers in the service, and there is one who loves me better than a sister in the
+                     <orgName type="military">Highland regiment</orgName>! They know not that I am
+                  in <placeName type="country">India</placeName>; but I was alone in the <placeName
+                     type="region">Highlands</placeName>, father and mother were both with the dead,
+                  and I was desolate! They sunk to rest on the bleak mountain saide, without a home
+                  or a shelter from the storm! Our home of generations was swept from the face of
+                  the land, that the wild deer might be the sole inhabitant of the old glens and the
+                  hills, as it was before man raised his <distinct
+                     corresp="sepoys.backmatter.xml#shieling">shieling</distinct> to the sky! All
+                  were gone--brothers to the wars, and <persName
+                     corresp="sepoys.personography.xml#donald">Donald</persName> with them! I have
+                  followed! An officer's lady brought me over as attendant to her children; and I am
+                  here now, doing, I hope, my duty, and living with the dear thought that I shall
+                  see the kind faces of my kindred yet in this strange land, and that some happy day
+                  I shall hear the <distinct corresp="sepoys.backmatter.xml#pibroch"
+                     >pibroch</distinct> of my own <persName
+                     corresp="sepoys.personography.xml#donald">Donald</persName>! Oh, you should see
+                  him in his martial array!--so proud his step, so gallant his bearing, so tender
+                  his heart! His blue eyes sparkle in the light, and there is music in his voice!--
+                     <persName>Donald</persName>, my own <persName
+                     corresp="sepoys.personography.xml#donald">Donald</persName>, who told me that
+                  he loved me beneath the fair skies of <distinct
+                     corresp="sepoys.backmatter.xml#bonny">bonny</distinct>
+                  <placeName type="country">Scotland</placeName>! God's blessing be his shield!" </p>
+
+               <p>The young <placeName type="region">Highland</placeName> girl spoke with rapidity.
+                  Her feelings carried her away, and there was a flush of vivid excitement upon her
+                  face, as she now dashed away her gathering tears; and, bending with a graceful
+                  action before her listeners, she added, "Oh, pardon me! I should not say what I
+                  say, but when the old home in the <placeName type="region">Highlands</placeName>
+                  looms before my mind, I am near distraught, and out of the fulness of my heart, my
+                  lips speak!"</p>
+
+               <p>
+                  <persName corresp="sepoys.personography.xml#bessie">Bessie Hope</persName> was
+                  deeply touched by the noble words and graceful dignity of <persName
+                     corresp="sepoys.personography.xml#jessie">Highland Jessie</persName>. She
+                  sprang forward, and casting her arms around her, she said, "Be our friend,
+                     <persName corresp="sepoys.personography.xml#jessie">Jessie</persName>! Be our
+                  dear friend, for such we will esteem you; and if ever fortune smiles upon us
+                  again, and these troublous times pass away, no one shall be more dear and honoured
+                  with us, than you!" </p>
+
+               <p>"She is a noble girl!" cried the officer, while a faint flush on his pale face
+                  shouwed how deeply he felt what he said. "She is a noble girl! My friend,
+                     <persName corresp="sepoys.personography.xml#hargrave">Colonel
+                     Hargrave</persName>, and myself, owe our lives to her ten times over!" </p>
+
+               <p>"God bless her!" said <persName corresp="sepoys.personography.xml#hargrave"
+                     >Colonel Hargrave</persName>, faintly; "and if this is my last hour of life, as
+                  I almost fear it is, I shall die your grateful debtor, <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName>!"</p>
+
+               <p>"No, no!" cried Jessie. "Live on! Oh, cheer up; we will have rest yet! Some hut or
+                  house is near at hand, and <persName corresp="sepoys.personography.xml#wootton"
+                     >Wootton</persName> and I will still be your guards!"</p>
+
+               <p>"To be sure, your honours!" said the cavalry sol-</p>
+
+               <pb n="211"/>
+               <cb n="1"/>
+
+               <p>dier. "Never give in, <roleName corresp="sepoys.personography.xml#hargrave"
+                     >Colonel</roleName>! All will be right your honour, yet ; and I shall live to
+                  see you yet with your regiment! Excuse a poor fellow for trying to cheer your
+                  honour!"</p>
+
+               <p><persName corresp="sepoys.personography.xml#hargrave">Colonel Hargrave</persName>
+                  tried to say something, and then, with a deep sigh, his head fell back, and a
+                  deathlike paleness came across his face. </p>
+
+               <p>"God bless you, my dear friend!" said the cavalry officer, as he clasped <persName
+                     corresp="sepoys.personography.xml#hargrave">Hargrave</persName>'s hand.</p>
+
+               <p>"Water! water!" said <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName>. "Is there any? He is but faint from the loss of blood!"</p>
+
+               <p>"On my eyes be it!" said the Hindoo. "I will fetch water for the <distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahib</distinct>!</p>
+
+               <p>"And I will go with you," said <persName
+                     corresp="sepoys.personography.xml#wootton">Wootton</persName>, "to help you, in
+                  case you should forget to come back!"</p>
+
+               <p>"I am my lord's slave, and if the great <distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct> will cross the
+                  threshold of my dwelling, it is theirs, and all within it. Who am I? Bosh! May the
+                  graves of my kindred be defiled if I speal not the truth. May I be the brother of
+                  asses, and may evil ones be about me, if I speak ill!"</p>
+               <p>---</p>
+
+
+            </div>
+            <p>---</p>
+            <head>
+               <date when="1858-04-10">Saturday, April 10, 1858</date>
+            </head>
+            <pb n="211"/>
+            <div type="chapter">
+               <head xml:id="Ch18">CHAPTER XVIII.</head>
+               <head>THE ATTACK.--THE WELL, AND THE RESCUE.</head>
+
+               <p>THE hut of the Hindoo, who, with such doubtful faith, led the way for the wounded
+                  officers, was soon reached, and with a great affectation of hospitality, he gling
+                  its door wide, to admit his visitors.</p>
+
+               <p>"Enter, Lord <distinct corresp="sepoys.backmatter.xml#sahib">Sahib</distinct>!" he
+                  said. "Enter the humble house of the lowest of your slaves!"</p>
+
+               <p>The cart was stopped; and with difficulty, for he was badly hurt, <persName
+                     corresp="sepoys.backmatter.xml#lane">Colonel Lane</persName>--for he was the
+                  wounded cavalry officer--alighted. The infantry colonel was still insensible; and
+                     <persName corresp="sepoys.personography.xml#wootton">Wootton</persName>
+                  carefully assisted <persName>Jessie</persName> to lift him from the vehicle, while
+                     <persName corresp="sepoys.personography.xml#lane">Colonel Lane</persName>, with
+                  his revolver in his hand, kept an eye on the Hindoo, who would have volunteered
+                  his aid, but <persName corresp="sepoys.personography.xml#jessie">Highland
+                     Jessie</persName> warned him off.</p>
+
+               <p>The interior of the hut was rude in the extreme: but it was more spacious than it
+                  had at first seemed to be; and there was an inner apartment to it, as well as a
+                  sort of loft in the roof, whcih appeared to be reached by a rude ladder made of
+                  untrimmed pieces of wood, with the bark still on them.</p>
+
+               <p>The Hindoo busied himself in the preparation of a couch for <persName
+                     corresp="sepoys.personography.xml#hargrave">Colonel Hargrave</persName>,
+                  composed of grass, and some rough country cloth laid over it; and from the inner
+                  room he brought a pitcher of water, which <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName> sprinkled on the
+                  face of the insensible officer, as well as inducing him to take a small portion
+                  between his lips. With a sigh, then, <persName
+                     corresp="sepoys.personography.xml#hargrave">Colonel Hargrave</persName> opened
+                  his eyes. </p>
+
+               <p>"Where am I?" he said faintly.</p>
+
+               <p>"All right!" said <persName corresp="sepoys.personography.xml#lane">Colonel
+                     Lane</persName>. "Cheer up! you will soon be stronger, if we can only get you
+                  something to eat, to repair the weakness you are suffering from. You have lost so
+                  much blood, my dear friend!"</p>
+
+               <p><persName corresp="sepoys.personography.xml#hargrave">Colonel Hargrave</persName>
+                  pressed his hand, as he said, in a low tone, "And you too!"</p>
+
+               <p>"Oh, don't think of me! I--I--am--all right."</p>
+
+               <p>The ghastly paleness of <persName corresp="sepoys.personography.xml#lane">Colonel
+                     Lane</persName> alarmed <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, and she cried, "God help us all! Oh, what can we do? </p>
+
+               <p>"My dear--young--lady, we--we are famishing, almost, as well as being wounded. If
+                  we could only get some food!"</p>
+
+               <p>"Here!" cried <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName>, as she appeared from a rummage of the hut, and presented on
+                  a wooden dish, some rice and milk, and some cooked fruits she had found. "Here is
+                  food. It seems all the place affords."</p>
+
+               <cb n="2"/>
+               <p>The Hindoo made a gesture of dissent; and, going to a remote corner, he tilted up
+                  an earthen vessel, and took from beneath it, on a European plate, an ample portion
+                  of a favourite Indian dish called <distinct
+                     corresp="sepoys.backmatter.xml#kitchri">kitchri</distinct>, which is compounded
+                  of curried fowl, the flesh of the young goat, chillies, and other matters
+                  according to taste.</p>
+
+               <p>"May your slace be favoured in your eyes!" he said. "Here is that which the
+                     <persName>King of Delhi</persName> might covet."</p>
+
+               <p>The famished officers looked eagerly at the food, and then, with a bow to
+                     <persName corresp="sepoys.personography.xml#bessie">Bessie</persName> and her
+                  sister, <persName corresp="sepoys.personography.xml#lane">Colonel Lane</persName>
+                  said, "When you are all done, we will begin. <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName>, will you preside?
+                  for, my good girl, you must want food as badly as we can."</p>
+
+               <p>"Oh, no! no!" said <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName>, "you are wounded; eat first. Do not pause, for we may be
+                  all in peril here."</p>
+
+               <p>In good truth, there was no time to stand on any ceremony; and, since anything in
+                  the shape of spoons, or other modes of conveying the viands from the dish to the
+                  mouth, there were none, each one helped himself and herself as best they could
+                  with the help of some <distinct corresp="sepoys.backmatter.xml#chaffratees"
+                     >chaffratees</distinct> or native cakes, which the Hindoo produced in pretty
+                  good abundance.</p>
+
+               <p>"May my good lords be strengthened!" he said, when he saw that they had cleared
+                  the dishes. "Would that I had couches worthy of the repose of <distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>; but here is all!"</p>
+
+               <p>Certainly, the sleeping accomodation was not very inviting, since, with the
+                  exception fo the extemporaneous couch on whichlay <persName
+                     corresp="sepoys.personography.xml#hargrave">Colonel Hargrave</persName>, there
+                  was nothing but the bare floor for any one else.</p>
+
+               <p>"I am better!" said the Colonel, as he slowly rose. "Do you, <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, with your
+                  little one, take this couch, rude as it is."</p>
+
+               <p>"Nay," said <persName corresp="sepoys.personography.xml#lane">Colonel
+                     Lane</persName>; "we may find, no dount, some more grass, and can get some sort
+                  of resting-place for the ladies. Our stay here, at best, can be but brief."</p>
+
+               <p>"My lord's words are wisdom!" said the Hindoo. "I will throw down dried grass in
+                  abundance from above."</p>
+
+               <p>He indicated the loft as he spoke; and without waiting for any reply to the
+                  proposition, he coolly and quietly ascended the rough ladder, and disappeared
+                  through the hole in the inner roof or ceiling of the hut.</p>
+
+               <p>"I don't half like to lose sight of him, your honours," said the soldier. </p>
+
+               <p>The little party started at this idea, and they all looked with anxiety towards
+                  the rude ladder, up which their unwilling host had ascended. Twenty or thirty
+                  seconds elapsed, which, to their anxieties, appeared like as so many minutes, but
+                  no dried grass or Hindoo appeared.</p>
+
+               <p>"He plays us false!" said <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName>, as she sprung toward the ladder; but, before she could
+                  reach it, it was suddenly pulled up from above; and in a wild, screeching voice,
+                  the Hindoo shouted, "Death to the <distinct
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee!</distinct>--death! death!" </p>
+
+               <p>Then ensued a crashing sound, and the fall of a heavy body just outside the hut.
+                  The Hindoo had broken his way through the frail roof, and allowed himself partly
+                  to foll and partly to jump to the ground outside. Another wild yell proclaimed his
+                  exultation at his escape; and then something struck the door heavily on the
+                  outside, and before any of the party in the hut could resolve upon a course of
+                  action, they heard the monotonous sounds of a native drum at no great distance
+                  without; and the gleam of some torches came in, through cracks and orifices, in
+                  the little wooden structure, quite eclipsing the faint light of the miserable
+                  lamp, composed of twisted cloth dipped in oil, which did duty in the hut.</p>
+
+               <p>"We are betrayed!" said <persName corresp="sepoys.personography.xml#lane">Colonel
+                     Lane</persName></p>
+
+               <p>"And lost!" said <persName corresp="sepoys.personography.xml#hargrave"
+                     >Hargrave</persName>.</p>
+
+               <p>"No! no!" cried <persName corresp="sepoys.personography.xml#jessie">Highland
+                     Jessie</persName>,--"no! no! There may be time yet! They are only villagers! To
+                  the cart--to the cart, and we may yet escape!"</p>
+
+               <p>She flew to the door and tried to open it outwards, which it was constructed to
+                  do, but it was evident that the Hindoo had succeeded in fastening it in some wat,
+                  for it resisted both <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName> and <persName corresp="sepoys.personography.xml#wootton"
+                     >Wootton</persName>, as if it had been a solid rock.</p>
+
+               <p>"I know what it is," said the cavalry man. "The rascal has got the end of a felled
+                  tree against it."</p>
+
+               <p>Mingling with these words from <persName
+                     corresp="sepoys.personography.xml#wootton">Wootton</persName>, there came such
+                  yells and shouts from without, as might well appal the stoutest hearts; and it was
+                  evident that a throng of infuriated villagers, or escaped thieves from some of the
+                  revolted stations, were rapidly approaching the hut.</p>
+
+               <p>The situation of the small party of Europeans was indeed most critical, and they
+                  might well look at each other as persons destined to death. <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> flung her arms
+                  around her sister, and for the first time since that horrible escape from
+                     <placeName type="city">Delhi</placeName>, seemed to give way to despair. The
+                  lips of <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName> moved as though she would speak, but inarticulate sounds,
+                  mingled with sobs, alone escaped her.</p>
+
+               <p>The two officers forgot, in the strong excitement of <cb n="3"/>the moment, their
+                  debility from wounds ; and, pale as they were, they stood erect, and listening to
+                  the sounds without.</p>
+
+               <p> It was <persName corresp="sepoys.personography.xml#jessie">Jessie</persName> who
+                  broke the terrible silence of the party int he hut.</p>
+
+               <p>"Despair not!" she said. "There is yet life, and there is, therefore, yet hope!
+                  The doopr may be secured within, surely?"</p>
+
+               <p>She sprung forward to the door of the hut, and the cavalry soldier accompanied
+                  her. They found that there were some strong wooden staples in the door-post, and
+                  at the back of the door, through which a bar might be passed, if they could find
+                  one to answer the purpose; but no such thing presented itself. The Hindoos without
+                  raised another shout of triumph, and a shot came through the frail framework of
+                  the house, and lodged on the opposite partition.,</p>
+
+               <p>The officers immediately faced the door, and <persName
+                     corresp="sepoys.personography.xml#lane">Colonel Lane</persName> said, sternly,
+                  "We shall be sacrificed, but we will sell our lives dearly! Would to heaven that
+                  our deaths could, by any means, be the deliverance of these helpless ones! Ladies,
+                  we bid you adieu! God help you, for we can do no more in this emergency!"</p>
+
+               <p>A rush of Hindoos from without now shook the frail building; and then they heard
+                  the unmistakable voice of the proprietor of the hut call out, "Remove the log!
+                  remove the log! Sons of burnt fathers, what by you by that senseless effort?
+                  Remove the log, and the door opens!" </p>
+
+               <p>"No!" said <persName corresp="sepoys.personography.xml#jessie">Highland
+                     Jessie</persName>, as with the impulse of the moment she seized the musket and
+                  slid it thorugh the stapes in the door and door-post,--"no, not yet!"</p>
+
+               <p>A loud shout proclaimed the removal of the log of timber that had kept the door
+                  from opening, and then a yell of disappointment, as those without found that it
+                  was still fast, notwithstanding all their furious shaking at it.</p>
+
+               <p>"Thank you, Jessie," said <persName corresp="sepoys.personography.xml#lane"
+                     >Colonel Lane</persName>. "This is a respite, if not a reprieve, my good girl!" </p>
+
+               <p>"Fire!" cried a voice from without; and immediately an irregular discharge of
+                  musketry ensued. The whole party within the hut stooped low, and the bullets flew
+                  over their heads, crashing through the frail boarding of which the building was
+                  composed.</p>
+
+               <p>"Hold!" said <persName corresp="sepoys.personography.xml#bessie"
+                  >Bessie</persName>, as the two officers were about to return the fire by random
+                  shots with their revolvers, through the thin planking of which the front of the
+                  hut was composed,--"hold! Do you hear that?" </p>
+
+               <p>The reverbation of the firing had ceased, and now a dull, heavy knocking at a part
+                  of the wall some few feet from the door, was plainly heard, and then a kind of
+                  shutter, about two feet square, was removed from the outside, and the face of the
+                  Hindoo proprietor of the wretched little abode appeared, distorted by passion, and
+                  brandishing an axe in his hand. It was but for an instant that he so showed
+                  himsef, for, by the dim light within the place, he saw <persName
+                     corresp="sepoys.personography.xml#lane">Colonel Lane</persName> raise his
+                  revolver to a direct line with his head.</p>
+
+               <p>The sharp report of the pistol and the disappearance of the Hindoo were
+                  simultaneous; but the shout he raised when he dropped to the ground without,
+                  showed that he was unhurt. </p>
+
+               <p>At this instant <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName> uttered a cry of alarm, and the whole party turning in the
+                  direction where she and <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName> were, they saw both the sisters pointing with excited
+                  gestures to the opening in the roof, leading to the loft, and from which appeared
+                  to be dangling some small dark object, which in another moment dropped lightly to
+                  the floor, and then springing with a graceful bound to its feet, showed itself to
+                  be a young child, wrapped round the middle with a red cloth, but otherwise
+                  perfectly unattired. The slight agile form and the sparkling eyes of the little
+                  creature, who could not be above six or seven years of age, together with a look
+                  of intense surprise on its facr, and a tremor of its libs, which made some gold or
+                  gilt baugles<!--sic: bangles or baubles?--> clatter musically together, precluded
+                  the notion of either espial or denial from it; but <persName
+                     corresp="sepoys.personography.xml#lane">Colonel Lane</persName> stepped
+                  forward, and laying a hand upon the arm of the little intruder, he said, in
+                     <distinct>Hindostanee</distinct>, "Who are you and where do you come from?"</p>
+
+               <p>"<persName corresp="sepoys.personography.xml#raopatan">Rao Patan</persName>" is my
+                  father," said the child, in soft, gentle accents. "I am come home; but he was not
+                  within, so I crept to sleep above. <distinct
+                     corresp="sepoys.backmatter.xml#salaam">Salaam</distinct>,<distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahib</distinct>." </p>
+
+               <p>The child made the usual <distinct corresp="sepoys.backmatter.xml#salaam"
+                     >salaam</distinct> of the natives to Europeans of rank, and then folding her
+                  arms across her breast, she stood submissive and silent. </p>
+
+               <p>"Fire!" cried the voice again from without.</p>
+
+               <p>An instinctive feeling of humanity induced <persName
+                     corresp="sepoys.personography.xml#lane">Colonel Lane</persName> to press his
+                  hand upon the shoulder of the Hindoo child, as he said, "Stoop!--stoop, or you are
+                  hit!"</p>
+
+               <p>Again the irregular discharge of musketry from without crashed through the hut,
+                  and then, with a rush, some half-dozen Hindoos clambered to the small opening that
+                  had been made in the wall, evidently intent on forcing an entrance that way. </p>
+
+               <p>Both the officers fired their revolvers, and <persName
+                     corresp="sepoys.personography.xml#wootton">Wootton</persName> plied his sabre
+                  with energy. One of the enemy dropped </p>
+
+               <pb n="212"/>
+               <cb n="1"/>
+
+               <p>inside the hut, mortally wounded; and after rolling over twice, and making frantic
+                  grasps at the dried grass on the floor, he straightened out his limbs with a
+                  spasmodic jerk, and breathed his last.</p>
+
+               <p>The light in the hut had gone out; the concussion of the air from the shots, both
+                  within and without the place, had been too much for its frail existence; but
+                  through the numerous crevices in the walls of the building, the flare of the
+                  torces from without sent plenty of irregular and flickering light into the
+                  interior. </p>
+
+               <p>There was now a kind of lull in the attack; no doubt, the vigorous resistance
+                  effected by the revolvers of the officers and the sabre of <persName
+                     corresp="sepoys.personography.xml#wootton">Wootton</persName> taught the
+                  invaders of the little post caution. They tried now to accomplish, by treachery
+                  and stratagemm, what force--although it might succeed in doing--would cost them in
+                  the process more lives. </p>
+
+               <p>"Hearken, <distinct corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>!" said
+                  the Hindoo proprietor of the hut from without,--"hearken, <distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>! Hand over what rupees
+                  you have, and you all go in safety. On my head be it!" </p>
+
+               <p>By the sound of the voice, this man was just below the little square opening in
+                  the wall; and scarcely had he done speaking, when <persName
+                     corresp="sepoys.personography.xml#lane">Colonel Lane</persName> stepped up to
+                  the Hindoo child, and, whispering to her, "Have no fear! I will not harm you!" he
+                  sprang with her in his arms to the opening, and holding her up, so that the glare
+                  of the torces fell full ipon her face, he dried out, "Another shot, villains--and
+                  the life of this hostage is lost!" </p>
+
+               <p>The Hindoo uttered a shriek of despair.</p>
+
+               <p>"My child! my child!--my only one!" he cried. "I thought you far away. What evil
+                  destiny has brought you home? My <persName corresp="sepoys.personography.xml#aza"
+                     >Aza</persName>! my beautiful! My child!--my child! Mercy! <distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>, mercy!"</p>
+
+               <p>"That will do," said the <roleName corresp="sepoys.personography.xml#lane"
+                     >Colonel</roleName>, as he placed the child in the care of <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName>; adding, "Look to
+                  her well. God knows I would not hurt a hair of her head, but the sight of her may
+                  yet save us from this dilemma."</p>
+
+               <p>"It may indeed," said <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName>, as she soothed the trembling child, who, at the moment,
+                  believed her destruction to be certain, notwithstanding the whispered words of the
+                     <roleName corresp="sepoys.personography.xml#colonel">Colonel</roleName>. </p>
+
+               <p>"Oh, no, no! <distinct corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>, do
+                  not kill me!" she sobbed. "I am only poor <persName
+                     corresp="sepoys.personography.xml#aza">Aza</persName>, and have no mother.
+                  Father is cruel, but I do not want to die!" </p>
+
+               <p>"Peace--peace, <persName corresp="sepoys.personography.xml#aza">Aza</persName>!"
+                  said the <roleName corresp="sepoys.personography.xml#colonel">Colonel</roleName>;
+                  have no fear. What can all that mean without, <persName
+                     corresp="sepoys.personography.xml#hargrave">Hargrave</persName>?"</p>
+
+               <p>A great contention appeared to be going on among the Hindoos composing the
+                  attacking party; and as they seemed too much engaged by it to take much notice of
+                  the party in the hut, <persName corresp="sepoys.personography.xml#lane">Colonel
+                     Lane</persName> stepped to the opening in the wall to reconnoitre. </p>
+
+               <p>"A strange scene. They have placed their torches in clefts of trees, and the
+                  father of this child we have here is haranguing them with frantic speech and
+                  gestures. They appear to deride him--he falls on his knees, and clings to their
+                  feet! Don't you hear him shrieking? Now, they fall upon him--they will kill him!
+                  No--no! They bind him hands and feet--what a desperate struggle he makes! They
+                  overpower him!--and now they cast him among some bushes and brushwood. They seem
+                  to have gagged him, for he is quiet. I can guess it all! For his child's sake, he
+                  would make terms with us; but the others are too intent on our destruction, to be
+                  swayed by his fears and feelings, and so have got rid of his importunities for the
+                  time. They will commence the attack again--what is to be done?" </p>
+
+               <p>"The house is surrounded!" said <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName>, at this moment
+                  returning from an examination of the inner room.</p>
+
+               <p>"There is a strong force waiting in silence at the back, with the hope that we
+                  will attempt to force our way out in that direction, when they would fall upon us
+                  at once." </p>
+
+               <p>"Then all is lost!" said <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>. </p>
+
+               <p><persName corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>
+                  dropped gently to her knees, and tried to pray; but her words were only frantic
+                  calls upon heaven to spare her child.</p>
+
+               <p>With the sound of drums and shouts of triumph the Hindoo rabble now pressed
+                  onwards. They did not fire any more shots, but the twang of bow-strings might be
+                  heard; and soon a full red glare came in through the crevices of the hut, and
+                  sparks of fire began to fall through the opening in the ceiling leading to the
+                  loft. </p>
+
+               <p>The hut was in flames! </p>
+
+               <p>With a shout of exultation the Hindoos now retired to some twenty or thirty paces;
+                  and while the tomtoms were incessantly beaten, and a gong occasionally gave out
+                  its clashing sound, they seemed to wait the moment when the half-wasted Europeans
+                  must emerge and give themselves up to their foes. </p>
+
+               <p>The Hindoo child then, as if awakening from a dream, suddenly started to the side
+                  of <persName corresp="sepoys.personography.xml#lane">Colonel Lane</persName>, and
+                  placing her hand in his, she said, as she looked in his face, "No! They are bad
+                  men without! They shall not burn the ma'am <distinct
+                     corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct> and the officer
+                     <distinct corresp="sepoys.backmatter.xml#sahib">Sahibs</distinct>! </p>
+
+               <cb n="2"/>
+               <p>Come, come! <persName corresp="sepoys.personography.xml#aza">Aza</persName> knows
+                  what to do! Come with <persName corresp="sepoys.personography.xml#aza"
+                     >Aza</persName>!--come!"</p>
+
+               <p>"What does she say and mean?" said <persName
+                     corresp="sepoys.personography.xml#hargrave">Colonel Hargrave</persName>, who
+                  had not so good a knowledge of Hindostanee as his friend.</p>
+
+               <p>"She has some scheme of saving us, she thinks; and, child as she is, I fain would
+                  trust her." </p>
+
+               <p>"Come, oh, come!" said <persName corresp="sepoys.personography.xml#aza"
+                     >Aza</persName>. "Look! The fire!--the fire! They are bad men!" </p>
+
+               <p>"Lead on, in the name of heaven!" said the <roleName
+                     corresp="sepoys.personography.xml#lane">Colonel</roleName>. "Follow, all of
+                  you! Who knows but this child may know some mode of escape which we, in our
+                  ignorance of the place, would never discover?" </p>
+
+               <p>With her little finger on her lips, the Hindoo child led the party into the inner
+                  room, and, at the further extremity of it, she tore down a piece of matting, and
+                  disclosed a narrow opening. The glare of the fire from the burning roof was more
+                  than sufficient to light up the spot, and they saw a kind of shed or outhouse,
+                  with a low, sloping roof, and on one side, but for some other pieces of matting
+                  which waved to and fro in the night air, open to the wood.</p>
+
+               <p>"Ah, that is well!" whispered the <persName
+                     corresp="sepoys.personography.xml#lane">Colonel</persName>: we can escape by
+                  this way!" </p>
+
+               <p>"No!" said the Hindoo girl. "Look, <distinct corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</distinct>!" </p>
+
+               <p>She drew the matting a little on one side, for the <roleName
+                     corresp="sepoys.personography.xml#colonel">Colonel</roleName> to look through,
+                  and he saw that in that direction, as well as in others, theplace was surrounded
+                  by the armed villagers waiting the result of the conflagration. </p>
+
+               <p>"How, then, can you help us?" he said. </p>
+
+               <p>Without a word, the girl hastily removed some loose pieces of wood that covered
+                  the middle of the floor, and disclosed the open mouth of a <placeName
+                     type="building">well</placeName>. </p>
+
+               <p>"There, <distinct corresp="sepoys.backmatter.xml#sahib">Sahib</distinct>!" </p>
+
+               <p>"There? But the depth?" </p>
+
+               <p>Light and agile as a fawn, the Hindoo girl swung herself over the edge of the
+                     <placeName type="building">well</placeName>, and disappeared. </p>
+
+               <p>"It is not deep," she said from below; "and there is but little water. The spring
+                  has departed long since, and the <placeName type="building">well</placeName> is
+                  only of use when the great rains come.</p>
+
+               <p>In another moment she was by the side of the <roleName
+                     corresp="sepoys.personography.xml#colonel">Colonel</roleName>, having
+                  dexterously clambered up again by the rugged sides of the <placeName
+                     type="building">well</placeName>. </p>
+
+               <p>"It is the only chance," said <persName corresp="sepoys.personography.xml#lane"
+                     >Colonel Lane</persName>. </p>
+
+               <p>"All saved!" said the girl, as she turned and gave a slight caress to <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>'s child. The
+                  action spoke volumes, and <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName>
+               </p>
+
+               <p>"I would trust her to the death!" said <persName
+                     corresp="sepoys.personography.xml#lane">Colonel Lane</persName>, in a voice of
+                  emotion. </p>
+
+               <p>The monotonous beating of the tom-toms continued, and the shout of the Hindoos
+                  welcomes the progress of the flames about the blazing hut. There was not a moment
+                  to loose<!--sic-->, ad by one consent, the party made their way into the
+                     <placeName type="building">well</placeName>. The depthj was not above ten or
+                  eleven feet, and there was about a foot of thick muddy water at the bottom; but
+                  that was all. A subterranean passage seemed to lead from the well, perhaps
+                  connecting it with some other spring. Wretched, and full of discomfort as this
+                  place was, it was a cool and welcome refuge from the blazing hut; and, with the
+                  assistance of <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName> and <persName corresp="sepoys.personography.xml#wootton"
+                     >Wootton</persName>, the whole party were soon in the <placeName
+                     type="building">well</placeName>.</p>
+
+               <p>"Farewell!" said <persName corresp="sepoys.personography.xml#aza">Aza</persName>;
+                  and she hastily began to arrange the boards over the mouth of the <placeName
+                     type="building">well</placeName>. Crash, then, came something, and they felt
+                  certain that the roof of the outhouse had fallen in. </p>
+
+               <p>"<persName corresp="sepoys.personography.xml#aza">Aza</persName>, <persName
+                     corresp="sepoys.personography.xml#aza">Aza</persName>!" cried the <roleName
+                     corresp="sepoys.personography.xml#lane">Colonel</roleName>. "Alas! the poor
+                  child will be killed! She had better been with us!"</p>
+
+               <p>"God help us!" said <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName>: we shall yet die here for want of air!" </p>
+
+               <p>The well was completely dark, and a suffocating feeling came over the whole party.
+                  They heard the cries and yells of the Hindoos, as they, no doubt, gloated over the
+                  destruction of the Europeans, believing them to have miserably perished in the
+                  burning ruins of the hut. </p>
+
+               <p>"Help, help!" gasped <persName corresp="sepoys.personography.xml#hargrave">Colonel
+                     Hargrave</persName>. "Air, or I perish!" </p>
+
+               <p>"Air! air!" shrieked <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName>. </p>
+
+               <p>"Your sword!" said <persName corresp="sepoys.personography.xml#jessie"
+                     >Jessie</persName>. "Your sword, <persName
+                     corresp="sepoys.personography.xml#wootton">Wootton</persName>! Oh, quick!" </p>
+
+               <p>Dark as it was, the <addName corresp="sepoys.personography.xml#jessie">Highland
+                     girl</addName> got the long cavalry sword by the hilt, and, feeling her way up
+                  the rugged sides of the well, she thrust the weapon, with all her strength,
+                  through the mass of rubbish that covered its mouth. Again and again, with the
+                  energy of a last effort to save those with her and herself, she dashed the
+                  sword-blade upwards. There was a rumbling sound of displaced wood and smouldering
+                  fragments, and a rush of cooler air came down into the well.</p>
+
+               <p>
+                  <emph>(To be continued in our next.)</emph>
+               </p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hcorresp="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model hcorresp="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+
+<?xml-model href="../schema/sepoys.schema.xml" type="application/relax-ng-compact-syntax"?>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author>James Malcolm Rymer</author>
+            <author>
+               <persName type="pseudo">M. J. Errym</persName>
+            </author>
+            <editor>Rebecca Nesvet</editor>
+            <editor>Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="installment5" prev="sepoys.3.06.xml#installment4"
+               next="sepoys.3.20.xml#installment6">
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter IX: The Flight to Agra</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-03-13"/>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">CHAPTER IX: THE FLIGHT TO <placeName>AGRA</placeName></title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-03-13"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="installment">
+            <head>
+               <date when="1858-03-13">Saturday, March 13, 1858</date>
+            </head>
+            <figure>
+               <graphic url="facsimiles/sepoys.3.13.png"/>
+            </figure>
+            <pb n="97"/>
+            <cb n="1"/>
+            <head>THE <orgName corresp="sepoys.backmatter.xml#sepoys">SEPOYS</orgName>; OR,
+                  <persName>HIGHLAND JESSIE</persName>.</head>
+            <head>A TALE OF THE PRESENT INDIAN REVOLT.</head>
+            <head>AUTHOR OF <title> "JANE BRIGHTWELL,"</title>
+               <title>"THE SNOW-DRIFT,"</title> ETC</head>
+
+            <div type="chapter">
+               <head xml:id="Ch9">CHAPTER IX: THE FLIGHT TO <placeName type="city"
+                  >AGRA</placeName></head>
+
+               <p>THE FLIGHT TO <placeName type="city">AGRA</placeName>.</p>
+
+               <p>---</p>
+
+               <p>THE dangers and difficulties of the fugitivies from <placeName type="city"
+                     >Delhi</placeName> were far from over, even when they had fairly passed through
+                  the gate of the city, and had left behind them the turmoil of the old
+                  capital<!--sic--> of Indian monarchy, and all the wild riot now had a home within
+                  its ancient walls. Detached groups of revolted <orgName type="indian"
+                     >Sepoys</orgName>, and disorderly bands of villagers, and idlers of all kinds
+                  and descriptions, athirst for plunder and violence, were scattered over the whole
+                  country. The glare of burning bungalows, and the sounds of tumult, but too plainly
+                  came upon their senses. They felt like people who had just escaped a hostile port,
+                  to embark upon a storm-tossed ocean.</p>
+               <p>The countenances of all were pale; but there was a determination in the close-set
+                  lips of the men, that showed they would, with life itself, hold faithful to their
+                  charge of protecting those innocent ones, whose only hope now lay in them. From
+                  the frivolity, and almost the effeminate luxury, of idle Eastern habits, the young
+                  men of the party seemed at once to start to life and energt, and the English
+                  character shone at once through the thin mask of oriental depreciation.</p>
+               <p>But now that this family, and these friends and connexions, appeared as hunted
+                  fugitives--and now that they heard the yell of the aroused <orgName
+                     type="religious">Hindoo</orgName> on every hand--the thought possibly struck
+                  some of them, that it is the most abject of slaves, who, when the occasion serves,
+                  make the worst masters; and that it might have been well to have reigned over the
+                  Indian in such a manner to attack his heart a little, and not solely by awakening
+                  his fears.</p>
+               <p>The horses were fresh, and the night air was cool, so they trotted on swiftly; but
+                  what would become of the party when relays would be wanted, and could not be
+                  procured--and, when on foot, they might find themselves struggling through a
+                  hostile population--was not then to be thought of with anything like
+                  equanimity.</p>
+               <p>And now, some six miles of distance from the city was accomplished, when, nearing
+                  a clump of trees which formed a sort of covering for some building which appeared
+                  faintly through them, a loud voice challenged<cb n="2"/> the party in Hindoo, and
+                  before an answer could be returned by those in the first carriage, a shot was
+                  fired which injured one of the horses.</p>
+               <p>An instant halt of both of the vehicles took place, and as had been resolved upon
+                  in case of such a contingency, the gentlemen sprang to the ground with their
+                  firearms, and took a post in front, determined to sell their lives dearly in
+                  defence of those whom they were trying to save.</p>
+               <p>By common consent, <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> was looked to as a sort of leader, and he issued his
+                  directions in as calm a voice as he could command.</p>
+               <p>"There are <orgName type="indian">Sepoys</orgName> in the wood," he said, "without
+                  a doubt. Does any one, here, know the place?"</p>
+               <p>"Yes," said <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>, "I know it! It is a <placeName type="building"
+                     xml:id="sepoys.backmatter.xml#elhareeb">tomb</placeName>, and thickly wooded
+                  all round. There is a road through the trees, though, and to the left we shall get
+                  into the high road to <placeName type="city">Cawnpore</placeName>!"</p>
+               <p>"Yes--oh, yes! To <placeName type="city">Cawnpore</placeName>!" cried <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>. "He is at
+                     <placeName type="city">Cawnpore</placeName>--my husband. Oh let us get there,
+                  and we shall yet be saved!"</p>
+               <p>"Nay," commenced <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>; "I doubt--"</p>
+               <p>"Pardon me, all of you," interrupted <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>. "We can
+                  discuss our route afterwards. Let us extricate ourselves now as best we can. Help
+                  me, <persName corresp="sepoys.personography.xml#caesar">Caesar</persName>! This
+                  way! Turn the horses' heads from the wood! Shrink down, all of you, in the
+                  carriages!</p>
+               <p>The <persName corresp="sepoys.personography.xml#hannibal">Captain</persName> made
+                  his dispositions quickly. The carriages were wheeled to the side of the road, and
+                  their backs presented obliquely to the trees only, while <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName> and his father
+                  occupied posts assigned them by <persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal</persName>, and he himself
+                  took the centre position between the two vehicles. They were each provided pretty
+                  well with fire-arms, for at the last moment, almost, before leaving the <placeName
+                     type="building">bungalow</placeName>, <persName
+                     corresp="sepoys.personography.xml#vernon">Mr. Hawkins></persName> had brought
+                  away several more guns and pistols, and plenty of ammunition in a bag, where it
+                  luckily had been deposited so portably.</p>
+               <p>"Keep quiet, all of you, as you value your lives," said the <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain</persName>; "they will be
+                  upon us directly, for that fellow who fired was an outpost!"</p>
+               <p>Tremblingly the females shrank down in the carriages, and then a feeble voice said
+                  faintly, "Where am I?--what is it all?"</p>
+               <p>It was <persName corresp="sepoys.personography.xml#adrian">Lieutenant
+                     Adrian</persName>, who, just recovered from a swoon, into which the loss of
+                  blood from his wounds had thrown him, now spoke. He was extended on the floor
+                  portion of the carriage, close to the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>, who inclined
+                  his ear to him, as he said, "My dear fellow, keep close and quiet, and all will be
+                  well, I hope. We will pull you through!"</p>
+               <p>"Through! through! But, what? Oh, heaven! yes! The revolt! the revolt! They have
+                  hit me hard, I fear!"</p>
+               <cb n="3"/>
+               <p>"Cheer up!--all will be well! Yet, stop a bit! You know the environs of <placeName
+                     type="city">Delhi</placeName> well? <roleName type="famil"
+                     corresp="sepoys.personography.xml#vernon">Father</roleName>, what is this
+                     <placeName type="building" xml:id="sepoys.backmatter.xml#elhareeb"
+                     >tomb</placeName> named?"</p>
+               <p>"<placeName type="building" xml:id="sepoys.backmatter.xml#elhareeb">El
+                     Hareeb</placeName>!" said <persName corresp="sepoys.personography.xml#vernon"
+                     >Mr. Hawkins</persName>.</p>
+               <p>"You hear, <persName corresp="sepoys.personography.xml#adrian"
+                  >Adrian</persName>?--do you know anything of it?"</p>
+               <p>"Only, that it was always a post of the <orgName type="indian">Sepoy guard of the
+                     67th Regiment</orgName>."</p>
+               <p>As these words came from the mouth of <persName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName>, there
+                  rushed from among the trees, with shouts of ferocity, a disorderly band of some
+                  thirty or forty <orgName type="indian">Sepoys</orgName>, one of whom bore a torch,
+                  which he held aloft as he danced a demoniacal kind of fling, which went near to
+                  extinguish the flame that was intended to light his comrades to their prey. There
+                  was the gleam of <foreign xml:lang="hi" corresp="sepoys.backmatter.xml#tulwars"
+                     >tulwars</foreign> and daggers, but it was evident the idea of the <orgName
+                     type="indian">Sepoys</orgName> was that they had only to intercept a fugitive
+                  carriage or two, and that nothing like military resistance would be made. </p>
+               <p>In this they were soon undeceived.</p>
+               <p>At first, the absence of the reported vehicles from the main road seemed a
+                  surprise, but they were soon espied. Then there was a yell and a rush, and the
+                  vouce of <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> rang out clearly the word "Fire!"</p>
+               <p>To his surprise, the volley that came from his little party was much more
+                  effective than he expected it to be, for three shots at each discharge were all he
+                  counted upon; but he felt confident there were double that number; and who were
+                  the unexpected allies he could not guess</p>
+               <p>The <orgName type="indian">Sepoys</orgName> staggered back, and he who bore the
+                  torch fell to the ground.</p>
+               <p>"Fire!" said the <roleName corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName> again; for he knew that the party had plenty of weapons
+                  ready loaded.</p>
+               <p>Another rattling volley completed the discomfiture of the <orgName type="indian"
+                     >Sepoys</orgName>; and with howls and shouts of rage they retreated into the
+                  wood, leaving five of their number dead on the field, and carrying off as many
+                  more wounded.</p>
+               <p>"How is this?" shouted <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>, when the smoke a little subsided. "Who fired?"</p>
+               <p>"I!" said <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName></p>
+               <p>"And I!" said <persName corresp="sepoys.personography.xml#volumina">Volumina
+                     Hawkins</persName>.</p>
+               <p>"And I!" said <persName corresp="sepoys.personography.xml#adrian">Lieutenant
+                     Adrian</persName>, faintly. "My revolver still has a charge in it, and I
+                  thought I could fire past you as I lay here!"</p>
+               <p>"Why, the fact is," said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, "I handed up the spare guns to the girls, and told them to
+                  blaze away if they could."</p>
+               <p>"Bravo!" cried the <roleName corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName>. "Load everything, for they will be on us again, I
+                  fancy!"</p>
+               <p>"No! no!" whispered <persName corresp="sepoys.personography.xml#adrian"
+                     >Adrian</persName>. "On--on at once, if you would save yourselves! I know them
+                  well!</p>
+               <pb n="154"/>
+               <cb n="1"/>
+               <p>They will carry their wounded right into the temple, and howl some prayers over
+                  them, before they make another attack! If you now hurry on, you may get through
+                  the wood, which is very small. On--on, I beg of you, for all our sakes!"</p>
+               <p>This was too good advice to be wasted, and, accordingly, it was on the moment
+                  acted upon. The horses were a little restive from the firing, but not to a
+                  sufficient extent to render them unconquerable, although it was a matter of far
+                  more consequence to find that the one that had been wounded was evidently weak
+                  from loss of blood. The necessity, however, of immediate progress had been so
+                  clearly pointed out by the wounded <roleName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant</roleName>, that, with all
+                  the doubts that the state of the horse warranted, <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> and his
+                  brother soon had the carriages in the roadway again.</p>
+               <p>Anything like the concealment of the two carriages seemed at first to be out of
+                  the question; but when they got beneath the trees they found the ground so soft
+                  and yielding, that the wheels made not the slightest sound, and the horses'
+                  hoofs<!--sic--> were scarcely heard, as they fell upon the thick and elastic turf.
+                  Then there arose, in the breasts of the fugitives, the hope that they might pass
+                  unobserved; and they listened, with throbbing hearts, to any sound that might be
+                  indicative of the approach of their enemies. The wood, in the darkness that
+                  surrounded it, might be a mere copse, or of much more considerable extent, so far
+                  as they could see; but certainly the passage through it appeared to last an
+                  age.</p>
+               <p>Suddenly, then, to the immense relief of the whole party, they say the night sky;
+                  and the trees thinned gradually away.</p>
+               <p>"Saved, dear <persName corresp="sepoys.personography.xml#annie">Annie</persName>,
+                  from that danger!" said <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName>, in an agitated whisper. </p>
+               <p>"Thank heaven! No one is hurt?"</p>
+               <p>"Oh, no! no! There were no fire-arms used against us!"</p>
+               <p>"<persName corresp="sepoys.personography.xml#bessie">Bessie</persName>! If they
+                  should kill me, you will protect this dear child! Oh, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, you will! you
+                  will!"</p>
+               <p>"Hush! Can you doubt me? You suffer yourself to be too much agitated! All may yet
+                  be well!"</p>
+               <p>The carriages just cleared the last trees of the wood, when a rattling discharge
+                  of fire-arms behind them, and the loud shouts of the <orgName type="indian"
+                     >Sepoys</orgName>, sufficiently evidenced an active pursuit.</p>
+               <p>"We are lost!" said <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>.</p>
+               <p>"No!--never lost!" cried the <roleName corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName>. "They are on foot, and we shall tire them out yet! On! on!
+                  If any one is hit, let him or her at once speak! On <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>! Nay, that will do
+                  better! You can drive, <persName corresp="sepoys.personography.xml#volumina"
+                     >Volumina</persName>! Take the reins; don't look back or think of anything in
+                  the world but keeping the horse in the middle of the road, such as it is! Follow
+                  the other carriage closely--keep a line with it! I am the rear guard!"</p>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>
+                  scrambled to the back portion of the carriage, and kneeling on the seat, he only
+                  exposed his head over the half-hood which belonged to it. Again, by his
+                  directions, the ladies crouched down with the exception of <persName
+                     corresp="sepoys.personography.xml#volumina">Volumina</persName>, who boldly
+                  acted as charioteer; and on they went, pursued by a rabble rout of Sepoys, who,
+                  now having fire-arms with them, took shots at them in plenty.</p>
+               <p>More than one bullet passed in close proximity to the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>, who kept up a
+                  rapid fire from a couple of guns which his father loaded for him as quickly as he
+                  could. This sort of running fight lasted for some time, until, as the distance
+                  between the <orgName type="indian">Sepoys</orgName> who were on foot, and the
+                  carriages, increased, there seemed evert likelihood of a complete escape from
+                  them; and <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> called out rather exultantly, "Bravo! bravo, my friends!
+                  They are giving up the pursuit, I hope; and no mischief is done, I think!"</p>
+               <p>"None! none!" cried all voices at once, when down fell the wounded horses, which
+                  was in the carriage in advance, and lay either dead or so nearly so as to be
+                  incapable of motion.</p>
+               <p>This most <emph>malapropos</emph> accident altered at once the aspect of affair,
+                  and reduced the party either to the painful necessity of separating, or of all
+                  proceeding on foot; for under no pressure of circumstances whatever could one
+                  carriage be made to contain the whole of the fugitives; and where anothe horse was
+                  to be got was an unsolved mystery.</p>
+               <p>They were now not above nine miles from <placeName type="city">Delhi</placeName>,
+                  and in a very wild and uncultivated bit of country, abounding in small clumps of
+                  trees, and in a sort of hilly well at places that made travelling difficult and
+                  dangerous. <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>'s heart for a moment seemed to shink within him at the
+                  prospect that was before them, and springing to the ground, he looked about him
+                  with a feeling akin to dismay.</p>
+               <p>"There is no help for it!" said <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>. "If the ladies
+                  alone were in one of the carriages, it would not take them a mile!"</p>
+               <p>At these words, with agitated looks, the whole party alighted, and <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, the whole of
+                  whose <cb n="2"/>natural courage seemed to have evaporated in the all-absorbing
+                  fears for her child, was on the point of giving way to a torrent of grief and
+                  despair, when she was calmed by the remonstrances of her sister.</p>
+               <p>"Something must be done!" suggested <persName
+                     corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName>,
+                  patronisingly.</p>
+               <p>In this all agreed, but it was what the something was that was to be that
+                  constituted the difficulty; and the dount as to whether they were still pursued or
+                  not by the <orgName type="indian">Sepoys</orgName> from the wood, was one of equal
+                  anxiety.</p>
+               <p>
+                  <persName corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>
+                  roused himself from what looked, for a few moments, like utter depression, and in
+                  a clear voice he said, "Our first care is to get rid of our pursuers, and that, I
+                  think, if they are still upon our track, we may do, and save yet some of the
+                  party. <roleName type="family" corresp="sepoys.personography.xml#vernon"
+                     >Father</roleName>, will you, with such of the ladies as agree among themselves
+                  to go in the one carriage still left us, go forward; and we, with the others, will
+                  follow on foot?" </p>
+               <p>"No! no!" cried everybody; "we will all remain together!"</p>
+               <p>They were pale faced, tearful eyes, and trembling limbs, that stood in that
+                  throng, but no one faltered for a moment in the determination to keep together,
+                  and for each to share the fortune of all. Even the <persName
+                     corresp="sepoys.personography.xml#missflint">Hon. Miss Flint</persName>, after
+                  some inarticulate remarks of how she might have been "settled" often comfortably
+                  in <placeName type="country">England</placeName>, declared she would take the
+                  chance of what "offered" with the other party.</p>
+               <p>Poor <persName corresp="sepoys.personography.xml#mrshawkins">Mrs.
+                     Hawkins</persName>, what with the fatigue and the anxiety of the last few
+                  hours, was nearly so far invalided as to be incapable of taking any active part in
+                  the affair.</p>
+               <p>All now looked again to <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>, and, with just a slight thickness in his voice, he
+                  said, "Be it so! This one carriage will not carry us off, but in abandoning it, we
+                  may make it do us good service yet. Help me such of you as can!"</p>
+               <p>By the aid of <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName> and <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>, the fallen horse, which was found to be quite dead, was
+                  released from its harness and dragged out of sight to the side of the road. The
+                  useless carriage, too, was rolled into the thicket, where it was not reasily
+                  observable, and then <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> addressed the party in explanation of what he meant to
+                  do.</p>
+               <p>"There is but little doubt," he said, "but we shall be pursued by horsemen; and
+                  what I propose to do, is to start the horse on with this empty vehicle, so as to
+                  carry them as far past as possible; and then we can hold counsel as to what course
+                  we are to adopt in getting to some station where we shall find English troops. All
+                  of you stoop down, among the thick brushwood by the side of the road here, and you
+                  will be safe enough while they see the carriage in advance."</p>
+               <p>This certainly seemed the only rational plan of present safety to pursue, and it
+                  was at once adopted. Poor <persName corresp="sepoys.personography.xml#adrian"
+                     >Lieutenant Adrian</persName> was carefully lifted from the carriage and placed
+                  among the vegetation by the roadside; although he declared that, as no bones were
+                  broken, he ought to be able to walk, with a little help.</p>
+               <p>"Soon enough, my good fellow," said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>, "when we all go
+                  on! Save your strength now!"</p>
+               <p>"How much do I owe you!" said the <roleName
+                     corresp="sepoys.personography.xml#adrian">young officer</roleName>, with tears
+                  glistening in his eyes.</p>
+               <p>"Pho! pho!--don't think of it! Here, <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>--you look after our
+                  friend <persName corresp="sepoys.personography.xml#adrian">Adrian</persName>, like
+                  a good girl, as you are!"</p>
+               <p>"What is that, <persName corresp="sepoys.personography.xml#hannibal"
+                     >Hannibal</persName>?" suddenly exclaimed <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>.</p>
+               <p>"What? what?"</p>
+               <p>"Listen! I hear them now again! The tramp of horses' feet, and the jingle of
+                  accoutremenets! If the road did not take a turn, we should see them."</p>
+               <p>"And they us!" cried <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>. "We are pursued, and by some of the rebel light horse, too!
+                  Down, all of you!--down among the brushwood! That will do! Not a word--not a
+                  breath!"</p>
+               <p>They were all hidden, and the horse in the empty carriage looked a little scared
+                  at the sudden disappearance of every one, and at the rather odd way in which
+                     <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> approached him, with a long, lithe, branch of a tree in his
+                  hand.</p>
+               <p>"Off, and away!" said the <roleName corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName>, as he dealt the horse a switch with the branch. The
+                  creature crouched for a moment in surprise, for it was high-spirited, and
+                  unaccustomed to the lash; and then, with the empty carriage behind it, it darted
+                  off at a rapid pace.</p>
+               <p>"That will do!" said the <roleName corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName>, as he flung himself down and crawled away to his
+                  friends.</p>
+               <p>The night of an Indian sky is a very different thing indeed to that of our more
+                  northern region. There is none of that dim blackness which enshrouds all things,
+                  and commingles them into one impenetrable mass of looming shadow. There is none of
+                  that dismal tangibility, so to speak, in the air, as though it had congealed into
+                  a pall and clung to all in nature, robbing the sky of its glorious tints, the
+                  green earth of its verdant beauty, and every sweet flower of its dazzling dyes.
+                  No; the Indian night only differs from the <cb n="3"/>day as being a thing of
+                  different beauty and glory. There is the same deep blue sky, but without
+                  sunlight,--amends are made by the myriad stars that seem there so much nearer the
+                  earth than in our misty regions; and although the daylight, properly so called,
+                  has, in truth, passed away, it leaves behind it an opalescent splendour which is
+                  as beautiful, if not more so, and intensely grateful to the eyes after the glare
+                  of that nearly tropical sun.</p>
+               <p>In this sweet, wavering light, which looks like that of some star with a new and
+                  rare atmosphere of its own, all objects are sufficiently visible; and tree, and
+                  hill, and stream retain certain characteristics beneath the mild effulgence, even
+                  as they do in the most garish sunshine. Hence was it that, like creatures in a
+                  vision, still distinct, yet still commingled in the soft, fair, ethereal splendour
+                  of the night, every one of our little party played his or her part; and they could
+                  see, from the hiding-place, all that passed upon the roughly-trodden road they had
+                  so very recently travelled, and so close to which they crouched in hiding.</p>
+               <p>Their horse-bits, chain, and loose gear--of which the Eastern soldiery are ever so
+                  fond--rattling on the still air, came driving on the <orgName type="indian"
+                     >Sepoy</orgName> cavalry. They made sure of their prey as with shouts they
+                  careered onwards, with a wild sort of exultation that once again they could assume
+                  the irregular march of Asiatic troops, instead of the regular battalion-like
+                  precision of Europeans.</p>
+               <p>"Forward!" cried an offiver, as he waved his sword in the air. "Not a <orgName
+                     xml:lang="ur" type="european" corresp="sepoys.backmatter.xml#feringhee"
+                     >Feringhee</orgName> from <placeName type="city">Delhi</placeName> should
+                  escape except through the gates of death!"</p>
+               <p>"Death! death!" was shouted from the strange rout as they charged on, and like a
+                  whirlwind swept past the spot where lay concealed the fugitives from the city.</p>
+               <p>All but one--yes, all but one! And the horse of that one stumbled in some loose
+                  gear from the trappings of the dead horse that had been drawn aside by our party,
+                  and he and his rider came rolling on the road together.</p>
+               <p>An execration, and then a shout to his comrades to pause and assist him, and then
+                  another full-mouthed curse, in the names of half a dozen <orgName type="indian"
+                     >Hindoo</orgName> divinities, upon all their heads for leaving him behind them,
+                  all passed in a moment, and both horse and man scrambled again to their feet; but
+                  the steed was scared, and it dashed from the feeble grip of the <orgName
+                     type="indian">Sepoy</orgName>, and scoured away, while he, apparently more hurt
+                  than at first seemed to be the case, staggered a pace or two, and then fell
+                  again.</p>
+               <p>All this passed in a moment or two, and, according to the hacknied expression, in
+                  a very much shorter space of time than it has taken to record it.</p>
+               <p>The sound of the horses' feet of the party that had passed gradually died away,
+                  and then <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> lifted his head carefully over the low brushwood and took a
+                  minute observation of the prostrate Sepoy</p>
+               <p>--</p>
+            </div>
+            <div type="chapter">
+               <head xml:id="Ch10">CHAPTER X: THE SEPOY'S GRATITUDE--THE NIGHT IN THE <placeName
+                     type="building">QUARRY</placeName></head>
+
+               <p><persName corresp="sepoys.personography.xml#caesar">"CAESAR,"</persName> whispered
+                     <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> to his brother, "what is to be done with that fellow?"</p>
+               <p>"Shoot him!"</p>
+               <p>"Nay, I don't half fancy it."</p>
+               <p>"Then I do! Here goes!"</p>
+               <p>"Oh, no, no!" said <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName>. "I pray you do not. It looks so like--like--murder!"</p>
+               <p>"If I were anything like assured that the fellow had committed any of the
+                  atrocities of which <placeName type="city">Delhi</placeName> has been a witness,"
+                  said <roleName corresp="sepoys.personography.xml#hannibal">the Captain</roleName>,
+                  "I would shoot him like a dog; but as it is, I don't seem to fancy it."</p>
+               <p>"Oh, spare all that there is a doubt about!" said <persName
+                     corresp="sepoys.personography.xml#mrshope">Mrs. Hope</persName>, speaking
+                  faintly, for she was ill and exhausted.</p>
+               <p>"Well," said <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>, "I'll bring him in at all risks; for we can't get out of this
+                  until the rascal is got rid of somehow. He may have his eyes open, although
+                  otherwise done up by his tumble.</p>
+               <p>No one opposed this, and <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName> marched out of the cover, and dealt the Sepoy a kick, as he
+                  said, "Get up, and no tricks!"</p>
+               <p>The Sepoy rolled over twice, and then elevated himself to his knees, as he said,
+                  "Mercy, Sahib! Mercy!"</p>
+               <p>"Mercy, you rascal! That all depends on circumstance. Give up your arms, will
+                  you?"</p>
+               <p>"Yes, great Sahib! Lord of <placeName type="country">India</placeName>. yes.
+                  yes!"</p>
+               <p>The Sepoy handed his <foreign xml:lang="hi"
+                     corresp="sepoys.backmatter.xml#tulwars">tulwar</foreign>, and took from his
+                  breast a couple of pistols, which, as he held them by their butts, looked
+                  awkwardly close, muzzlewise, to <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>'s heart. It was
+                  accident that, at that moment, the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName> called out,
+                  "Quick, <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>!"</p>
+               <p>With a roar of alarm, the Sepoy tumbled backward, and one of the pistols went
+                  off.</p>
+               <p>"Why, you blundering fool!" said <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>; "if I only thought
+                  that was on purpose----"</p>
+               <p>"No, no, Sahib! Great and mightly Sahib! Lord</p>
+               <pb n="155"/>
+               <cb n="1"/>
+               <p>your humble slave! No! Accident, all! The lowest of your slaves is at your feet,
+                  great warrior!</p>
+               <p>"Great fiddlestick!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, as he placed the pistols in his own belt. "Come on with
+                  you!"</p>
+               <p>The Sepoy crawled after him, and seemed annoyed, when brought into the brushwood,
+                  to find so large a party of Europeans. He struck himself on the breast twice; and
+                  picking up a pinch of dust, flung it on the top of his head, and uttered several
+                  groans.</p>
+               <p>"The rascal!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "All that is in his despair that his comrades did not find
+                  us out. He seems badly hurt on the side of the head, though."</p>
+               <p>The fact was, that the blood was trickling from a wound that the fall had given
+                  him on the head; and now, with the instinctive humanity of woman, <persName
+                     corresp="sepoys.personography.xml#mrshope">Mrs. Hope</persName>, without a
+                  word, took a scarf from her neck, and bound it round his forehead.</p>
+               <p>The Sepoy crossed his hands, and burst into such a throng of expressions of
+                  gratitude, and invoked such multitudinous curses on his own head, and on those of
+                  all his family, past, present, and to come, if he ever forgot the goodness of
+                  Madam Sahib, that <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName> gave him a pole with the end of one of the pistols, as he
+                  said, "That will do! Now, what did you and your fellows want on the road?"</p>
+               <p>"I am the Sahib's slave but they wanted to stop two coaches."</p>
+               <p>"Is there a well near here?"</p>
+               <p>"Yes; at <placeName type="city">Joondar</placeName>."</p>
+               <p>"Oh, we are near the village of that name, then? I thought so, by Jove! Now,
+                     <persName corresp="sepoys.personography.xml#hannibal">Hannibal</persName>, here
+                  are the ladies parched with thirst, and our poor wounded friend, <persName
+                     corresp="sepoys.personography.xml#adrian">Adrian</persName>, in a kind of
+                  fever, and half-choked; so water we must have before we start onwards, and we must
+                  consider, too, where onwards is to lie."</p>
+               <p>"I have thought over it," said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>; "and if we
+                  could only reach <placeName type="city">Agra</placeName>, there are sure to be
+                  troops there."</p>
+               <p>"It's a long march."</p>
+               <p>"It is, indeed; and if we take it, we must march by night, and find out a shelter
+                  somewhere by day, either in the woods or in any of the deserted <placeName
+                     type="building">bungalows</placeName> on our route. I expect of the latter
+                  there are many, for families living in out-of-the-way placed will naturally fly to
+                  the nearest military station."</p>
+               <p>"It is the only thing to be done, brother. What say you, <persName
+                     corresp="sepoys.personography.xml#adrian">Adrian</persName>?"</p>
+               <p>"To <placeName type="city">Agra</placeName>, by all means, if possible! Oh! water!
+                  water! I think if I had water, I should be able to rise and march well with all of
+                  you."</p>
+               <p>"Patience, my good fellow, and you shall have some soon, or my name is not
+                     <persName corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName>.
+                  We must have some food and water for all. Now, this rascal says there is a village
+                  at hand. I propose to go with him on a foraging expedition."</p>
+               <p>"You with him?"</p>
+               <p>"Yes, to take care of him while he takes care of me. Among the things flung into
+                  the carriage over younger among the trees are plenty of odds and ends of clothing,
+                  that will make a respectable mountainteer of me; and they, you know, are fairer
+                  than plain men. I need not speak, and you may trust me to look sharp after our
+                  friend here."</p>
+               <p>"But once in the village, <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, and he may betray you at once!"</p>
+               <p>"Not he! he values his own life too much. I will keep him by the hand. We need but
+                  go to a hut or two, and at the first symptom of treachery he will fully understand
+                  that I will blow his brains out, and then make a running fight back here for my
+                  own life. Besides, it is really doubtful if any news of what has happened at
+                     <placeName type="city">Delhi</placeName> has reached the villages yet."</p>
+               <p>"Go, <persName corresp="sepoys.personography.xml#caesar">Caesar</persName>, and
+                  heaven help you!" said his father.</p>
+               <p>"I'm off! Give an eye to this fellow, while I run over to the carriage for what I
+                  want."</p>
+               <p><persName corresp="sepoys.personography.xml#caesar">Caesar</persName> soon
+                  returned with sufficient apparel to take off his absolutely Europan appearance,
+                  and then he said to the Sepoy, "Hark ye, my friend! here are a few rupees; we want
+                  food and water from the village, and you must ask for both."</p>
+               <p>"May my Lord Sahib's days be lengthened as the shadows of evening! May----</p>
+               <p>"Hold your row, will you? I'm going with you--to take care of you, you know. I
+                  don't intend to speak; but if you say one word, or give one look that points to
+                  treachery, you are a dead man!"</p>
+               <p>"On my head be it! May the grave of my mother be dug up by the jackal! may--</p>
+               <p>"Be quiet! What do I care about all your seed, breed, and generation? Come along
+                  now."</p>
+               <p>With his hand in the breast of his apparel, grasping the butt of a pistol,
+                     <persName corresp="sepoys.personography.xml#caesar">Caesar</persName> walked by
+                  the side of the Sepoy, who, by the rapidity by which he took the young man to the
+                  village, showed his perfect acquaintance with the neighbourhood. It was one of
+                  those miserable little Indian hamlets, with about twenty wretched huts and one
+                  better than the others, the residence of the <foreign xml:lang="ur"
+                     corresp="sepoys.backmatter.xml#zemindar">zemindar</foreign>, or landed
+                  proprietor. All was still, for the villagers had retired to rest; but <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>
+                  <cb n="2"/>stopped at the first door and knocked, as he said to the Sepoy in a low
+                  tone of voice, "Get what you can here, but, above all, a jar of water."</p>
+               <p>"Even so, great Sahib!"</p>
+               <p>The wretched peon who owned the cottage came to the door in a fright, and when the
+                  wants of his visitors were explained and a rupee shown him, some dates, some
+                  coarse brown cakes, and a jar of water were speedily produced.</p>
+               <p>"That will do," whispered <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "Now, back again. What are you doing now?"</p>
+               <p>The Sepoy had elevated his two fingers in a mysterious way just above the crown of
+                  his head, and the peon, with a slught exclamation, stepped back into the hut and
+                  closed the door.</p>
+               <p>"It is the sign of my caste, Sahib! I thought him one with me, but he is not. I
+                  spit upon him! Bah! Poof!"</p>
+               <p>"Confound your jargon and nonsense! Come along."</p>
+               <p>The Sepoy put the jar of water on his head, and trotted quite patiently back to
+                  the spot where the party most anxiously awaited <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>'s return.</p>
+               <p>"All's right!" said the latter. "All's safe! I don't think they know anything int
+                  he village of how matters stand at <placeName type="city">Delhi</placeName>, and
+                  the best thing we can do after this little rest we have had, and finishing the
+                  water and what we have to eat, is to push on <placeName type="city"
+                     >Agra</placeName> way as nearly as we can."</p>
+               <p>This was agreed to on all hands, and the delicious cool water was a most
+                  delightful and seasonable relief. It seemed to put new life into <persName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName>, who
+                  drew a long breath, and for the first time sat up and looked about him.</p>
+               <p>At that moment, with a strange rushing sound, some one passed on the road. It was
+                  a dark naked figure, with the hair tied to the top of the hewad, and in all
+                  respects resembling the Hindoo post or message-bearers from one station to
+                  another. The figure was gone in an instant, and on the road to <placeName
+                     type="city">Delhi</placeName>.</p>
+               <p>"I don't like that!" said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>.</p>
+               <p>"Nor do I!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>.</p>
+               <p>A sudden exclamation at this moment from <persName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName>, who,
+                  for thefirst, had a fair look at the Sepoy, caused every one to start round, as he
+                  cried out, "Seize that villain! seize that villain! I saw him with my own eyes
+                  slaughter two children in <placeName type="city">Delhi</placeName>; and he pursued
+                  me, too! I know him by that scar on his cheek. Seize him!"</p>
+               <p>The Sepoy, with a yell, flung himself suddenly backwards, and rolled over and over
+                  like a ball. <persName corresp="sepoys.personography.xml#caesar">Caesar</persName>
+                  fired two shots after him, but whether they were effective or not, there was no
+                  means of telling, as, in another moment, he was gone in the darkness and distance
+                  of the thick growth of underwood around.</p>
+               <p>This little incident threw the party into a sea of conjectures as to what might be
+                  the result of it, and <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName> exclaimed, "Confound the rascal! First thoughts are best
+                  with them! If I had shot him, as I intended, all would have been right!"</p>
+               <p>"Ah!" said <persName corresp="sepoys.personography.xml#annie">Mrs.
+                     Fletcher</persName>, "What is this?"</p>
+               <p>"What? where?" said every one.</p>
+               <p>An arrow had passed within two inches of her head, and stuck quivering in the
+                  slender trunk of a young tree, against which she had been leaning, with the
+                  child.</p>
+               <p>"To the roadway!" cried <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>, "over the way! To the cover of the carriage on the
+                  other side! Quick! This way all, all of you! That is the way! Face them with me,
+                     <persName corresp="sepoys.personography.xml#caesar">Caesar</persName>! Don't
+                  throw away a shot! Fire, whenever you see one of them, and be sure to hit
+                  him!"</p>
+               <p>In a moment the little bivouac, if it might be so termed, was broken up; and while
+                  the <roleName corresp="sepoys.personography.xml#hannibal">Captain</roleName> and
+                     <persName>Caesar</persName> kept, with <persName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName>, their
+                  faces to the direction whence the arrow came, the ladies ran across the roadway,
+                  and sheltered themselves behind the disabled carriage.</p>
+               <p>Strange to say, though, no more missiles of any description came against them at
+                  that moment. No doubt the arrow was the only one the Sepoy had about him, hidden
+                  probably in his sleeve or back. The well-known dexterity of the <orgName
+                     type="religious">Hindoos</orgName> in extemporising a bow, if they have a knife
+                  and a string withthem, and are anywhere near trees sufficiently accounted for that
+                  part of the transaction.</p>
+               <p>"Well!" said <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>, "that's the Sepoy's gratitude! If ever I come across that
+                  fellow again, I'll make short work of him!"</p>
+               <p>"The rascal!" muttered the <roleName corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName>, wrathfully. "Well, well, he is off now, and so must we be!
+                  Some half-mile further on from here, the high road to <placeName type="city"
+                     >Agra</placeName> branches off to the left. I do not say that we can walk so
+                  far, or that we may not have many perils and adventures before getting there, but
+                  yet it is to <placeName type="city">Agra</placeName> that I should advise we
+                  direct our thoughts, for there are British troops certainly!"</p>
+               <p>"Unlessm: said <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>, "<placeName>Agra</placeName> has shared the fate of
+                     <placeName type="city">Delhi</placeName> and <placeName type="city"
+                     >Meerut</placeName>!"</p>
+               <cb n="3"/>
+               <p>"I dread to think of that!" said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain.</roleName> "It is very
+                  terrible, but we may be wanderers yet for many a day in <placeName type="country"
+                     >India</placeName>, and how are these gentle ones to stand fatigue and
+                  privation?"</p>
+               <p>"Don't be down-hearted!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "If <placeName type="country">India</placeName> is up and
+                  rebellion is over the land, detached bodies of our own troops will be on the move
+                  from place to place in all directions over the country, and we may soon fall in
+                  with some of them, when our worst troubles will be over!"</p>
+               <p>"Heaven send we may!"</p>
+               <p>The fire-arms were now carefully looked to and distributed among the party; and
+                  headed by <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>, while the rear was brought up by <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>; they commenced
+                  their melancholy march through a country soon to be infested with foes of the most
+                  implacable character. The night was fast wearing away, and the faint dawn of a new
+                  day was beginning to show itself, when poor <persName
+                     corresp="sepoys.personography.xml#mrshope">Mrs. Hope</persName> sunk exhausted
+                  and could proceed no further.</p>
+               <p>"Blessings on you all!" she said, faintly. "My prayers will attend you!"</p>
+               <p>"What!" cried <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>, "do you think so meanly of us, madam, as to believe we are
+                  going to leave you, or any of our number, behind? No! we all live or perish
+                  together!"</p>
+               <p>A faintly uttered but deeply felt English hurrah was the response to this speech
+                  from every throat, and the party halted.</p>
+               <p>The situation of this little band of fugitives was now as picturesque as it was
+                  perilous. They had halted on a sort of ridge of rising ground, whcih to their
+                  right sloped downwards with great rapidity, and was lost to observation amid a
+                  confused mass of brushwood and tangled vegeration. To the left was one of those
+                  singular remains which are scattered over <placeName type="country"
+                     >India</placeName>, as evidences and traces of a civilization and a people
+                  higher in the scale of art-education than either the <orgName type="religious"
+                     >Hindoos</orgName> or the <orgName type="religious">Mussulman races</orgName>
+                  that now inhabit the country. Little but a couple of walls and one ruined portico
+                  survived of what had been once, no doubt, a large and magnificent building of the
+                  most elaborate design and rare sculptured elegance.</p>
+               <p>The road, in front, wound down a slight declivity to a wild open-looking country. </p>
+               <p>"What is to be done?" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "By Jove, <persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal</persName>, it is you who
+                  must decide, for the daylight is coming."</p>
+               <p>"Then I decide for a halt," said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>, "till the
+                  evening comes again, when we can take another march, which it would be as perilous
+                  as unpleasant to do in the daytime!"</p>
+               <p>"Can we find shelter there?" said <persName
+                     corresp="sepoys.personography.xml#volumina">Volumina</persName>, looking at the
+                  ruins.</p>
+               <p>"Oh, no!" replied <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "There is no cover there that is not well known to every
+                  wandering native of the whole district. Now, it strikes me, as we are going to
+                  make a halt for some time, the best place we can get into will be among the
+                  tangled bushes down yonder. They rise, as you all see, some four or five feet from
+                  the ground; and, by reposing among them, we may remain quie quiet till nightfall.
+                  What say you, brother?"</p>
+               <p>"It is a good plan, <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, and you and I, too, can mount guard alternately, in case of
+                  a surprise!"</p>
+               <p>"Here goes, then," added <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, "for a but of exploration before you all come. I will look
+                  out for a snug place; and when I hold up my gun, with a handkerchief, you can come
+                  down to me. You will easily see the signal, for the morning is coming on
+                  rapidly.:</p>
+               <p>It was indeed so. In long silent flushes of light, the sweet and lovely Indian
+                  morn was sweeping on, awakening thousands of insect things, and scaring into their
+                  lairs the larger and more savage denizens of the woods, whose habits are
+                  nocturnal. The jackall, with faint cries, slunk to its den. The spotted snake
+                  coiled iself up in its cool retreat, and the night birds, with strange shrieking
+                  calls, dived deep into the woods. Another flush of the new sunlight, and the tips
+                  of the leaves of the tallest trees were sparkled with gold, as they swayed in the
+                  soft air--then another, and the old ruins, the bushes, the far-off landscape, and
+                  all hill and dale, were clothed in the glorious light of day. The gauzy mists flew
+                  up like so many curtains from the valley, and dissipated into thin air; and as the
+                  sad and weary party looked into each other's pale and anxious faces, their eyes
+                  blinked at the flood of light that the prodigality of nature poured upon them.</p>
+               <p>"Halloa!" cried a voice.</p>
+               <p>"Ah, that is <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>!" said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>; "and see, he
+                  waves his signal to us! Let us join him, for doubtless he has found a place of
+                  comparative safety!"</p>
+               <p>Those who were reclining, struggled to their feet; and the ladies, by the aid of
+                  the <roleName corresp="sepoys.personography.xml#hannibal">Captain</roleName> and
+                  the <roleName corresp="sepoys.personography.xml#adrian">Lieutenant</roleName>--the
+                  latter of whom was wonderfully better--essayed the brambly and steep descent, to
+                  where <persName corresp="sepoys.personography.xml#caesar">Caesar</persName> waved
+                  his handkerchief on the muzzle of his gun.</p>
+               <p>The way was impeded by the wild Indian berry, and <p n="156"/><cb n="1"/>the
+                  prickly briar, and a small fruit of the strawberry species, whcih sent its
+                  tendrils in all directions; but they found the route wuite as easy as they had
+                  expected, and were soon close to <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, who called out,
+                  "Come on--come on! Here's one of the old stone or marble quarries, where the old
+                  race<!-- what is this referencing? --> must have got the materials for the remains
+                  so often seen in <placeName type="country">India</placeName>."</p>
+               <p>The whole party was soon by his side, when a beautiful and interesting sight
+                  presented itself.</p>
+               <p>They stood on the brink of an abyss of an irregular circular shape, and about two
+                  hundred feet, or more, across; while the depth seemed to vary from sixty to eighty
+                  feet, to some hundreds. The wild and luxuriant vegetation from the bank had
+                  trailed down into the quarry, and there, in many cases, taken root in the fissures
+                  of stones, and sent up fresh shoots; so that the whole presented a mass of flowers
+                  and wild fruits, alike beautiful to the eye and tempting to the appetite. </p>
+               <p>"What a lovely spot!" exclaimed <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>. "Oh, look at
+                  it, dear <persName corresp="sepoys.personography.xml#annie">Annie</persName>!
+                  Could not one live for ever here!"</p>
+               <p>"It is very beautiful!" said <persName corresp="sepoys.personography.xml#annie"
+                     >Annie</persName></p>
+               <p>"Yes, said the <roleName corresp="sepoys.personography.xml#adrian"
+                     >Lieutenant</roleName>. "A <placeName type="building">bungalow</placeName> on
+                  this height, with that lovely hollow before it, and one loved being to lend the
+                  charm of human sympathy to the spot, and what would one desire more in this world
+                  of ours!"</p>
+               <p>The <roleName corresp="sepoys.personography.xml#adrian">Lieutenant</roleName>
+                  looked at <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName> as he spoke, and the light of love was too evidently sparkling
+                  in his eyes, to admit of a doubt with regard to which would be the loved one he
+                  would like to grace the solitude.</p>
+               <p>"Well!" said <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>; "by Jove, I should want pale ale and <distinct
+                     corresp="sepoys.backmatter.xml#manillas">Manillas</distinct> in abundance, in
+                  addition!"</p>
+               <p>There was a faint attempt at a smile on the sad faces of the party, and then the
+                     <roleName corresp="sepoys.personography.xml#hannibal">Captain</roleName> said,
+                  "There is a rude path down this place, I see, close to us. If it were warranted
+                  free from snakes, now, we could not do better than to take shelter in it; for,
+                  without doubt, there are many chambers of recesses opening from the sides of this
+                  quarry, as there are such in all others I have seen!"</p>
+               <p>"Hush!" said <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>; "listen!"</p>
+               <p>They were silent as the grave; and the faint jingling sound of some cavalcade,
+                  apparently on the march on the high road, met their ears--now swelling higher in
+                  the morning air, and then almost entirely dying away, as though receding to a
+                  great distance.</p>
+               <p>"What is it?" said <persName corresp="sepoys.personography.xml#mrshawkins">Mrs.
+                     Hawkins</persName>, faintly. </p>
+               <p>"Some Hindoo procession," said <persName
+                     corresp="sepoys.personography.xml#mrhawkins">Mr. Hawkins</persName>. "A wedding
+                  one, I should guess, by the jingle of the <distinct
+                     corresp="sepoys.backmatter.xml#cresset">cresset</distinct>-shaped bells. </p>
+               <p>"A wedding!" exclaimed the <persName corresp="sepoys.personography.xml#missflint"
+                     >Hon. Miss Flint</persName>: "how interesting!"</p>
+               <p>The sounds came nearer and nearer, and nearer still; <cb n="2"/>and then they
+                  heard a wild, shrill blast, from some horn of native manufacture, and the firing
+                  of muskets. </p>
+               <p>"Be this what it may," said <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>, "it behoves<!--sic--> us all to get into a place
+                  of safety as quicjly as we can, for they can be no friends to us!"</p>
+               <p>"Yes--yes! Let us hide!" cried every one.</p>
+               <p>"Follow me, then! I see the rude path cut in the stony side of the quarry.
+                  On!--on!"</p>
+               <p>"Death!--death!--death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>!" yellwed a voice
+                  at this moment; and, upon casting their eyes in the direction whence it came, they
+                  saw a wild-looking figure in Hindoo costume--or, rather, no costume--standing,
+                  waving its arms, in an exulting fashion, on the ridge they had just left by the
+                  side of the road.</p>
+               <p>"All right! By Jove, I had him!" cried <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, as he fired a
+                  revolver; and, with a hideous shriek, the Sepoy plunged headlong from the ridge,
+                  and rolled over and over, clutching, with the agony of death, the long trailing
+                  flowers!</p>
+
+               <p>
+                  <emph>(To be continued in our next)</emph>
+               </p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

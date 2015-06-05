@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author>James Malcolm Rymer</author>
+            <editor>Rebecca Nesvet</editor>
+            <editor>Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="frontmatter">
+               <analytic>
+                  <author>Rebecca Nesvet</author>
+                  <author>Rae X. Yan</author>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <date when="2014" />
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="frontmatter">
+            <div xml:id="full_intro">
+               <head xml:id="text_intro">Introduction</head>
+               <!-- this is where the introductory material about the text that we write up goes, will be written by Rae Yan, some sort of hook, explain the 
+               narrative frame, when Jessie comes, include blockquote of her monologue from 4.10 (ch. 7), the legend of Jessie Brown; Rebecca writing about
+               British/Scottish context and the literary references -->
+               <head xml:id="author_info">Author</head>
+               <!-- this is where the information about James Malcolm Rymer, will be written by Rebecca Nesvet -->
+               <head xml:id="text_serialization">Serial Publication</head>
+               <!-- This is where information about serial publication and Reynold's Miscellany will go, will be written by Rebecca Nesvet -->
+               <head xml:id="illustrations">Illustrations</head>
+               <!-- This is where information about illustrations and Reynold's Miscellany will go, will be written by Rae Yan -->
+            </div>
+            <div xml:id="text_contexts">
+               <!-- include more headers for various historical subjects as necessary in future front matter, 
+            currently I just have a few but we're probably going to want to talk about Scotland, Ireland, etc. -->
+               <head xml:id="indian_revolt">The Indian Revolt or Sepoy Rebellion</head>
+               <!-- this is where information about the Indian Revolt will be explained, will be written by Rae Yan -->
+               <head xml:id="chartism">Chartism</head>
+               <!-- this is where information about Chartism will be explained, will be written by Rebecca Nesvet  -->
+               <head xml:id="civilwar">Civil War</head>
+               <!-- this is where information about Civil War will be explained, will be written by Rebecca Nesvet  -->
+               <head xml:id="frenchrevolution">French Revolution</head>
+               <!-- this is where information about French Revolution will be explained, will be written by Rae Yan -->
+            </div>
+            <div xml:id="text_geography">
+               <!-- maps, explanation of <roleName type="military">Major</roleName> places -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

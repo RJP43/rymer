@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<?xml-stylesheet type="text/css" href="../css/teibp.css" title="teibp" alternate="yes"?>
+
+<?xml-model href="../schema/sepoys.schema.xml" type="application/relax-ng-compact-syntax"?>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author corresp="sepoys.personography.xml#JMR">James Malcolm Rymer</author>
+            <editor corresp="sepoys.personography.xml#RN">Rebecca Nesvet</editor>
+            <editor corresp="sepoys.personography.xml#RXY">Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="installment4" prev="sepoys.2.27.xml#installment3"
+               next="sepoys.3.13.xml#installment5">
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter VII: The City of the Mogul</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-03-06"/>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter VIII: The Flight from Delhi</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-03-06"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="installment">
+            <head><date when="1858-03-06">Saturday, March 6, 1858</date></head>
+            <figure>
+               <graphic url="../facsimiles/sepoys.2.27.png"/>
+            </figure>
+            <pb n="113"/>
+            <cb n="1"/>
+            <head>THE <orgName xml:lang="ur" type="indian">SEPOYS</orgName>; OR, <persName
+                  corresp="sepoys.personography.xml#jessie">HIGHLAND JESSIE</persName>.</head>
+            <head>A TALE OF THE PRESENT INDIAN REVOLT.</head>
+            <head>BY <persName type="pseudo">M. J. ERRYM</persName>.</head>
+            <head>AUTHOR OF "<title>JANE BRIGHTWELL</title>," "<title>THE SNOW-DRIFT</title>,"
+               ETC.</head>
+            <div type="chapter">
+               <head xml:id="Ch7">CHAPTER VII.</head>
+               <head>THE CITY OF THE MOGUL</head>
+               <p><placeName type="city">DELHI</placeName>, the beautiful!--<placeName type="city"
+                     >Delhi</placeName>, the magnificent!--seat of the old <orgName type="indian"
+                     >Mogul</orgName> dynasty!--pearl of <placeName type="country"
+                     >Hindostan</placeName>!--It is of thee we must now speak, ere yet the sunny
+                  days of thy peace and prosperity had passed away! When they bazaars glittered with
+                  the profusion of all that was bright and beautiful!--when thy fountains sparkled
+                  in the sun untouched by the splash of blood!--when they princes glistened with
+                  barbaric pearl and gold!--and when thy real lords, the European residents, idly
+                  lolled upon their silken cushions, little dreaming of the volcano that was to
+                  explode over and around them! </p>
+               <p>For a brief period must we leave those in whose fortunes we have become so deeply
+                  interested, in order to go back in the chronology of events, and account for the
+                  strange and startling circumstances that placed <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName> and her poor
+                  young sister <persName corresp="sepoys.personography.xml#bessie"
+                  >Bessie</persName>, in that den of massacre and horror at <placeName type="city"
+                     >Cawnpore</placeName>.</p>
+               <p>The day had been one of unexampled heat for the season ; and the cooler evening
+                  air--only cooler, but not cool--that set in at the sunset over the scorched roofs
+                  of <placeName type="city">Delhi</placeName>, was felt as a seasonable relief by a
+                  large party assembled at one of the most fashionable <placeName type="building"
+                     >bungalows</placeName> of the great <addName
+                     corresp="sepoys.backmatter.xml#cityofthemogul">City of the Mogul</addName>.</p>
+               <p>The <orgName type="family">Hawkins</orgName>'s formerly stood high in the
+                  presidency for wealth and influence. Mr. <persName
+                     corresp="sepoys.personography.xml#vernon">Vernon Hawkins</persName> was an old
+                  civil servant of the <orgName type="company">East India Company</orgName>, and had
+                  grown grey and yellow in <placeName type="country">India</placeName>, adding up
+                  his rupees by lacs towards the latter end of his career, and now only staying in
+                     <placeName type="country">India</placeName> that he might see started on the
+                     <cb n="2"/> same race for gold, his two sons--<persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal Hawkins</persName>, who
+                  was rapidly rising in the army, and <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName>, who was in
+                  the civil service, as collector at <placeName type="city">Delhi</placeName>.</p>
+               <p>The <orgName type="family">Hawkins</orgName>’s were fond of classical names for
+                  their children. Their only daughter was named <persName
+                     corresp="sepoys.personography.xml#volumina">Volumina</persName>
+                  <!--[sic?]-->, and in good truth, taken as a whole, the family had sorely “shaken
+                  the pagoda tree" in <placeName type="country">India</placeName>.</p>
+               <p><persName corresp="sepoys.personography.xml#mrhope">Mr. Hope</persName>, of the
+                  civil service, had been the intimate friend of Mr. <persName
+                     corresp="sepoys.personography.xml#vernon">Vernon Hawkins</persName>. They had
+                  come out in the same vessel and landed together as <distinct type="slang"
+                     corresp="sepoys.backmatter.xml#griffins">griffins</distinct> (newcomers) on the
+                  shores of <placeName type="country">India</placeName>, so that the two families
+                  seldom passed a day without seeing each other; and on this particularly sultry
+                  occasion they sat together, half on the shaded verandah of the <placeName
+                     type="building">bungalow</placeName>, while the <foreign
+                     corresp="sepoys.backmatter.xml#punkah">punkah</foreign> (a large board hinged
+                  to the ceiling of apartments which acts as a fan) gently agitated the heated air.
+                     <persName corresp="sepoys.personography.xml#mrhope">Mr. Hope</persName> had
+                  been gathered to his fathers for more than a year, and but that her eldest
+                  daughter was the wife of <persName corresp="sepoys.personography.xml#fletcher"
+                     >Major Fletcher</persName>, <persName
+                     corresp="sepoys.personography.xml#mrshope">Mrs. Hope</persName> would fain have
+                  left <placeName type="country">India</placeName>.</p>
+               <p>The native servants flitted to and fro with noiseless steps on the matted floors,
+                  bringing cooled sherbet in long flagons to such of the party as desired it ; and
+                  as the sun dipped beneath the faint haze of the western sky, <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName> drew his
+                  cigar languidly from his mouth, and sayd, “By Jove, there comes that half-blood
+                  again! What does the fellow want here? These savages are a precious bore, on my
+                  life!"</p>
+               <p>"Oh, the wretch!" exclaimed <persName corresp="sepoys.personography.xml#volumina"
+                     >Miss Volumina</persName>. “I do wonder at you, Miss <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>, I do, indeed,
+                  to bow to a native!"</p>
+               <p>"But <persName corresp="sepors.personography.xml#jeffur">Jeffur Ahib</persName> is
+                  a gentleman!" said <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName> gently, while a tinge of colour glowed on her soft cheeks, “and
+                  he is a prince in his own land!"</p>
+               <p>"A fiddle-de-dee!" said <persName corresp="sepoys.personography.xml#caesar">Caesar
+                     Hawkins</persName>. “The idea of these native fellows giving themselves airs!
+                  My brother <persName corresp="sepoys.personography.xml#hannibal"
+                     >Hannibal</persName> says that they are a good deal too much petted, these
+                     <orgName xml:lang="ur" type="indian">Sepoy</orgName> vagabonds, and that some
+                  day we shall have to shoot a few score of them; and by Jove, it’s my idea
+                  too!"</p>
+               <p>"I certainly think," said Mr. <persName corresp="sepoys.personography.xml#vernon"
+                     >Vernon Hawkins</persName>, <cb n="3"/>who had reached <placeName type="city"
+                     >Calcutta</placeName> with eighty pounds in his pocket, and now had two hundred
+                  thousand in good investments,--“I certainly think that, considering what we do for
+                  the natives, they are singularly ungrateful!"</p>
+               <p>"Oh, horrid!" said <persName corresp="sepoys.personography.xml#volumina"
+                     >Volumina</persName>. “There’s my maid actually fell asleep while dressing me
+                  this morning, under the pretence of fatigue, because she had been up four nights,
+                  fanning while I slept!"</p>
+               <p>"And my fellow sulked for half the day," added <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, “because I hit him
+                  on the head with the heel of a boot for pulling off my socks so clumsily!"</p>
+               <p>"The natives are really getting dreadful, my dears," said <persName
+                     corresp="sepoys.personography.xml#mrshawkins">Mrs. Hawkins</persName>. “What a
+                  pity it is that there isn’t something like they used to have in the West Indies!
+                  My uncle, the respected <persName corresp="sepoys.personography.xml#bonus">Mr.
+                     Bonus</persName>, had an estate there, with Negroes and natives, and all that
+                  sort of thing; and they always kept a man with a large cart whip, ready to punish
+                  any of them that did anything wrong!"</p>
+               <p>"Ah!" added <persName corresp="sepoys.personography.xml#caesar">Caesar</persName>,
+                  “that’s the way the niggers here ought to be treated!"</p>
+               <p>"Nay," interposed <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName>; “would not kindness do much more to win their love?"</p>
+               <p>"Love! Love!" screamed all the <orgName type="family">Hawkins</orgName> family;
+                  “she says love! Oh, poor <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie Hope</persName>!" and then they set off in a chorus of laughter, which
+                  only stopped when they got too hot to laugh any longer.</p>
+               <p>By the time this rapid discourse had taken place, the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young mountain chief</roleName> who
+                  had been noticed approaching through the garden, by the party, had reached the
+                  steps which led to the verandah, and had there bowed low. His salutations had been
+                  returned by <persName corresp="sepoys.personography.xml#bessie">Bessie</persName>
+                  and the <orgName type="family">Hope</orgName> family only, for they knew that
+                     <persName corresp="sepoys.personography.xml#mrhope">Mr. Hope</persName> had
+                  esteemed him gently.</p>
+               <p>And now, with a dignity in his look and manner, which for a moment awed even
+                     <persName corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName>
+                  to silence, <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>
+                  approached <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>, saying, “<roleName type="honorific"
+                     corresp="sepoys.backmatter.xml#sahib">Sahib</roleName>, it is an untimely hour
+                  for business, but I come a petitioner for—“ </p>
+               <p>"Now, really," said <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>, “my good sir, if you want anything you had better apply at
+                  my <cb n="1"/>office, or, I may say now, at my son’s office—in the morning, or
+                  some other day!"</p>
+               <p>"Not in the morning, by Jove!" said <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, “I’m going out for
+                  some sport!"</p>
+               <p>"I come not for myself," said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, mildly. “I come for another, and for all here!"</p>
+               <p>As he spoke, <persName corresp="sepoys.personography.xml#jeffur"
+                  >Jeffur</persName>, with a wave of his arm that had much grace and dignity in it,
+                  included the <orgName type="family">Hopes</orgName>, who say apart a little from
+                  the <orgName type="family">Hawkins</orgName>’s, in the expression “all here."</p>
+               <p>"You were our father’s friend," said <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>. “Speak
+                  freely! What have you to say, <roleName type="honorific">Prince</roleName>
+                  <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>?"</p>
+               <p>"Prince! ha!—ha!" laughted <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar Hawkins</persName>; “ha!—ha!—friend! Why, now, really, my dear
+                     <persName corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>,
+                  our good friend, <roleName type="military"
+                     corresp="sepoys.personography.xml#fletcher">the Major</roleName>, would not be
+                  well pleased to hear that!"</p>
+               <p>"Peace!" said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, without betraying the least anger or surprise. “Peace let
+                  there be here. <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName>, I come from a poor <foreign xml:lang="hi"
+                     corresp="sepoys.backmatter.xml#ryot">ryot</foreign>, near the village named
+                     <placeName type="city">Choree</placeName>. The young <roleName type="honorific"
+                     corresp="sepoys.backmatter.xml#sahib">Sahibs</roleName>, in their eagerness for
+                  the chase, trampled his little patch of vegetation ; and a lighted cigar, flung on
+                  the thatch of his hut, burnt the thatch and soon reduced it to flames. Compensate
+                  the poor man, <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahibs</roleName>: he and his have had to take refuge among the tombs, for a
+                  fever is vexing the blood of his youngest child." </p>
+               <p>"Now, by Jove!" cried <persName corresp="sepoys.personography.xml#caesar">Caesar
+                     Hawkins</persName>, “this is too bad! Hence a gentleman who is away from his
+                  own country, and devilish hot from morning to night and from night to morning in
+                  this place, can’t go our for a little amusement but he’s asked for compensation!
+                  What’s to compensate me, I wonder, for knocking up my best horses and losing a
+                  dog, eh?"</p>
+               <p>"The poor <foreign xml:lang="hi" corresp="sepoys.backmatter.xml#ryot"
+                     >ryot</foreign>, <roleName type="honorific"
+                     corresp="sepoys.backmatter.xml#sahib">Sahib</roleName>, neither knocked up the
+                  horse nor lost the dog!" said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>.</p>
+               <p>"Now, I tell you what, my good sir," said <persName
+                     corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName>, “I never
+                  argue with a native, nor allow any of my family to do so. Be so good as to call at
+                  the proper office, and see the proper authority, who, after proper consideration
+                  in the proper official way, will do the proper thing when and how he thinks
+                  proper, and that is the only answer I ever give to a native!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> bowed, with
+                  a sad smile, and then with a quiet, gentle movement, he went up to <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>, and after a
+                  low bow, he said, while his voice shook a little, “O, maiden of the starry eyes!
+                  Where is now thy brother, the <roleName type="honorific"
+                     corresp="sepoys.backmatter.xml#sahib">Sahib</roleName>
+                  <roleName type="military" corresp="sepoys.personography.xml#fletcher"
+                     >Major</roleName>—I mean the husband of thy sister?"</p>
+               <p>"Well, I never!" muttered <persName corresp="sepoys.personography.xml#volumina"
+                     >Miss Volumina</persName>. “Maiden of the starry eyes, indeed! No native ever
+                  took such a liberty as to say such a thing to me!"</p>
+               <p>"My husband, good <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>," said <persName corresp="sepoys.personography.xml#annie"
+                     >Annie</persName>, “is with his regiment at <placeName type="city"
+                     >Cawnpore</placeName>!"</p>
+               <p>"At <placeName type="city">Cawnpore</placeName>!—at <placeName type="city"
+                     >Cawnpore</placeName>!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> stood silent
+                  for a moment, and then he said gently, “How much happier you would all be
+                  together—I mean with the <roleName type="military"
+                     corresp="sepoys.personography.xml#fletcher">Major</roleName>
+                  <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib">Sahib</roleName>,
+                  away from <placeName type="city">Delhi</placeName>—at <placeName type="city"
+                     >Cawnpore</placeName>—anywhere away from <placeName type="city"
+                     >Delhi</placeName>! You and yours—this very night—anywhere but at <placeName
+                     type="city">Delhi</placeName>!"</p>
+               <p>His voice now shook as he spoke, and with his hands clasped he leaned towards the
+                  sister, as he repeated the words, “anywhere but at <placeName type="city"
+                     >Delhi</placeName>!"</p>
+               <p>A feeling of alarm came over the heart of <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, and as she
+                  glanced in the direction of an <foreign corresp="sepoys.backmatter.xml#ayah"
+                     >ayah</foreign> who was rocking her child to and fro, while the little fellow
+                  laughed in glee.</p>
+               <p>"<persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>," she said,
+                  “you are a friend in feeling towards us! Tell us what your words signify? </p>
+               <p>For a moment the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">mountain chief</roleName> seemed on
+                  the point of speaking, and then the sudden boom of a cannon in the distance came
+                  upon the ears of the now startled group.</p>
+               <p>"Heyday! What, in the name of all that’s odd, is that?" said <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName>. “Has the
+                     <roleName corresp="sepoys.personography.xml#dalhousie"
+                     >Governor-general</roleName> taken it into His Excellency’s head to pay
+                     <placeName type="city">Delhi</placeName> a visit?"</p>
+               <p>Bang went another cannon.</p>
+               <p>"Good heavens! What is it?"  said <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, as she
+                  involuntarily placed her arm upon the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName> of the
+                  hills.</p>
+               <p>There was then the rattle of a drum, and, in the distance, the braying sound of
+                  cavalry trumpets came upon the ears of the startled group.</p>
+               <p>Even <persName corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName>
+                  turned a little pale, as he cried aloud to his own servant to attend him, and say
+                  if he knew the cause of the tumult in the city.</p>
+               <p>For the first time <persName corresp="sepoys.personography.xml#caesar">Caesar
+                     Hawkins</persName> called in vain—no servant made his appearance. <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName> mechanically
+                  flew to the <foreign corresp="sepoys.backmatter.xml#ayah">ayah</foreign>, and
+                  clasped her child to her own breast.</p>
+               <p>"What is it? Oh, what is it?" she cried.</p>
+               <p>"A fire, no doubt," said <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>. “Nothing but a fire. There is really nothing to be alarmed
+                  at, of course."</p>
+               <p>"By Jove—of course!" echoed <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar Hawkins</persName>. “A fire, no doubt. I didn’t think of that. These
+                  natives are so stupid!"</p>
+               <p>"And so ungrateful!" added the father.</p>
+               <p>"And so careless and idle!" said the mother.</p>
+               <p>"And so ugly!" said <persName corresp="sepoys.personography.xml#volumina"
+                     >Volumina</persName>.</p>
+               <p><cb n="2"/>At this moment a Hindoo servant came rushing up to the steps of the
+                  verandah, and gesticulating furiously with his farms, he said something which
+                  ended only in a strange kind of yell, and then disappeared.</p>
+               <p>The <orgName type="family">Hawkins</orgName> family, now fairly alarmed, sprung to
+                  their feet, and as a horseman dashed into the compound, they all exclaimed, with
+                  one voice, “<persName corresp="sepoys.personography.xml#hannibal"
+                     >Hannibal</persName>! <persName corresp="sepoys.personography.xml#hannibal"
+                     >Hannibal</persName>!"</p>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Hannibal Hawkins</persName>
+                  flung himself from his foaming steed, and rushed up to the party, as he exclaimed,
+                  “A revolt! A revolt of the <orgName type="indian">Sepoys</orgName>! By heaven, the
+                  niggers are up! A revolt!—a revolt! The <orgName type="indian">Sepoys</orgName>
+                  are in arms! <placeName type="city">Meerut</placeName> is sacked, and all
+                  massacred! They march on <placeName type="city">Delhi</placeName>! My regiment
+                  refuses to act, and the Sepoy gunners are firing signal cannon from the battery by
+                  the <placeName type="building">Cashmere Gate</placeName>!"</p>
+               <p><persName corresp="sepoys.personography.xml#mrshawkins">Mrs. Hawkins</persName>
+                  uttered a scream. <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName> rubbed the top of his head with a confused look ; and
+                     <persName corresp="sepoys.personography.xml#caesar">Caesar</persName> fairly
+                  toppled backwards, chair and all, and lay sprawling on the steps of the verandah.
+                  The <orgName type="family">Hope</orgName> family clung to each other in mute
+                  terror.</p>
+               <p>Bang went another gun from the walls of <placeName type="city"
+                  >Delhi</placeName>.</p>
+               <p>"They are at it again! The rebels will be in the city before the morning, and
+                  there is no adequate force to stop them, or hold the place! We must be off and
+                  away!"</p>
+               <p>"Yes, yes! The plate—the jewels!" cried <persName
+                     corresp="sepoys.personography.xml#mrshawkins">Mrs. Hawkins</persName>.</p>
+               <p>"My papers!" said the father.</p>
+               <p>"My cigars!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. “By Jove! Where’s my rifle? Holloa! Where are all the
+                  rascally servants!"</p>
+               <p>"Here’s one, <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName>!" yelled a tall <orgName type="religion">Hindoo</orgName>,
+                  who had, up to then, been the quietest and most submissive of the household, but
+                  who now bounded into the midst of the terrified circle, with his hair loose, the
+                  wild fire of semi-intoxication in his eyes, and a blazing torch in his hand.
+                  “Here, <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahibs</roleName>—all here! They are here, and with but one cry, and that is,
+                  Death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! To man, woman,
+                  and child! To the young and to the old! To the maiden, and the infant at its
+                  mother’s breast! Death to all! Death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! Life for the
+                     <orgName type="indian">Sepoy</orgName>! Life for <placeName type="country"
+                     >India</placeName>! Ha! Ha! The time has come! The lotus leaf has gone forth!
+                  The avengers are at hand! Death! Death! Death! Blood on the land—on the
+                  tree-stem—on the door-step—on the roof-top! Blood, death, and fire!"</p>
+               <p>With another yell, that rung high and loud in the night air, he flung the lighted
+                  toched into the middle of the apartment, and, clearing the steps of the verandah
+                  at one bound, he disappeared in the garden.</p>
+               <p>"By Jove!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>.</p>
+               <p>"Stop, stop, <persName corresp="sepoys.personography.xml#hannibal"
+                     >Hannibal</persName>!" cried <persName
+                     corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName>, as <roleName
+                     type="military">Captain</roleName>
+                  <persName corresp="sepoys.personography.xml#hannibal">Hannibal Hawkins</persName>
+                  drew his sword, and rushed after the man.</p>
+               <p>A wild disorderly shout now burst from ten thousand voices in the city. Then came
+                  a volley of musketry, and then, mingling with the soft light of the Indian sunset,
+                  there was the red glare of fire in various parts of the city.</p>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Hannibal Hawkins</persName>
+                  returned breathless and heated. The lightly-clad and agile native had easily
+                  eluded him. It was <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>, then, who called out, in hopeful accents, “<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>! <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>! He is our
+                  friend, and will save us yet!“</p>
+               <p>All eyes were now turned in the direction where the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young hill chief</roleName> had been
+                  standing, but he had disappeared, and was nowhere to be seen, in or about the
+                     <placeName type="building">bungalow</placeName>. But a new person was at this
+                  moment added to the alarmed group, for a lady, who was a recent importation from
+                     <placeName type="country">England</placeName>, and who rejoiced in the name of
+                  the Hon. <persName corresp="sepoys.personography.xml#missflint">Miss
+                     Flint</persName>, hearing the tumult, rushed from her chamber in a charming
+                  state of deshabille, and flung herself almost into the arms of old <persName
+                     corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName>, as she
+                  exclaimed, “Oh, gracious! What is the matter? Oh, <persName
+                     corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName>, why did you
+                  come to <placeName type="country">India</placeName>? I, who refused two Irish
+                  gentlemen, and a sugar-broker in the City, and might have married twenty times, at
+                  least, in England! Oh! Oh! Oh! What’s that?"</p>
+               <p>Another gun from the walls seemed now to shake the <placeName type="building"
+                     >bungalow</placeName> to its foundation.</p>
+               <p><persName corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName> then
+                  seemed to think that it devolved upon his to assume a sort of generalship of the
+                  party, and, shaking off the Hon. <persName
+                     corresp="sepoys.personography.xml#missflint">Miss Flint</persName>, he cried
+                  out, “I didn’t persuade you to come, my dear madam. You came husband-hunting on
+                  your own account. Shut the doors—I mean the jalousies! Fire the punkah—no,
+                  the—the—fowling-pieces! Kill the villains! Let’s all run away as quick as we can!
+                  Murder! Fire! Rebellion! Pack up the goods!—call the rascally servants!—stand
+                  round me, all of you!—there will be bullets going about soon!"</p>
+               <p>The Hon. <persName corresp="sepoys.personography.xml#missflint">Miss
+                     Flint</persName> swooned—<persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName> swore—Mrs. Hawkins felt a strong inclination to faint, and
+                  so did <persName corresp="sepoys.personography.xml#volumina">Volumina</persName>;
+                  but they thought that if they did so, they would very likely be left behind; so
+                  they preserved their seenses, and only screamed in chorus with the Hon. <persName
+                     corresp="sepoys.personography.xml#missflint">Miss Flint</persName>, now and
+                  then.</p>
+               <p>"Silence, all of you!" said <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>. “You <cb n="3"/>will only bring the fellows upon
+                  us by that clatter! Hark! There!—there again! That is firing! I must not stay
+                  here! My duty is with the few troops we have in <placeName type="city"
+                     >Delhi</placeName>!"</p>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>,
+                  who, whatever may have been his faults in regard to his general tone and manners,
+                  by no means wanted courage, was about to rush from the <placeName type="building"
+                     >bungalow</placeName>, when his mother clung to him on the one side, and
+                     <persName corresp="sepoys.personography.xml#volumina">Volumina</persName> on
+                  the other.</p>
+               <p>"Oh, what will become of us, if you desert us" said <persName
+                     corresp="sepoys.personography.xml#mrshawkins">Mrs. Hawkins</persName>. “My
+                  son—my son! Your one arm can do little in <placeName type="city"
+                  >Delhi</placeName>, but it may save us!"</p>
+               <p>Now that was the most sensible speech that <persName
+                     corresp="sepoys.personography.xml#mrshawkins">Mrs. Hawkins</persName> had ever
+                  made, and it had some effect upon the <roleName type="military"
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>, who said, “I
+                  will only go a little way beyond the ramparts, and will then return to you, on my
+                  honour!"</p>
+               <p>To this there could be no denial, and the <roleName type="military"
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName> left the
+                     <placeName type="building">bungalow</placeName>, and crossing the garden and
+                  court in front of it, he made his way into one of the streets of the city.</p>
+               <p>The scene that there met the view of <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>, in its
+                  multifarious details, baffles all description. The straggling mass of rebels that
+                  had made their way from <placeName type="city">Meerut</placeName> had reached
+                     <placeName type="city">Delhi</placeName>, and the torch of insurrection was
+                  lit. Simultaneously with their rush at the city gates, the Sepoy regiments within
+                  had shaken off their allegiance to their officers, and the confusion in the city
+                  was as if fifty thousand madmen had broken loose, and were yelling and roaring
+                  through the streets.</p>
+               <p>Before many moments had elapsed, a Sepoy of his own regiment made a rush at
+                     <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> to cut him down, shouting as he advanced, “Death to the
+                     <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! Death to
+                  all!"</p>
+               <p>The <roleName type="military" corresp="sepoys.personography.xml#hannibal"
+                     >Captain</roleName> met the savage in full career, and cut him to the earth.
+                  Then, staggering back, <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>, pale, and, with, as he considered, death staring
+                  him in te face, placed himself against a doorway, and with his drawn sword
+                  extended before him, awaited the next attack.</p>
+               <p>And while there, all the din and roar of the rebellious city came upon his ears.
+                  The rattle of musketry—the beating of drums—the clash of cymbals mingling with
+                  that of swords—and the boom of the cannon which the <orgName type="indian"
+                     >Sepoys</orgName> on the walls were turning on the small parties of fugitives
+                  who were flying from the city. The screams of women and children—the agonised
+                  cries of the wounded—and the fearful shouts of the now savage Hindoos—the hoarse
+                  cry of the <orgName type="religion">Mussulman</orgName> devotees calling aloud for
+                  blood—all made up a chaos of sounds that were enough, once heard, to haunt the
+                  imagination for a lifetime.</p>
+               <p>It might be three, four, or five minutes, that, as if paralysed, <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>
+                  maintained the same attitude and listened to those fearful sounds. Then a rabble
+                  of <orgName type="indian">Sepoys</orgName>, bearing a head upon the point of a
+                  spear, came streaming into the street. In a moment a dozen muskets were pointed at
+                  him, and a volley from the whole rattled about his ears.</p>
+               <p>"Death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>!" was the
+                  cry.</p>
+               <p>And death would indeed have been there and then the lot of <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> had not
+                  the door behind him suddenly opened, and a strng hand drawn him through it, and
+                  closed it again on the instant.</p>
+               <p>"Save thoose who will trust in you1" said a voice. “Leave the city by the
+                     <placeName type="building">Eastern Gate</placeName>. It will not be closed
+                  against you and those with you. Oh, hasten! As you value those who should be
+                  dearer to you than life itself!"</p>
+               <p>A glance at the form of him who thus spoke showed <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> that it
+                  was the <roleName type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     chief</roleName>, <persName corresp="sepoys.personography.xml#jeffur">Jeffur
+                     Ahib</persName>, who spoke; but before he could reply there came a volley of
+                  blows upon the closed door, and it began rapidly to yield to the <orgName
+                     xml:lang="ur" type="indian">Sepoys</orgName> who were without.</p>
+               <p>"Death! Death!" was the cry.</p>
+               <p>"Down!—down to the floor and lie still—not as you value your life, for you are a
+                  soldier, but as you value the lives of those whom you may yet save—down!"</p>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>,
+                  even in the confusion of that dreadful moment, understood him, and dropped upon
+                  his face to the ground. The <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName> strode over
+                  him with his drawn sword in his hand, at the moment that the door fell inwards
+                  with a loud crash.</p>
+               <p>The infuriated faces of a dozen <orgName xml:lang="ur" type="indian"
+                     >Sepoys</orgName> appeared at the opening.</p>
+               <p>"Death ! death! Death to the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>!"</p>
+               <p>"It is done!" said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>.</p>
+               <p>The young <roleName corresp="sepoys.personography.xml#hannibal">Captain</roleName>
+                  struggled to his feet.</p>
+               <p>"You have saved me!" he said.</p>
+               <p>"I know it—it was for others. Do not thank me, I can see, O Sahib, that you are
+                  about to do so. Go down that passage, and clamber the wall in the garden beyond
+                  it; you will their <!-- sic --> find yourself with your family again. <cb n="1"
+                  />Lose not a moment, but fly from the city; for before the dawn of a new day there
+                  will not be a drop of English blood within it that will not stain its streets or
+                  its houses."</p>
+               <p>"Oh! Tell me yet—what is the meaning of it all?—this dreadful revolt?" </p>
+               <p>"No more! No more! Fly while you can! The <placeName type="building">Eastern
+                     Gate</placeName>—remember! <placeName type="country">India</placeName> has
+                  risen, and the old Moguls will once again rule in the halls of the imperial palace
+                  of <placeName type="city">Delhi</placeName>! Fly, I say! Fly—or all is lost!—for
+                  you, and for those you should save!"</p>
+               <p>If anything had been required to aid the remonstrances of injunctions of <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> to the young
+                  Captain to make the best use of his time, it would have been found certainly in
+                  the roar and din of conflict from the city ; and now through the broken-down
+                  doorway he saw a sight which froze his blood with horror, and nearly deprived him
+                  of the power of action. </p>
+               <p>Hunted like some wild animal of the chase, a fair and gentle-looking English girl
+                  came screaming onwards, pursued by a troop of yelling savages. Her garments had
+                  been torn from her, and her long, fair, silken hair waved in wild disorder about
+                  her delicate limbs.</p>
+               <p>They cut her down close to the broken doorway. <persName
+                     corresp="sepoys.personography.xml#hawkins">Captain Hawkins</persName> heard her
+                  last shriek, and he saw her body dragged by the limbs in different directions by
+                  his murderers.</p>
+               <p>It was only the strong arm of <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName> that prevented the young officer from rushing forth, sword
+                  in hand, in the vain hope of rescuing her.</p>
+               <p>"Hold! Hold!" whispered <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>. “Are you mad?"</p>
+               <p>"I am mad! Hold me not! Oh! This is indeed maddening!"</p>
+               <p>"You cannot save her."</p>
+               <p>"I can avenge!"</p>
+               <p>"And fall yourself! Think of those you love."</p>
+               <p>"Alas! Alas! Hear me—you, who I know are looked up to as a chief and a warrior by
+                  the <orgName xml:lang="ur" type="indian">Sepoy</orgName> and by the whole <orgName
+                     type="religion">Hindoo</orgName>, as well as the Mahomedan race—hear me, while
+                  I tell you that if the cause of the <orgName xml:lang="ur" type="indian"
+                     >Sepoy</orgName> was as pure as an angel might bless, and if he had more reason
+                  for revolt than ever falls to the lot of mortal man, deeds like this would blast
+                  him and all his race for ever!"</p>
+               <p>"I know it," said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, sadly. “Go! Go! I know it—I feel it! Go at once!"</p>
+
+            </div>
+            <div type="chapter">
+               <head xml:id="Ch8">CHAPTER VIII.</head>
+               <head>THE FLIGHT FROM DELHI.</head>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>
+                  felt indeed that it was fully time he should take what steps he could for the
+                  rescue of the family in the <placeName type="building">bungalow</placeName>. There
+                  was an imperious gesture about the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young mountain chief</roleName> which
+                  enforced command ; and withotu another word the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName> betook himself
+                  to the garden wall mentioned by Jeffyr as separating him from the compound of the
+                     <orgName type="family">Hawkins</orgName>'s.</p>
+               <p>To scale the wall was the work of a moment ; and the young man stood among the
+                  terrified throng he had so recently left.</p>
+               <p>It was, at the instant, a piece of good fortune that <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar Hawkins</persName> did not
+                  fire at him, as he appeared on the top of the wall, by mistake, for one of their
+                  eneies. It was <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName> who called out loudly, "It is <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>! It is
+                  your brother!"</p>
+               <p>"By Jove! so it is!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "I thought it was one of the niggers, <persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal</persName>!"</p>
+               <p>"Quick! quick!" cried <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>. "There is not a moment to lose! I believe the city
+                  is in the hands of the rebels, and I have seen such sights as I never wish to see
+                  again! Get a couple of the carriages out from the stables, and put in the
+                  strongest horses! We must be off at once!"</p>
+               <p>"All right!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>; "off, and away! By Jove, though, I should like to have a
+                  shot at some of the rebels first! What's that?"</p>
+               <p>"Murder!" screamed <persName corresp="sepoys.personography.xml#missflint">Miss
+                     Flint</persName>,--"murder!" </p>
+               <p>All eyes were turned in the direction of that great personage, and they saw her
+                  pointing,with a delirious look, at a portion of the wall of thecuort close to the
+                  gates which shut in the whole establishment from the open thoroughfare beyond. </p>
+               <p>Something dark was slowly making its way over the top of the wall. It was a Sepoy,
+                  with his tulwar in his mouth, so as to leave him full use of his hands, and who,
+                  in another moment, would have been in the court. His design was, no doubt, to open
+                  the gaes frm within and admit his comrades, when the slaughter of the family would
+                  have been certain.</p>
+               <p>"Shoot him!" cried <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>; "shoot him, somebody!"</p>
+               <p>"Down he goes!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. </p>
+               <p>There was a flash and a report, and, with a shrief, the <orgName xml:lang="ur"
+                     type="indian">Sepoy</orgName> rolled into the garden. </p>
+               <p>This shriek of the <orgName xml:lang="ur" type="indian">Sepoy</orgName> was echoed
+                  by such a yell without, that one would have thought a legion of fiends were at the
+                  gate. The fact was, that a party of some thirty Sepoys had determined upon
+                  attacking and sack<cb n="2"/>ing the <placeName type="building"
+                     >bungalow</placeName>, and had preserved silence, with the hope that one of
+                  their number migh crawl over the wall, unperceived, and open the gates. The
+                  failure of their plan rendered silence no longer an element of success with them,
+                  and they yelled, and bellowed, and roared, and struck the gates with their muskets
+                  in all the rage of disappointed vengeance. </p>
+               <p><persName corresp="sepoys.personography.xml#vernon">Mr. Hawkins</persName> and the
+                  females seemed to be quite paralysed by terror, and all he could do was to mutter
+                  something about appealing to the proper athority, who would do something in a
+                  proper way when he thought proper. </p>
+               <p>The Hon. <persName corresp="sepoys.personography.xml#missflint">Miss
+                     Flint</persName> appeared to faint away three times, and to recover again with
+                  astonishing rapidity; and then she commenced a series of screams that rose shrill
+                  and clear over the <orgName xml:lang="ur" type="indian">Sepoys</orgName>' yells of
+                  rage.</p>
+               <p>"Silence!" cried <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>, who was that upon him must devolve all that could be done
+                  in the fearful emergency,--"silence! This noise will confuse us! <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, can you get the
+                  carriages round to the back gate?"</p>
+               <p> "Yes! yes!"</p>
+               <p>"How many of us are here? One, two, three, four, five, six! Oh! We make a party of
+                  nine! You must get out both the carriages, <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, and be quick about
+                  it! Give me your gun, and I will keep these wretches at bay!" </p>
+               <p> The gates were secured by a stout bar, or the <orgName xml:lang="ur"
+                     type="indian">Sepoys</orgName> would soon have forced their way into the
+                  garden; for they fired a musket through the lock, which shattered it to atoms.</p>
+               <p>
+                  <persName corresp="sepoys.personography.xml#caesar">Caesar</persName> surrendered
+                  his gun to his brother, and ran to the stables, at the back of the <placeName
+                     type="building">bungalow</placeName>, to get out the carriages and horses; but
+                  it was not without a notion that there might be an attack in that quarter as well
+                  as from the front.</p>
+               <p> "Now go into the house," said the <roleName
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>, and pack up,
+                  into as small a compass as you can, what you wish to take with you. I will hold
+                  this post till <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName> tells me he has the carriages ready."</p>
+               <p> "Look! look!" cried <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName>. "Another!"</p>
+               <p> On the top of the wall appeared a Sepoy, apparently, by some extraordinary means,
+                  hanging head downwards, and trying if that process brought him low enough to lift
+                  the bar from the gates. The fact was, that a couple of his comrades held him by
+                  the feet in order that this audacious attempt should be made.</p>
+               <p><persName corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>
+                  levelled and fired, and the Sepoy fell; and again came the yell of rage from those
+                  withotu, and they began to batter the gate with a force that made it shake again,
+                  and threatened its speedy demolition.</p>
+               <p>"Hurry <persName corresp="sepoys.personography.xml#caesar">Caesar</persName>, some
+                  of your!" said the Captain. "Our lives depend upon a moment's delay."</p>
+               <p> Into the various rooms of the <placeName type="building">bungalow</placeName> now
+                  rushed the females, and with hurried fingers began to make small packages of what
+                  they valued most; while <persName corresp="sepoys.personography.xml#vernon">Mr.
+                     Hawkins</persName>, with a weak, silly look, first ran in one direction and
+                  then in another, not knowing really what he was about.</p>
+               <p> And now there arose a roaring shot from the <orgName type="indian"
+                     >Sepoys</orgName> without, and, mingles with the cries, was an English voice
+                  calling aloud for help.</p>
+               <p>"Kill! kill the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>!" shouted the
+                     <orgName type="indian">Sepoys</orgName>. "Kill him!--cut him to pieces!" </p>
+               <p> There was a clash of weapons without; and then a voice, unmistakably English,
+                  cried out, "Villains! I will sell my life dearly yet! Help! Help! In the
+                     <placeName type="building">bungalow</placeName>!"</p>
+               <p> "By heavens!" said <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>, "I should know that voice! It is <persName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName> of ours,
+                  and those wretches are slaughtering him! I will make yet one effort to save
+                  him!"</p>
+               <p>Some distance to the right of the large gates was a small narrow door in the wall,
+                  the key of which was always kept in the forked branch of one of the trees close at
+                  hand. </p>
+               <p>This door had apparently escaped in the darkness the attention or observation of
+                  the <orgName type="indian">Sepoys</orgName>, or they could much easier have forced
+                  it than the gates to which they paid all their attention.</p>
+               <p>"<persName corresp="sepoys.personography.xml#adrian">Adrian</persName>!" cried
+                     <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>. "<persName corresp="sepoys.personography.xml#adrian"
+                     >Adrian</persName>, to the right! To the right!"</p>
+               <p>"Help! help!" shouted the <roleName type="military"
+                     corresp="sepoys.personography.xml#adrian">Lieutenant</roleName>. </p>
+               <p>Then there were several shots fired, and <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> rushed
+                  to the narrow door and opened it. Covered with wounds and bleeding fearfully,
+                     <persName corresp="sepoys.personography.xml#adrian">Lieutenant
+                     Adrian</persName> fell down on the very threshold. <persName
+                     corresp="sepoys.personogrphy.xml#hannibal">Captain Hawkins</persName> dragged
+                  him in, and slammed the door in the faces of a couple of <orgName type="indian"
+                     >Sepoys</orgName> who rushed at it.</p>
+               <p>"You are much hurt, <persName corresp="sepoys.personography.xml#adrian"
+                     >Adrian</persName>?" said the <roleName type="military"
+                     corresp="sepoys.personography.xml#hannibal">Captain</roleName>. </p>
+               <p>"I fear they have done for me!" said <roleName type="military"
+                     corresp="sepoys.personography.xml#adrian">the Lieutenant</roleName> faintly.
+                  "Let me lie here!" </p>
+               <p>"No, no! my good fellow, rouse yourself! We are going to run for it, and you must
+                  go with us!"</p>
+               <p>There was no reply. The young officer had either died or fainted.</p>
+               <p>And now <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> felt that he had exposed the weak part of his post to the
+                  foe, and that his posi<cb n="3"/>tion in the garden would soon be untenable; most
+                  welcome, then, was the cry of <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, "All right, <persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal</persName>! Come on! come
+                  on!"</p>
+               <p>"<persName corresp="sepoys.personography.xml#caesar">Caesar</persName>, help me
+                  here!"</p>
+               <p>"What is it?"</p>
+               <p>"<persName corresp="sepoys.personography.xml#adrian">Adrian</persName>, of our's!
+                  I don't think he is dead! We must not leave him to those butchers!"</p>
+               <p>"By Jove, no! Confound the niggers! I'll carry him, and you protect the retreat!
+                  The others are all in the carriages!"</p>
+               <p>"That is well! Ah! It is too late!"</p>
+               <p> The small door in the wall, through which <roleName type="military"
+                     corresp="sepoys.personography.xml#adrian">the young Lieutenant</roleName> had
+                  been rescued, was now dashed open, and several <orgName xml:lang="ur"
+                     type="indian">Sepoys</orgName> rushed into the garden. <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> fired
+                  both barrells of the gun he had in his hands into the midst of them, and then he
+                  rushed after <persName corresp="sepoys.personography.xml#caesar"
+                  >Caesar</persName>, who made good his retreat into the house, and <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> secured
+                  a door through which they passed, and to force which, ould take the Sepoys several
+                  minutes.</p>
+               <p>Those minutes were the life of the whole party. </p>
+               <p>There was in the <placeName type="building">bungalow</placeName> a suffocating
+                  smoke and a strong odour of burning wood, which at once suggested the idea that
+                  the building was on fire ; and, indeed, hardly had the young man reached the
+                  further end of the hall, which went right through the house, when there issued
+                  from one of the rooms the very <foreign corres="sepoys.backmatter.xml#ayah"
+                     >ayah</foreign> who had always professed so much devotion to <persName
+                     corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>'s child, and
+                  who had come with her to nurse on the occasion of the visit to the <orgName
+                     type="family">Hawkins</orgName>'s. She bore a lighted torch in her hands,
+                  which, before she noticed the young man with his wounded friend, she began
+                  applying to the muslin hangings of a window. </p>
+               <p>"Hold!" cried <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>. :You she fiend, what are you about?" </p>
+               <p>With a scream of fright, the <foreign corresp="sepoys.backmatter.xml#ayah"
+                     >ayah</foreign> dropped the torch, and ran into one of the rooms. </p>
+               <p>"We have no trouble about her!" said <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>. "Come on! By Jove!
+                  the niggers are all alike, men and women!" </p>
+               <p>"And where will all this end?" ejaculated <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>. </p>
+               <p>The young man closed the hall, and issued out from it to the back of the
+                     <placeName type="building">bungalow</placeName>, just as the <orgName
+                     type="indian">Sepoys</orgName> forced the front door. <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName> secured
+                  the keys of the back one, and locked it. That was another moment's delay. </p>
+               <p>Immediately before them now they saw the two carriages, with the females already
+                  seated. The domestic carriages used in <placeName type="country">India</placeName>
+                  are small and light ; and as the party, including the wounded <roleName
+                     type="military" corresp="sepoys.personography.xml#adrian"
+                  >Lieutenant</roleName>, now consisted of ten persons, it was much as they could do
+                  to pack themselves in the little frail vehicles.</p>
+               <p><persName corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName>
+                  was laid along the bottom of one of the carriages, and it was hastily resolved
+                  that <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> was to drive one, and his brother <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName> the other. And now
+                     <persName corresp="sepoys.personography.xml#caesar">Caesar</persName> proceeded
+                  to open the gate that would lead them into a back thoroughfare of the city, not
+                  far from the river <geogName type="river">Jumna</geogName>, when, before he drew
+                  the last bolt, he felt certain there was a pressure on the door from without.</p>
+               <p>He listened, but all was still.</p>
+               <p>The young man was active enough when he chose, and to scramble up by some
+                  projections in the wall and peep over it, was the work of a moment. A number of
+                  dark figures lay close under it, evidently in waiting for the carriages to come
+                  forth.</p>
+               <p>The danger was indeed imminent. </p>
+               <p>"By Jove! What's to be done?" said <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>. "And here come the
+                  other niggers from the front!"</p>
+               <p>"There! there!" said <persName corresp="sepoys.personography.xml#bessie">Bessie
+                     Hope</persName>--"round that angle of the wall by the custard-apple trees! Have
+                  we not noticed how frail it is? It can be easily broken down, and the carriages
+                  will pass out!"</p>
+               <p>"It's the only hope!" said <persName corresp="sepoys.persongroaphy.xml#hannibal"
+                     >Captain Hawkins</persName>. "Come <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName>, and help me!"</p>
+               <p>The two young men seized some garden implements which fortunately were kept there,
+                  and attached the rotten and falling wall. A breach was made in a few seconds, and
+                  just as the <orgName type="indian">Sepoys</orgName> rushed from the back door of
+                  the <placeName type="building">bungalow</placeName>, half suffocated by the smoke
+                  with which it was filled, and which had retarded them, the two carriages, with
+                  various bumps over the fallen rubish<!--sic--> of the old wall, emerged from the
+                  compound.</p>
+               <p>Shots were fired after them, but the horses were fresh and neither <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName> nor <persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal</persName> spared any
+                  means to urged them forward. Still that drive through <placeName type="city"
+                     >Delhi</placeName> was an awful one, and had there been anything like
+                  organization about the <orgName type="indian">Sepoy</orgName> force, the escape of
+                  the party would have been simply impossible.</p>
+               <p>As it was, however, the victorious <orgName type="indian">Sepoys</orgName> had
+                  scattered throughout the city in parties, more intent upon plunder than any united
+                  action. To be sure, every isolated European they met with was at once barbarously
+                  murdered ; but all they could do against these two carriages, going along at such
+                  headlong speed, was to fire after them, on the chance of hitting some of the
+                  party.</p>
+               <p><cb n="1"/><persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> did not forget the advice of <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName> to take the
+                     <placeName type="building">Eastern Gate</placeName> of the city, and he
+                  directed his course thither accordingly, closely followed by <persName
+                     corresp="sepoys.personography.xml#caesar">Caesar</persName> in the next
+                  carriage. Occasionally a sudden jerk of the wheels would betray the fact that they
+                  had ridden over some dead or dying wretch in the roadway, and a horrible light
+                  from the conflagration of various <placeName type="building">bungalows</placeName>
+                  began to spread itself about all things. </p>
+               <p>In order to reach the <placeName type="building">Eastern Gate</placeName>, they
+                  had to pass across the principal street in<placeName type="city">Delhi</placeName>
+                  ; and as they reached it, and, in fact, were about to emerge into it, they heard
+                  the clangour of cymbols <!--sic--> and the beating of drums, and shouts of a large
+                  cavalcade.</p>
+               <p>The young men stopped the panting horses, and from the obscurity of th narrow lane
+                  in which they were, they saw pass, accompanied by as much barbaric pomp as could
+                  be imprised for the occasion, the old <roleName type="indian">King of<placeName
+                        type="city">Delhi</placeName></roleName>, in whose name the mutineers
+                  intended to act.</p>
+               <p>Seated on an elephant, with his shaggy eyebrows almost hiding his eyes, the old
+                  faded representative of the <orgName type="indian">Moguls</orgName>, surrounded by
+                  his sons, passed on. From time to time, prisoners were flung down before the huge
+                  feet of the elephant ; and there was a grim smile of satisfaction as the shrieks
+                  of the crushed and mangled wretches rose shrilly to his ears.</p>
+               <p>The cymbals clashed again, and the drums beat, as the wild procession passed on,
+                  carrying a long train of half-intoxicated <orgName type="indian">Sepoys</orgName>,
+                  peons, and the rabble of the city in its rear.</p>
+               <p>"This is horrible!" said <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>. </p>
+               <p>"On! on!" cried <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>; "the way seems clear now."</p>
+               <p>They dashed forward, and a few minutes brought them to the <placeName
+                     type="building">Eastern Gate</placeName>; but, to their dismay, they saw there
+                  a strong guard of Sepoys, and that a couple of cannon were so placed as to command
+                  the thoroughfare leading to the gate, which itself was closed.</p>
+               <p>"We are lost!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. "by Jove, it's all up!"</p>
+               <p>"I fear the worst," said <persName corresp="sepoys.personography.xml#hannibal"
+                     >Captain Hawkins</persName>.</p>
+               <p>At this moment, mounted on a richly caparisoned charger, there issued out from the
+                  small court in front of the <placeName type="building">guard-house</placeName>, an
+                  officer in a glittering suit of chain armour.</p>
+               <p>"Guard!" he cried.</p>
+               <p>There was the rattle of muskets, and the whole guard turned out from the low
+                  building that served for a guard-house.</p>
+               <p>"Open the gate!"</p>
+               <p>"Ah!" said <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName>, "I know that voice! It is <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>! He is in
+                  command of this gate!"</p>
+               <p>"We are saved, then!" sobbed <persName corresp="sepoys.personography.xml#annie"
+                     >Mrs. Fletcher</persName>, as she clasped her child closer to her bosom.</p>
+               <p>"Pass on, two carriages!" cried <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>, in a cold
+                  tone of military command <!-- compare with "sneer of cold command"-->. "Pass on,
+                  by order of the <roleName type="honrific">King</roleName>!" </p>
+               <p>Hardly conscious at the moment whether they had really passed through the gate or
+                  not, so sudden and unlooked-for was this deliverance, the little party found
+                  themselves without the walls.</p>
+               <p>"By Jove!" said <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>, "that's a noble fellow!"</p>
+               <p>The females sobbed aloud in their fulness of heart ; and then, before another word
+                  could be spoken, a tremendous concussion, as if from the disruption of a world,
+                  shook the ground, and was followed by a roaring, rushing sound, that had something
+                  inexpressibly awful in it.</p>
+               <p>"<persName>Willoughby</persName> has fired the Magazine!" said <persName
+                     corresp="sepoys.personography.xml#hannibal">Captain Hawkins</persName>. "He
+                  said he would!"</p>
+               <p><emph>(To be continued in our next)</emph></p>
+
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

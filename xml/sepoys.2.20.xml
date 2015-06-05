@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<?xml-stylesheet type="text/css" href="../css/teibp.css" title="teibp" alternate="yes"?>
+
+   
+<?xml-model href="../schema/sepoys.schema.xml" type="application/relax-ng-compact-syntax"?>
+<TEI> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <author corresp="sepoys.personography.xml#JMR">James Malcolm Rymer</author>
+            <editor corresp="sepoys.personography.xml#RN">Rebecca Nesvet</editor>
+            <editor corresp="sepoys.personography.xml#RXY">Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>sepoys</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="installment2" prev="sepoys.2.13.xml#installment1"
+               next="sepoys.2.27.xml#installment3">
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter III: The Escape from the Assembly Room</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-02-20"/>
+                  </imprint>
+               </monogr>
+               <monogr>
+                  <title level="j">Reynolds's Miscellany</title>
+                  <title level="a">Chapter IV: The Sisters and the Child</title>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <!-- Date of publication of source -->
+                     <date when="1858-02-20"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <!-- Information about the encoding of the text -->
+      <encodingDesc>
+         <projectDesc>
+            <p>Information about the project itself (goals, organization, activities)</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Information about how the texts in a collection were chosen or excerpted</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction status="unknown">
+               <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+            </correction>
+            <normalization method="markup">
+               <p>Information about normalization practices (e.g. treatment of roman numerals,
+                  spelling, etc.)</p>
+            </normalization>
+            <quotation form="std">
+               <p>Information about treatment of quotations (preservation of original quotation
+                  marks, etc.)</p>
+            </quotation>
+            <hyphenation eol="hard">
+               <p>Treatment of the hyphenation of the source</p>
+            </hyphenation>
+            <segmentation>
+               <p>Information about whether and how the text has been segmented (mostly for
+                  linguistic purposes)</p>
+            </segmentation>
+            <interpretation>
+               <p>Information about any interpretive information added to the text</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="installment">
+            <head><date when="1858-02-20">Saturday, February 20, 1858</date></head>
+            <figure>
+               <graphic url="../facsimiles/sepoys.2.20.png"/>
+            </figure>
+            <pb n="97"/>
+            <cb n="1"/>
+            <head>THE <orgName xml:lang="ur" type="indian">SEPOYS</orgName>; OR, <persName
+                  corresp="sepoys.personography.xml#jessie">HIGHLAND JESSIE</persName>.</head>
+            <head>A TALE OF THE PRESENT INDIAN REVOLT.</head>
+            <head>BY <persName type="pseudo">M. J. ERRYM</persName>.</head>
+            <head>AUTHOR OF "<title>JANE BRIGHTWELL</title>," "<title>THE SNOW-DRIFT</title>,"
+               ETC.</head>
+            <div type="chapter">
+               <head xml:id="Ch3">CHAPTER III.</head>
+               <p>THE ESCAPE FROM THE <placeName type="building">ASSEMBLY ROOM</placeName>.</p>
+               <p>The confusion incident to the firing at the Highland soldier in the great Hall of
+                  the Palace at <placeName type="city">Cawnpore</placeName> had enabled the
+                     <roleName type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     hill-chief</roleName>, <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur Ahib</persName>, to escape from the presence of the fiend <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>. Dexteriously rolling
+                  behind the mass of cushions forming that part of the divan, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> had got out of
+                  sight before the lights, that had been in some cases extinguished by the
+                  com-cussion <!--[sic]--> of the air caused by the fire-arms, could be re-lighted. </p>
+               <p>Gliding then behind the officers of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>, who lined the great
+                  hall, he succeeded in reaching the doors, and passed out unobserved among the
+                  disorderly throng that followed the bearers of the supposed dead body of the
+                     <addName corresp="sepoys.personography.xml#sandy">Highlander</addName>. </p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> loved
+                     <persName corresp="sepoys.personography.xml#bessie">Bessie Hope</persName> with
+                  all the ardour of his warm-blooded race; and although he had fought in the ranks
+                  of the <persName corresp="sepoys.personography.xml#nana">Nana</persName>, the
+                  horrors with which the latter stained what he, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, considered to be
+                  the holy cause of <placeName type="country">India</placeName>'s independence, now
+                  sat heavily at his heart, and he felt that he could no longer associate himself
+                  with a struggle that partook of such a character. </p>
+               <!--CHARTISM-->
+               <p>"Dear <persName corresp="sepoys.personography.xml#bessie">Bessie</persName>!" he
+                  murmured to himself, "I will save you; and then, one again, until all these
+                  unhappy troubles are over, I will seek my native hills, and wait the coming of a
+                  calmer and happier season!"</p>
+               <p>The intercourse of <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName> with the <orgName type="family">Hope family</orgName> had
+                  been of the most friendly and intimate character. On several occasions, when they
+                  had sought <geogFeat type="hills" corresp="sepoys.backmatter.xml#dooctees">the
+                     hills</geogFeat> for change of climate from the parched-up <geogFeat
+                     type="plain">plain</geogFeat> below, he <cb n="2"/> had been the almost
+                  constant companion of both the sisters; and the fascination of first love for the
+                  beautiful English girl had sunk deeply into his romantic heart.</p>
+               <p>Nor could a young, ardent being, like <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>, be altogether
+                  indifferent to the chivalric homage of the handsome youth, who ever brought to her
+                  feet the spoils of the chase, and who, by a thousand words and looks, proclaimed
+                  her to be the presiding divinity of his soul.</p>
+               <p>True it was that the earnest wish of her sister and of her sister's husband,
+                     <persName corresp="sepoys.personography.xml#fletcher">Major
+                  Fletcher</persName>, was, that <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName> should become the wife of <persName
+                     corresp="sepoys.personography.xml#adrian">Lieutenant Adrian</persName>, a
+                  gallant young officer and a cousin of <persName
+                     corresp="sepoys.personography.xml#fletcher">Major Fletcher</persName>; but,
+                  although she could not refuse him her esteem and admiration, the heart--the true
+                  innermost heart of the young girl was touched by the gallant <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>. </p>
+               <p>How, and by what circumstances, the two sisyters and the babe became prisoners of
+                  the <persName corresp="sepoys.personography.xml#nana">Nana</persName> in that
+                  awful <placeName type="building">Assembly Room</placeName> at <placeName
+                     type="city">Cawnpore</placeName>, will be hereafter explained. We have now to
+                  do with their fate on that night of terrors. </p>
+               <p>The moon had now passed its meridian, and a flood of light was pouring upon the
+                  streets of <placeName type="city">Cawnpore</placeName>, giving a sweet opal tint
+                  to the roofs of the temples and the superior houses, while the broad shadows cast
+                  by the low bungalows, and by the <placeName type="building">Residency</placeName>
+                  and the <placeName type="building">Assembly house</placeName>, took the opposite
+                  direction to that which they had presented at the opening of our narrative.</p>
+               <p>The consequence of this was, that darkness was superadded to the horrors of that
+                  prison-house. Several of the children had died since the sunset, and the moans and
+                  sighs from the starving throng came sadly on the still night air.</p>
+               <p>There was a feeling of despair at the heart of <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, for he only knew
+                  one things, and that was, that he resolved to rescue <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> or to die with her.
+                  The severed lock of her fair hair, which she had thrust to him through the
+                  jalousies, had too surely proved to him her presence among the victims, who, sad
+                  and faint, waited there their doom.</p>
+               <cb n="3"/>
+               <p>That lock of hair had rested on his heart; and now, in the shadow of some houses,
+                  he paused, and pressed it frantically to his lips and brw, and murmured forth her
+                  name in blessings.</p>
+               <p>"Gods of my ancient race, and, you, God of the <orgName type="religion"
+                     >Christians</orgName>, too, who, I am assured, is one of goodness and mercy,
+                  teach me how to save her whom I love!"</p>
+               <p>Tears gushed to the eyes of the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName>, and he strove
+                  to think of some feasible plan of operations. He knew the guard was doubled--that
+                  is zealously, and, indeed, on peril of its life, guarded the prisoners. What was
+                  he to do? what could he do?</p>
+               <p>Reeling <orgName xml:lang="ur" type="indian">Sepoys</orgName> passed him,
+                  brandishing their tulwars and shouting aloud anathemas on the <orgName
+                     xml:lang="ur" type="european" corresp="sepoys.backmatter.xml#feringhee"
+                     >Feringhee</orgName>. He heard the subdued shouts as the wild scene at the
+                     <placeName type="building">Palace</placeName> still proceeded; and in the far
+                  distance he, too, heard the sullen boom of a cannonade.</p>
+               <p>Despair was still at his heart, when, glittering in the moonbeams, as, with his
+                  sparkling apparel, he passed across an open spot, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> saw an officer of
+                  the <persName corresp="sepoys.personography.xml#nana">Nana</persName>'s house not
+                  far from where he himself was hidden. The officer paused in the moonlight, and
+                  looked curiously at something he held in his hand, and then muttered to himself,
+                  "'Tis hard ot choose the fairest by another's eyes, and on my head be it if the
+                     <persName corresp="sepoys.personography.xml#nana">Nana</persName> is
+                  displeased!"</p>
+               <p>A half-stifled cry burst from the lips of <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>. He recollected to
+                  have heard, while seated near <persName corresp="sepoys.personography.xml#nana"
+                     >Nana <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                        >Sahib</roleName></persName>, a whisper pass from mouth to mouth, that an
+                  officer of his new court, named <persName
+                     corresp="sepoys.personography.xml#gabali">Gab Ali</persName>, was to repair to
+                  the <placeName type="building">Assembly Room</placeName> and choose the fairest of
+                  its occupants for the companion of the night orgies of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>.</p>
+               <p>This, then, was the officer. <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName> now knew him in a moment; and doubtless what he regarded so
+                  curiously was the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>'s signet-ring, which was to give him authority to pass the
+                  guard.</p>
+               <p>To the apprehensions of a lover, who can be so fair as she whom he loves. Did
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, then,
+                  while the thought gave him a heart-pang that nearly killed him, <pb n="98"/>
+                  <cb n="1"/> doubt for a moment that it would be his <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> who would be
+                  chosen?</p>
+               <p>To spring from the deep shadow in which he was, and intercept the officer, was the
+                  work of a moment. </p>
+               <p>"Ho! <persName corresp="sepoys.personography.xml#gabali">Gab Ali</persName>,
+                  whither go you?"</p>
+               <p>The officer drew back, and placed his hand upon his sword.</p>
+               <p>"Who speaks?"</p>
+               <p>“I--<persName corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>!
+                  Know you me not?"</p>
+               <p>“Well--but trust you little. Go your path. I heard the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName> ask for you but
+                  now."</p>
+               <p>“<persName corresp="sepoys.personography.xml#gabali">Gab Ali</persName>, we are
+                  men and brothers, so to speak, as being of the same nation, although race and
+                  caste divide us! I conjure you to tell me whither go you!"</p>
+               <p>The jewels on the rich dress of the officer glistened as he laughed gaily, and
+                  replied, “On a mission for the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>. The <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName> girls are fair as
+                  the moon, and our lord has taste!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> stepped
+                  adroitly between him and the <placeName type="building">guard-room</placeName>,
+                  and laid a hand upon his arm.</p>
+               <p>“On your life, hinder me not!" said the officer. “Our heads would answer even for
+                  this delay if it were known! Out of my path! I have to take a guard with me!"</p>
+               <p>“I know it!--I guessed it! You go to the prison of the English captive women!
+                  There is one so fair--so--fairer than all! Heaven keep me sane! But you go
+                  not!"</p>
+               <p>“Are you mad?"</p>
+               <p>“I am--or shall be! On your life, stir not!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> drew his
+                  sword like a flash of light, and it glittered in the moonbeams as it dazzled the
+                  eyes of the officer, who sprung back a step, and called, hoarsely, “Guard!--guard!
+                  Guard for the <persName corresp="sepoys.personography.xml#nana"
+                  >Nana</persName>!"</p>
+               <p>At the same moment he drew his scimitar, and the keen blades clashed together.
+                  Both were masters of their weapons; and the plash and sparkle of the blades, as,
+                  like living things, they whirled round each other in the moonlight, was magical to
+                  see. The exquisite chain armour of the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young mountain chief</roleName>
+                  glimmered like the coat of a serpent as lithely he fought. Then there was a lounge
+                  <!--sic--> and a fall, a bubbling kind of cry, and the officer of the tyrant fell
+                  pierced through the lungs at the feet of <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>.</p>
+               <p>To stoop for the signet-ring--to tear it from <persName
+                     corresp="sepoys.personography.xml#gabali">Gab Ali</persName>’s finger, and to
+                  place it on one of his own--were the operations of a few seconds to <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>; and then, as he
+                  stood calmly by his fallen foe, he called aloud.</p>
+               <p>"Guard!--guard! Guard for the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>!"</p>
+               <p>The cries of the fallen officer had already reached the ears of the guard, or
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>would
+                  certainly not have encumbered himself with such companions; and it was only from
+                  the policy of the moment that he raised the cry.</p>
+               <p>The guard surrounded him in a moment, and a <foreign xml:id="hi"
+                     corresp="sepoys.backmatter.xml#havildar">havildar</foreign> (sergeant) called
+                  for a torch.</p>
+               <p>"Peace!" said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, with as much calmness as he could command. “The moonbeams
+                  are sufficient."</p>
+               <p>"Seize him!" cried the <foreign xml:lang="hi"
+                     corresp="sepoys.backmatter.xml#havildar">havildar</foreign>. “There is blood
+                  upon his sword, and an officer of the court lies at his feet!"</p>
+               <p>"Hold!" said the <!--sic--><persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>; and he held out his finger, on which sparkled the
+                  signet-ring. “Know you that? It is the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>’s signet! His own
+                  emerald! You have seen it all, and know its power!"</p>
+               <p>The <orgName xml:lang="ur" type="indian">Sepoys</orgName> shrunk
+                  <!--sic-->back.</p>
+               <p>"It is the <persName corresp="sepoys.personography.xml#nana">Nana</persName>’s
+                  signet!" said the havildar. "What are my lord’s orders?"</p>
+               <p>The heart of the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">mountain chief</roleName> beat high
+                  with hope.</p>
+               <p>"Follow me, trusty guard!" he said. “A mission from the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>!"</p>
+               <p>"On my head be it! But this body?"</p>
+               <p>"Place it in the shadow. The <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>orders all!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> again
+                  flashed the emerald ring in the eyes of the <orgName xml:lang="ur" type="indian"
+                     >Sepoys</orgName>, and they obeyed silently.</p>
+               <p>"Now, follow me!"</p>
+               <p>The guard consisted of eight men, and the havildar. They had cast off some portion
+                  of their European costume, but they still wore the accoutrements connected with
+                  their arms; and they shouldered their muskets precisely as they had often done on
+                  the parade at <placeName type="city">Calcutta</placeName>. To be sure, there was a
+                  careless bustle in the order of their march, and an aspect of aggressive insolence
+                  in their manner, which were new; but the discipline they had acquired in the
+                     <orgName type="company">Company</orgName>’s service still sufficiently clung to
+                  them to make them good soldiers.</p>
+               <p>Gladly would <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>
+                  have dispended with the guard, and gone on his errand, for the delivery of the
+                  fair object of his heart’s adorations, alone; but that was not to be thought of
+                  then. Any attempt, even, to disencumber himself ot heir presence, would have
+                  looked suspicious.</p>
+               <p>And so, along the deserted streets--past many a looted house--past a fountain, a
+                  temple, and along a narrow thoroughfare, close to the <placeName type="building"
+                     >Bazaar</placeName>, the party went until they reached the house they sought,
+                  and then <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>
+                  felt that the agitation of his heart must <cb n="2"/>have been forcibly manifest,
+                  even in his countenance, had he allowed the <orgName type="indian">Sepoy</orgName>
+                  guard to see it.</p>
+               <p>The tramp of the men had reached the ears of those on duty over the prisoners, and
+                  there was a tap of a drum and the rattle of arms.</p>
+               <p>"Halt!" cried <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>.</p>
+               <p>They stopped at the foot of some stairs that led to the room in which the English
+                  prisoners were confined. A <orgName type="indian">Sepoy</orgName> officer stepped
+                  forward, sating, “The relief?"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> caught at
+                  the idea.</p>
+               <p>"Yes, yes!" he said eagerly. “You can retire; I bring you a relief, as you
+                  see."</p>
+               <p>"I retire," said the officer, “but the second guard, which doubled mine, I see
+                  remains, as you have only a single relief."</p>
+               <p>The heart of the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName> sunk within
+                  him. He felt that the hope which but a moment before had sprung up so brightly in
+                  his breast was fallacious. There was no gainsaying what the officer stated; the
+                  guard had been doubled by order of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
+                        corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>, and he
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, brought
+                  but men enough for a single relief.</p>
+               <p>"That is true," said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, with a sigh, as he stepped back a pace or two.</p>
+               <p>The muskets rattled, and the guard was changed. <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> finding himself
+                  merely in command of another havildar and eight other men.</p>
+               <p>There was, however, no time for hesitation. The night was fast waning away;
+                  already, in the quarter of the heavens, whence the sun was to rise, there was a
+                  faint opalescent flush--the harbinger of the coming day. <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> uttered a short
+                  prayer to the gods of his native land, in which the name of <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> mingled strangely
+                  with the uncouth ones of the Indian deities. He felt that if he could not save her
+                  before the morning light, he had but to perish with her. Moreover, it might be
+                  expected every moment now that the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName> would send another
+                  messenger to see what had become of the officer slain by the <roleName
+                     type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     chief</roleName> in the moonlight.</p>
+               <p>Starting from the painful reverie of a moment, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> spoke to the
+                  officer of the guard.</p>
+               <p>"The <persName corresp="sepoys.personography.xml#nana">Nana</persName> commands,"
+                  he said, “and all obey."</p>
+               <p>"Even so," replied the officer, “The <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>s will be swept
+                  from the land!</p>
+               <p>"A good work. Know you this signet-ring of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>?</p>
+               <p>The officer saluted the emerald ring respectfully.</p>
+               <p>"Great is the power of my brother, since he has the ring of the<persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>. He is highly
+                  trusted."</p>
+               <p>"Even so," replied <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName> anxiously. “There is a <orgName xml:lang="ur"
+                     type="european" corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>
+                  girl among the prisoners who has found favour in the eyes of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>. I come for her--I will
+                  seek her."</p>
+               <p>"Seek, and find," said the officer. “Peace be to you! The <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>is lord of all here. We
+                  follow his standard--we all obey!"</p>
+               <p>"Thanks! thanks! I shall report well of you to the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>," said <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, as he sprang
+                  lightly up the stone steps that led to the <placeName type="building">Assembly
+                     Room</placeName>."</p>
+               <p>A mist of tears--tears of joy came before the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName>’s eyes, as he
+                  now considered the rescue of Bessie as cerrain; and it was with a shock of
+                  surprise, when he reached a long corridor, open on one side to the night sky, that
+                  he heard the rattle of arms, and a voice called hoarsely, “Who goes there?
+                  Sentinel, to your duty!"</p>
+               <p>"Hold!" gasped <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, “I am an officer of the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>!"</p>
+               <p>"Advance, officer!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> slowly
+                  stepped some paces within the corrdior, and there he saw a well-known officer of
+                  the <persName corresp="sepoys.personography.xml#nana">Nana</persName>’s guard,
+                  with some dozen men on duty. For a moment or two, the young man could not speak; a
+                  crowd of doubts and surmises flashed across his mind. Would this man respect the
+                  ring of the <persName corresp="sepoys.personography.xml#nana">Nana</persName>?
+                  Would he, if did so, leave him, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, to escort the
+                  prisoner. <!--sic--> Hope, which for a few brief minutes, had animated the
+                  countenance of the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young mountain chief</roleName>,
+                  again fled from his heart.</p>
+               <p>"Well?" said the officer, as he confronted <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, with his drawn
+                  sword at the defensive.</p>
+               <p>It was necessary to say something.<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> was desperate, and
+                  he summoned boldness to speak aloud.</p>
+               <p>"From our lord, the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>," he said. "I am directed to bring before him a certain
+                  captive from those in this place."</p>
+               <p>"The pass-word?"</p>
+               <p>"This ring. It is the <persName corresp="sepoys.personography.xml#nana"
+                     >Nana</persName>'s!"</p>
+               <p>"I know! My orders, however, are positive! The <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName> gave you the pass-word,
+                  doubtless; give it me, and you are free to perform your mission!"</p>
+               <p>"He gave me no word, but his own ring surely suffices for so small a matter!"</p>
+               <p>"No!"</p>
+               <p>"On your head be it!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> affected a
+                  carelessness he was far from feeling, and strolled towards the staircase as if to
+                  return. The officer was a little alarmed.</p>
+               <p>"Hold, my friend!" he said. "It may be as you say! You stay here with me, and I
+                  will send a guard <cb n="3"/>with the prisoner to the <persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>, so shall we both be
+                  content!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> grasped at
+                  the balustrade of the staircase for support.</p>
+               <p>"No, no!" he gasped. "No!"</p>
+               <p>"Traitor!" shouted the officer, as he made a rush at <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>.</p>
+               <p>The <roleName type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     chief</roleName> at one bound cleared the stairs, and then drew his sword and
+                  stood on the defensive.</p>
+               <p>"Fire!" cried the officer.</p>
+               <p>A single musket was discharged down the stairs, and then<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, springing up half
+                  a dozen of the steps, called to the officer, who was at the top. "Coward, come
+                  forth! My sword is your fate! Come forth, coward!"</p>
+               <p>"Forward!" cried the officer.</p>
+               <p>There was a rush of feet, and in another moment, instead of the officer, who had
+                  no sort of intention of risking a hand to hand encounter with<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, the <roleName
+                     type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     chief</roleName> would have had the whole guard upon him. He ran round the
+                  corner of the house, and stooping low, in the deep shadow of the overhanging
+                  verandah which went round three sides of it, he avoided the guard, but the alarm
+                  of something wrong had reached the <orgName xml:lang="ur" type="indian"
+                     >Sepoys</orgName> and in a moment<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> found himself face
+                  to face with a sentinel, who brought his musket to the charge, as he challenged
+                  the intruder roughly.</p>
+               <p>The bayonet reached the breast of<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, but he seized it
+                  in both hands and wrested it aside. The sentinel fired, and the ball passed the
+                  cheek of<persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>.</p>
+               <p>Feeling now that the whole of the two guards would be upon him, the young man with
+                  one sweep of his sword cut down the <orgName type="indian">Sepoy</orgName>
+                  sentinel, and then fled close in the shadow of the houses. The tramp of feet was
+                  after him, and, missing his footing, he fell into a small trench near the
+                     <placeName type="building">temple of Ghada</placeName>. Another moment, and a
+                  havildar, with a couple of the guard, were upon him.</p>
+               <p>"Life and liberty, or death!" cried<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, for he felt that
+                  if he were made a prisoner the life of <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> were lost. With the
+                  energy of despair he grappled the <foreign xml:lang="hi"
+                     corresp="sepoys.backmatter.xml#havildar">havildar</foreign>, who was eager to
+                  use his sword, but at such close quarters could not do so.</p>
+               <p>Then suddenly there was a rush and a cry, and one of <orgName type="indians">the
+                     Sepoys</orgName> fell to the right and the other to the left, both as if struck
+                  by lightning. A tall dark figure, with fluttering and strange apparel, then
+                  finished the affray by wrenching the sword from the havildar and passing it
+                  through his heart.</p>
+               <p>"<distinct type="scotsdialect">A weel</distinct>," said a voice; "<distinct
+                     type="scotsdialect">I just reckon they fellows will no do ony mair
+                     mischief!</distinct>"</p>
+               <p>In that tone, so strange to him, and in the tattered, torn, and blood-stained
+                  uniform of the man who had come so opportunely to his rescue,<persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> at once recognised
+                  the <placeName type="region">Highland</placeName> soldier who had been ordered to
+                  be shot in the <placeName type="building">Palace</placeName> by the
+                     ferocious<persName corresp="sepoys.personography.xml#nana">Nana</persName>, and
+                  who he,<persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>,
+                  fully believed had met his death there and then.</p>
+               <p>"<distinct type="scotsdialect">Weel!</distinct>" said the <addName
+                     corresp="sepoys.personography.xml#sandy">Highlander</addName>, as he observed
+                  the young man looking at him with amazement. "<distinct type="scotsdialect">Did
+                     you no see a <addName corresp="sepoys.personography.xml#sandy"
+                        >Highlander</addName> before, that you glower at him as if he was no
+                     canny?</distinct>"</p>
+               <p>"Generous friend!" cried<persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>; "you have saved me!"</p>
+               <p>"<distinct type="scotsdialect">Weel, I just tuk upon mysel' to suppose so. They
+                     were making short wark of you, my lad. but how cam'st it all aboot--for to my
+                     thinking you are just one o' the same kidney yersell?</distinct>"</p>
+               <p>"And you?--You were shot in the hall!"</p>
+               <p>"<distinct type="scotsdialect">Eh? na! There's mony a slip yet between <persName
+                        corresp="sepoys.personography.xml#sandy">Sandy</persName> and a bullet, my
+                     lad. I just saw them level, and then doon I went, and they chucked me out for
+                     dead--but I'm no that dead yet, as ye may see by the bit tap on the lug I gave
+                     to they fellows there!</distinct>"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> seized the
+                  hand of the <addName corresp="sepoys.personography.xml#sandy"
+                  >Highlander</addName>. A thought occurred to him like an inspiration.</p>
+               <p>"Heaven sends you!" he said. "Will you aid me?"</p>
+               <p>"<distinct type="scotsdialect">'Deed, and I think I have, and if you will just
+                     tell me the way out of <!--this uncanny place--> to the British force, it will
+                     be one good turn for another.</distinct>"</p>
+               <p>"I will, indeed. But listen to me first. The <orgName type="uk">English</orgName>
+                  prisoners are confined in the <placeName type="building">Assembly Room</placeName>
+                  yonder. There is one who--who--" </p>
+               <p>The young man covered his face with his hands, and one deep sob came from his
+                  labouring heart.</p>
+               <p>"<distinct type="scotsdialect">Hoot, laddie!</distinct>" said <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>; <distinct
+                     type="scotsdialect">and what are you greeting for the noo</distinct>?"</p>
+               <p>"She is so dear to me--dearer than my life! Will you aid me in her escape? I would
+                  gladly save them all, but that is impossible. We will do what we can. To-morrow I
+                  fear that they will all fall a prey to the vengeance of the<persName
+                     corresp="sepoys.personography.xml#nana">Nana</persName>!</p>
+               <p>"<distinct type="scotsdialect">And you, my lad--you fight for him, and belong to
+                     him?</distinct>"</p>
+               <p>"Never again! I fought a day for <placeName type="country">India</placeName>, but
+                  from this moment I cast aside all connexion with the man of crimes and blood!
+                  Welcome--far more welcome--the yoke of the <orgName xml:lang="ur" type="european"
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName> than the
+                  barbarous rule of a monster!</p>
+               <pb n="99"/>
+               <cb n="1"/>
+               <p>The <addName corresp="sepoys.personography.xml#sandy">Highlander</addName> grasped
+                  the hand of the young man with a vice-like pressure, as he said, “ <distinct
+                     type="scotsdialect">‘Deed, and you are a good lad, after all, and no that black
+                     as I can see!</distinct>"</p>
+               <p>"I come from the <geogFeat type="hills" corresp="sepoys.backmatter.xml#dooctees"
+                     >hills</geogFeat>, and have no kindred with the race of the <geogFeat
+                     type="plain">plains</geogFeat>. But let me explain all to you. <placeName
+                     type="building">The Assembly House</placeName> is guarded on all sides by the
+                  Sepoys. A double chain of sentinels surround it. There is but one chance of
+                  getting any prisoner from it, and that is at a point by the garden-gate, near to a
+                  well that is there. A casement, looking from the room, is about twelve feet from
+                  the ground. If we could dispose of the two sentinels at that corner, we might
+                  right the casement, and break its thin boards, and rescue her I have sworn to
+                  serve."</p>
+               <p>“<distinct type="scotsdialect">We’ll tak’ them all out, man</distinct>!"</p>
+               <p>“Would to heaven we could!"</p>
+               <p>“<distinct type="scotsdialect">Weel, weel</distinct>! We can but try! I wish we
+                  had that <persName corresp="sepoys.personography.xml#dennis">Dennis</persName>,
+                  from the <orgName type="irish">Connaught Rangers</orgName>, here! He’s a good lad,
+                  that, though no a Scotchman!"</p>
+               <p>"Oh, follow me at once! The morn is coming! On, on! My <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>, if I can but save
+                  thee!"</p>
+               <p>"Just lead the way, lad, and I’ll follow you! Is it <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> is the name of the
+                  young thing?"</p>
+               <p>"Yes—<persName corresp="sepoys.personography.xml#bessie">Bessie
+                  Hope</persName>."</p>
+               <p>"<orgName type="family">Hope</orgName>? Is it the <orgName type="family"
+                     >Hopes</orgName> of <placeName type="city"
+                     corresp="sepoys.backmatter.xml#killmarnock">Killmarnock</placeName>? Or the
+                     <orgName type="family">Hopes</orgName> of <placeName type="city"
+                     corresp="sepoys.backmatter.xml#netherby">Netherby</placeName>?"</p>
+               <!-- it's important to know whether the Hopes are of Killmarnock or Netherby, if from Killmarnock, they are a Scottish family, if of Netherby, they are from the North Yorkshire -->
+               <p>"I know not what you mean. On, on!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, stooping
+                  low in order to screen himself from observation—a manoeuvre in which the <addName
+                     corresp="sepoys.personography.xml#sandy">Highlander</addName> imitated him—ran
+                  a considerable distance, so as to make a detour round the house, and reach it from
+                  a different quarter, which he at length succeeded in doing.</p>
+               <p>"Hush!" he said, as he paused in the shadow of an old wall. “Round this next
+                  corner, the sentinels are on duty!"</p>
+               <p>"There’s but two of them."</p>
+               <p>"Two only?"</p>
+               <p>The <addName corresp="sepoys.personography.xml#sandy">Highlander</addName> make a
+                  gesture of disdain; but at that moment they heard the tramp of feet, and the
+                  unmistakable rattle of military accountrements, and they shrunk back into the
+                  shadow of the wall.</p>
+            </div>
+
+            <div type="chapter">
+               <head xml:id="Ch4">CHAPTER IV </head>
+               <head>THE SISTERS AND THE CHILD.</head>
+               <p>To the surprise of <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, a couple of <orgName type="indian">Sepoy</orgName>
+                  sentinels were placed on the wall of the <placeName type="building">Assembly
+                     House</placeName>, to which he and his friend had just arrived; although that
+                  point had been left to the supervision of the two on the other angle of the wall
+                  up to that period.</p>
+               <p>It was necessary, now, if he and the <addName
+                     corresp="sepoys.personography.xml#sandy">Highlander</addName> would speak even
+                  in the lowest tones, to draw still further back from the spot.</p>
+               <p>"Two more of them!" whispered <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>.</p>
+               <p>"Weel, that's no great matter."</p>
+               <p>"No; but if a musket is fured, it will alarm the main guard, and then all will be
+                  lost!"</p>
+               <p>"That's true enough, my lad," said <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>, as he gave his nose
+                  a vigorous rub to assist his invention. "<distinct type="scotsdialect">Weel,
+                     there's no other way. We must just creep up as close to them as we may, and
+                     each lay hold o' one!</distinct>"</p>
+               <p>"It must be so!"</p>
+               <p>"<distinct type="scotsdialect">My conscience, what's that that makes it so
+                     dark?</distinct>"</p>
+               <p>"Oh, blessed chance! The moon has just dippled behind the topmost minaret of the
+                  old temple, and the darkness here is double what it was. Now, follow me, and go as
+                  I go!"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> flung
+                  himself flat on the ground, and, with the slow and torturous action of a serpent,
+                  made his way along the shadow of the wall. <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> followed him,
+                  although he was not so good at that mode of progression as <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>.</p>
+               <p>"Hush!" said the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName>, in so low a
+                  voice that it sounded more like the murmur of some insect than a voice. He
+                  arrested their route at the same moment, for they had reached to within half a
+                  dozen paces of the two Sepoys on guard.</p>
+               <p>And now <persName corresp="sepoys.personography.xml#sandy">Sandy</persName>
+                  whispered something to <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, and put into his hand a small pebble, and <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> nodded; and then
+                     <persName corresp="sepoys.personography.xml#sandy">Sandy</persName> crawled off
+                  for about twenty paces or so,. The two sentinels stood together conversing in low,
+                  monotonous tones.</p>
+               <p>Cautiously, then, <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, as he had been instrucred by <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> to do, flung the
+                  pebble directly to where he was crouching. It made a slight noise, and the
+                  sentinels started. They said something to each other, and then one went in the
+                  direction of the sound and stooped down to look close to the wall, from which
+                     <persName corresp="sepoys.personography.xml#sandy">Sandy</persName> had removed
+                  himself some paces further on.</p>
+               <p>Suddenly, with a spring that brought the Sepoy to his knees, the <addName
+                     corresp="sepoys.personography.xml#sandy">Highlander</addName> was upon him, and
+                  his fingers around his throat. <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName> at the same moment flung himself upon the man who still
+                  remained near to him.</p>
+               <p>The <orgName type="indian">Sepoys</orgName> dropped their muskets and tried to
+                  call <cb n="2"/>for aid, but the pressure on their throats tightened, and their
+                  strength left them. With paralyzed limbs, they dropped to the ground senseless and
+                  motionless. Still there had been a slight rustling round; and from the other side
+                  of the wall, at right angles to this one, the other two sentinels slowly
+                  appeared.</p>
+               <p>"Is all well?" said one in Hindostanee.</p>
+               <p>"All well!" replied <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, in the same tongue.</p>
+               <p>He stood in the attitude as if one guard, and in the darkness, the Sepoy imagined
+                  it his fellow. With a slow tread he walkd on his guard, repeating to his comrade,
+                  "All is well!"</p>
+               <p>"What next?" said <persName corresp="sepoys.personography.xml#sandy"
+                     >Sandy</persName>.</p>
+               <p>"My friend, it will be impossible to get to the window I spoke of while those men
+                  aere there. It is just above their heads, and they do not march on their guard
+                  from it more than thirty paces."</p>
+               <p>"<distinct type="scotsdialect">Ony mair, after them?</distinct>" said <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>.</p>
+               <p>"No; there is no other sentinel on this side of the building."</p>
+               <p>An English <placeName type="building">sentry-box</placeName> had been placed at
+                  the point where these two Sepoys now kept guard; but it had been suffered to go
+                  much to decay, the Sepoys having an objection to use it; and now the <addName
+                     corresp="sepoys.personography.xml#sandy">Highlander</addName>, whose eyes had
+                  become used to the darkness, whispered to <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>, that when the
+                  backs of the guards were turned he would take possession of the <placeName
+                     type="building">sentry-box</placeName>, and drag into it and choke, as he had
+                  done the other Sepoy, whichever of them should pass it first.</p>
+               <p>To any mode of operations which the friend he considered sent to him by heaven
+                  chose to adhere, <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName> at once agreed; and <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>, watching his
+                  opportunity, stepped adroitly into the box.</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> hid himself
+                  by standing close to it, next to the wall, in its deep shadow.</p>
+               <p>There was more danger of alarm in disturbing these two sentinels than the two
+                  others who had already bee disposed of, because they were that much nearer to the
+                  main guard; and the covered corridor or verandah above, in which <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> had already had a
+                  perilous adventure, came round that side of the house about half-way, there
+                  terminating in a couple of fantastic-looking columns.</p>
+               <p>Scarcely had <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>
+                  and his friend secured the positions we have mentioned, than a confused din of
+                  voices, accompanied by several shots, come upon their ears, and a drum beat
+                  violently close at hand.</p>
+               <p>What could be the cause of the uproar they could not imagine, but a havildar of
+                  the guard came running up to the spot where the two sentinels stood, irresolute
+                  apparently what to do, and called out, "One of you to the corner by the <placeName
+                     type="building">temple</placeName>! An English prisoner escapes! Fire on him if
+                  he pass that way!" </p>
+               <p>One of the Sepoys ran to the spot mentioned, and disappeared in the darkness. The
+                  other kept vigilantly on guard.</p>
+               <p>And now the moon, as if resolved to perplex all parties more and more, showed
+                  onep-half of its silver disk through some ornaments abot the roof of the
+                     <placeName type="building">temple</placeName>, and scattered such a strange
+                  mixture of light and shadow on the ground that it was almost impossinle to
+                  distinguish one object from another.</p>
+               <p>Suddenly, the sentinel appeared to see a <!--sic-->something which gave him both
+                  fear and uneasiness, for he slopped back, keeping his eyes bent in one particular
+                  direction, until he was on the very threshold of the <placeName type="building"
+                     >sentry-box</placeName>.</p>
+               <p>The <addName corresp="sepoys.personography.xml#sandy">Highlander</addName> being a
+                  good head taller than the Sepoy, and likewise having the advantage of being
+                  elevated on the floor of the <placeName type="building">sentry-box</placeName>,
+                  could see well over his head, and crawling or rather wriggling along at some
+                  difstance in front, he saw a strange-looking object on the groundm, which might be
+                  a tiger, a serpent, a jackall, or any animal that the wilds of <placeName
+                     type="country">India</placeName> could produce, but certainly looked anything
+                  but human.,</p>
+               <p>The Sepoy sentinel seemed to be stricken with a sort of panic, for he evidently
+                  trembled, and it was not until he had gazed at the strange object for several
+                  minutes that he seemed to recollect that he had a musket and that he was on
+                  duty.</p>
+               <p>"Who goes there?" he cried in Hindostanee.</p>
+               <p>There was no reply.</p>
+               <p>He then challenged in English in the manner the <orgName type="indian"
+                     >Sepoys</orgName> speak the language. </p>
+               <p>Still there was no reply, and the strange object wriggled slowly along.</p>
+               <p>Then the Sepoy brought his musket to the level, but although <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> had no idea in the
+                  world what the object might be, he had no sort of intention of allowing the Sepoy
+                  to give alarm by firing his musket.</p>
+               <p>At the moment, therefore, that the sentinel put himself into an attitude to do so,
+                     <persName corresp="sepoys.personography.xml#sandy">Sandy</persName> just
+                  stretched his arms out of the <placeName type="building">sentry-box</placeName>,
+                  and clutched him by the throad with grasp of iron.</p>
+               <p>"<distinct type="scotsdialect">Na! na!</distinct>" he said; "<distinct
+                     type="scotsdialect">you'll be no doing that, my bairn</distinct>!"</p>
+               <p>A half-stifled shrief from the Sepoy, and all was still. <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> still held him by the
+                  neck.</p>
+               <p>"What is that?  said a voice from that portion of <cb n="1"/>the balcony which
+                  stretched over a part of that side of the house.</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> heard the
+                  question, and promptly replied, "All is well!" </p>
+               <p>He stepped from the cover of the <placeName type="building">sentry-box</placeName>
+                  as he did so, and stood calmly in front of it, as if on duty.</p>
+               <p>"Keep good guard," said the voice.</p>
+               <p>"Good guard, <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
+                     >Sahib</roleName>!" replied <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>. </p>
+               <p>All was still again.</p>
+               <p>The strange gliding object had come to a halt, and there it lay about ten or
+                  twelve yards from the <placeName type="building">sentry-box</placeName>, perfectly
+                  motionless. </p>
+               <p>"<distinct type="scotsdialect">My good lad</distinct>, said <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>, "what in the name of
+                  all that's uncanny, do you call that?"</p>
+               <p>""What?--what?"</p>
+               <p>"<distinct type="scotsdialect">You odd-looking thing thereaway, by the
+                     moonlight.</distinct>"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> was equally
+                  puzzled with <persName corresp="sepoys.personography.xml#sandy">Sandy</persName>,
+                  but now they as they both looked, the mysterious object seemed on fire, for a
+                  strange glow of red heat came from some point of it, then as rapidly went out
+                  again.</p>
+               <p>"I will creep out, and look to it," said <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>.</p>
+               <p>As he spoke, he put on the cap of the <orgName type="indian">Sepoy</orgName>
+                  sentinel, who had by this time been deposited in the <placeName type="building"
+                     >sentry-box</placeName> by <persName corresp="sepoys.personography.xml#sandy"
+                     >Sandy</persName>, and cautiously the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName> stepped
+                  towards the strange object. As he did so, it suddenly rolled over and then sprung
+                  erect, and a voice said, "<distinct type="irishdialect">Murder and turf! here's
+                     one of the niggers beyant me at last!</distinct>"</p>
+               <p>The human character of the object could no longer be doubted, as it made a rush
+                  past <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> towards
+                  the <placeName type="building">sentry-box</placeName>, evidently to seize the
+                  Sepoy's musket which lay on the ground; but <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> closed with the
+                  stranger, saying "<distinct type="scotsdialect">'Deed, but you won't. mu
+                     lad!</distinct>"</p>
+               <p>"<distinct type="irishdialect">Oh, think, by the mother of Moses, is that you,
+                        <persName corresp="sepoys.personography.xml#sandy"
+                     >Sandy</persName>?</distinct>"</p>
+               <p>"<persName corresp="sepoys.personography.xml#dennis">Dennis</persName>?" said
+                     <persName corresp="sepoys.personography.xml#sandy">Sandy</persName>.</p>
+               <p>It was indeed no other than <persName corresp="sepoys.personography.xml#dennis"
+                     >Dennis</persName>, who had escaped from his guard, and who in that snake-like
+                  fashion had been trying to found an outlet from <placeName type="city"
+                     >Cawnpore</placeName>. It was with great difficulty that <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> could control the
+                  transport of his Irish friend sufficiently to prevent him from giving a wild
+                  screeching hilloa!--which would, if <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> had not half choked
+                  him by putting his hand over his mouth, have brought all the Sepoys in <placeName
+                     type="city">Cawnpore</placeName> upon them in a moment.</p>
+               <p>"<distinct type="irishdialect">Oh, bedad! and it's all right we are
+                  now</distinct>!" said <persName corresp="sepoys.personography.xml#dennis"
+                     >Dennis</persName>. "<distinct type="irishdialect">It's the united forces
+                     again, and it's bang all the world we'll be after! Which is the way home, my
+                     friend? I mean to the camp--Och! Botheroo!</distinct>"</p>
+               <p>"<distinct type="scotsdialect">Are you clean daft?</distinct>" said <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>. "<distinct
+                     type="scotsdialect">Just hand your stupid tongue, will ye? There's much to
+                     do.</distinct>"</p>
+               <p><persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> now laid a
+                  hand on each of them. "For the love of all you hold dear, aid me now!" he said;
+                  "and aid me quickly, for there is no time to lose. See how the moon is coming: if
+                  it come, and we here still, all is lost!"</p>
+               <p>"<distinct type="scotsdialect">The lad speaks true</distinct>," said <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName>. "<persName
+                     corresp="sepoys.personography.xml#dennis">Dennis</persName>!"</p>
+               <p>"<distinct type="irishdialect">Hereaway</distinct>," said <persName
+                     corresp="sepoys.personography.xml#dennis">Dennis</persName>.</p>
+               <p>"You'll just obey orders, <persName corresp="sepoys.personography.xml#dennis"
+                     >Dennis</persName>, <distinct type="irishdialect">my man. I'm a sergeant, ye
+                     ken, and your superior officer.</distinct>"</p>
+               <p>"<distinct type="scotsdialect">Faith, then, that's true for you!</distinct>"</p>
+               <p>"Now, my land, which is the casement?"</p>
+               <p>"There! there! said <persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>, as he pointed to the casement to which he ahd before
+                  climbed by the aid of that very <placeName type="building">sentry-box</placeName>,
+                  and through the jalousies of which he had received that precious lock of hair
+                  which still rested on his heart. "Oh, it is there! The boarding is slight, and can
+                  be easily broken through. Oh! aid me well!--save her, I implore you! Keep good
+                  guard for me below here, while I ascend, and all may yet be well. I will direct
+                  you to <persName corresp="sepoys.personography.xml#havelock">Havelock</persName>'s
+                  camp, with my best prayers."</p>
+               <p>"<distinct type="irishdialect">Weel, well! we won't desert you, my lad. Take that
+                     musket</distinct>, <persName corresp="sepoys.personography.xml#dennis"
+                     >Dennis</persName>."</p>
+               <p>"Yes," said <persName corresp="sepoys.personography.xml#dennis"
+                  >Dennis</persName>.</p>
+               <p>"Shoulder arms!"</p>
+               <p><persName corresp="sepoys.personography.xml#dennis">Dennis</persName> shouldered
+                  the Sepoy's musket.</p>
+               <p>"Order! arms."</p>
+               <p>"It's as good as done!" said <persName corresp="sepoys.personography.xml#dennis"
+                     >Dennis</persName>.</p>
+               <p>"Keep close guard, and let no one approach."</p>
+               <p>"<distinct type="irishdialect">Bedad, and this is mighty quare o'me keeping guard
+                     here!</distinct>"</p>
+               <p>Light and agile as one of his own mountain deer, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> sprung to the roof
+                  of the <placeName type="building">sentry-box</placeName>, from which he could just
+                  reach the lower part of the casement.</p>
+               <p>"<distinct type="scotsdialect">Here's a lightsome, active lad</distinct>," said
+                     <persName corresp="sepoys.personography.xml#sandy">Sandy</persName> admiringly,
+                  as the figure of the <roleName type="honorific"
+                     corresp="sepoys.personography.xml#jeffur">young chief</roleName> glittered in
+                  its chain armour, as now and then a ray of moonlight fell upon it.</p>
+               <p>And now, with heart and brain throbbing with excitement, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> tapped with his
+                  dagger hilt at the wood-work of the casement. Then came a cry from within, and
+                  something white appeared between the jalousies. They were two small fingers.
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> pressed
+                  them with devotion, and his tears fell fast upon them.</p>
+               <p>"Saved!--oh, God! saved! said a voice from within. "'Tus he! oh, 'tis he!" He has
+                  not deserted us!"</p>
+               <pb n="100"/>
+               <cb n="1"/>
+               <p>Then arose other cries, and prayers, and some shrieks from within that awful room
+                  where the living and the dead lay together, with famine on every cheeck; and the
+                  heart of the young man beat painfully against his coat of mail. The cries of
+                  distress and terror reached the ears of <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> and <persName
+                     corresp="sepoys.personography.xml#dennis">Dennis</persName>, and the strong,
+                  brave men shook in every limb, and wept like children. Then, with his dagger,
+                     <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName> began his
+                  work at the jalousies, and the splintered, dry wood flew fast before his efforts.
+                  With his hands, then, he tore away the broken pieces, calling, as he did so, upon
+                  the name of her he loved so truly. Two fair, thin--oh! so wan and thin--arms were
+                  thrust through the first opening, and they fell on the neck of the <roleName
+                     type="honorific" corresp="sepoys.personography.xml#jeffur">young
+                     chief</roleName>. Sobs, and tears, and prayers came from the pale lips that he
+                  saw in the moonlight, and the long, fair hair fell upon him like rays of
+                  sunshine.</p>
+               <p>"Saved! oh, God! I shall be saved!" said <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName>. "I do love him!--I
+                  will love him! He is not o my creed or people, but God will let me love him!"</p>
+               <p><emph>(To be continued in our next.)</emph></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
