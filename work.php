@@ -2,7 +2,7 @@
 <html>
 	<?php
 	require('include/functions.php');
-	$title = 'Work Contents';
+	$title = 'Work Contents!';
 	$work = '';
 
 	if($_GET["work"]) {
