@@ -26,7 +26,7 @@
 						<div id="articles-reviews-index">
 			<?php
 				
-			$works = array('sepoys' => 'The Sepoys');
+			$works = array('sepoys' => 'The Sepoys', 'pearls' => 'The String of Pearls');
 
 			foreach ($works as $key => $title) {
 				print '<p><a class="issue-link" href="work.php?work='.$key.'">'.$title.'</a></p>';

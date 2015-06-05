@@ -8,10 +8,7 @@ Rymer
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="TEI.2">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="tei.2">
+    <xsl:template match="TEI">
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="/">

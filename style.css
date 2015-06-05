@@ -133,3 +133,7 @@ a.top-link span.top-link-label {
 	font-weight:normal;
 	font-size:.8em;
 }
+/* Work Contents */
+#work-contents ul.chapter-links {
+	padding-left: 20px;
+}

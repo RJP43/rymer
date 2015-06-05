@@ -28,7 +28,7 @@
 						</div>
 					</div>
 					<div id="main">
-						<div id="articles-reviews-index">
+						<div id="work-contents">
 			<?php
 				
 			$docsXml = array();
@@ -55,7 +55,7 @@
 			
 			//usort($docsXml, 'cmpArticle');
 			foreach ($docsXml as $file) {
-				print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('D, d M Y', strtotime($file['date'])).')</a></p>';
+				print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('l, j F Y', strtotime($file['date'])).')</a></p>';
 				if(count($file['chapTitles']) > 0) {
 					print '<ul class="chapter-links">';
 					for($i=0; $i<count($file['chapTitles']); $i++) {

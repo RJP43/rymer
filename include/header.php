@@ -7,7 +7,7 @@
                             	<div class="clear"></div>
                             </div>
                             <div id="global_nav">
-                                <a href="/">List of Works</a> | <a href="work.php?work=sepoys">The Sepoys</a> | <a href="installment.php?file=about">About</a>
+                                <a href="/">List of Works</a> | <a href="work.php?work=sepoys">The Sepoys</a> | <a href="work.php?work=pearls">The String of Pearls</a> | <a href="installment.php?file=about">About</a>
                                 <div class="clear"></div>
                             </div>
                         </div>
