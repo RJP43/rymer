@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--schema-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The String of Pearls; or, the barber of Fleet Street, a domestic romance: an electronic edition</title>
+                <author>James Malcolm Rymer</author>
+                <editor>Rebecca Nesvet</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Price One Penny</publisher>
+                <publisher>Marie Leger St. Jean</publisher>
+                    <availability status="free">
+                    <p>Freely available on a non-commercial basis.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="installment1" prev="sepoys.frontmatter.xml#frontmatter" next="sepoys.2.20.xml#installment2">
+                    <monogr>
+                         <title level="a">Chapter I: The Strange Customer at Sweeney Todd's</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <!-- Date of publication of source -->
+                            <date when="1850"/>
+                        </imprint>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <!-- Information about the encoding of the text -->
+        <encodingDesc>
+            <projectDesc>
+                <p>Information about the project itself (goals, organization, activities)</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Information about how the texts in a collection were chosen or excerpted</p>
+            </samplingDecl>
+            <editorialDecl>
+                <correction status="unknown">
+                    <p>Information about treatment of errors in the source (silently corrected, etc.)</p>
+                </correction>
+                <normalization method="markup">
+                    <p>Information about normalization practices (e.g. treatment of roman numerals,
+                        spelling, etc.)</p>
+                </normalization>
+                <quotation form="std">
+                    <p>Information about treatment of quotations (preservation of original quotation
+                        marks, etc.)</p>
+                </quotation>
+                <hyphenation eol="hard">
+                    <p>Treatment of the hyphenation of the source</p>
+                </hyphenation>
+                <segmentation>
+                    <p>Information about whether and how the text has been segmented (mostly for
+                        linguistic purposes)</p>
+                </segmentation>
+                <interpretation>
+                    <p>Information about any interpretive information added to the text</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="installment">
+            <figure>
+                <!--<graphic url="http://archive.org/stream/stringofpearlsor00ryme#page/n8/mode/1up"-->
+                <head><idno type="plate" n="1"></idno></head>
+                </figure>
+                <pb n="2"/>
+                <head>THE STRING OF PEARLS</head>
+                <div type="chapter">
+                    <head xml:id="Ch1">CHAPTER I. <lb/>THE STRANGE CUSTOMER AT <persName>SWEENEY TODD</persName>'S</head>
+
+                    <p>BEFORE <placeName>Fleet-street</placeName> had reached its present importance, and when <persName>George the Third</persName> was young, and the <persName>two figures</persName> that used to strike the chimes at <placeName>old <persName>St. Dunstan</persName>'s church</placeName> were in all their glory--being a great impediment to errand-boys on their progress, and a matter of gaping curiosity to country people--there stood close to the sacred edifice a small barber's shop, which was kept by a man of the name of <persName>Sweeney Todd</persName>.</p>
+
+                    <p>How it was that he came by the name of <persName>Sweeney</persName>, as a Christian <note>appellation</note>, we are at a loss to conceive, but such was his name, as might be seen in extremely corpulent yellow letters over his shop window, by any who there chose to look for it.</p> 
+
+                    <p>Barbers by that time in <placeName>Fleet-street</placeName> had not become fashionable, and no more dreamt of calling themselves artists than of taking the <placeName>tower</placeName> by storm; moreover, they were not, as they are now, consistently <note>slaughtering fine fat bears</note>, and yet, somehow people had hair on their heads just the same as they have at present, without the aid of that <note>unctuous auxiliary</note>. Moreover, <persName>Sweeney Todd</persName>, in common with those really primitive sort of times, did not think it at all necessary to have any <note>waxen effigies of humanity</note> in his window. There was no languishing young lady looking over the left shoulder in order that a profusion of auburn tresses might repose upon her lily neck, and great conquerors and great statesmen were not then, as they are now, held up to public ridicule with dabs of rouge upon their cheeks, a quantity of gunpowder scattered in their beard, and some bristles sticking on end for eyebrows.</p>
+                    
+                    <p>No, <persName>Sweeney Todd</persName> was a barber of the old school, and he never thought of glorifying himself on account of any extraneous circumstance. If he had lived in <persName>Henry the Eighth</persName>'s palace, it would be all the same as <persName>Henry the Eighth</persName>'s dog-kennel, and he would scarcely have believed human nature to be so <note>green</note> as to pay an extra sixpence to be shaven and shorn in any particular locality.</p>
+                    
+                    <p>A long pole painted white, with a red stripe curling spirally round it, projected into the street from his doorway, and on one of the panes of glass in his window, was presented the following couplet:--</p>
+                    
+                    <p>"Easy shaving for a penny,<lb/>As good as you will find any."</p>
+                    
+                    <p>We do not put these lines forth as a specimen of the poetry of the age; they may have been the production of some young <note>Templar</note>; but if they were a little wanting in poetic fire, that was amply made up by the clear and precise manner in which they set forth what they intended.</p>
+                    
+                    <p>The barber himself was a long, low-jointed, ill-put-together sort of fellow, with an immense mouth, and such huge hands and feet, that he was, in his way, quite a <note>natural curiosity</note>; and what was more wonderful, considering his trade, there never was seen such a head of hair as <persName>Sweeney Todd</persName>'s. We know not what to compare it to; probably it came nearest to what one might suppose to be the appearance of a thick-set hedge, in which a quantity of small wire had got entangled. In truth, it was a most terrific head of hair; and as <persName>Sweeney Todd</persName> kept all his combs in it--some people said his scissors likewise--when he put his head out of the shop-door to see what sort of weather it was, he might have been mistaken for an Indian warrior with a very remarkable head-dress.</p>
+                   
+                    <p>He had a short disagreeable kind of unmirthful laugh, which came in at all sorts of odd times when nobody else saw anything to laugh at at all, and which sometimes made people start again, especially when they were being shaved, and <persName>Sweeney Todd</persName> would stop short in that operation to indulge in one of those <note>cachinatory effusions</note>. It was evident that the remembrance of some very strange and <pb n="3"/> out-of-the-way joke must occasionally flit across him, and then he gave his hyena-like laugh, but it was so short, so sudden, striking upon the ear for a moment, and then gone, that people have been known to look up at the ceiling, and on the floor, and all round them, to know from whence it had come, scarcely supposing it possible that it had proceeded from mortal lips. </p>
+                   
+                   <p>Mr. <persName>Todd</persName> squinted a little, to add to his charms; and so we thin that by this time the reader may, in his mind's eye, see the individual whom we wish to present to him. Some thought him a careless enough, harmless enough fellow, with not much sense in him, and at times they almost considered he was a little <note>cracked</note>; but there were others who shook their heads when they spoke of him; and while they could say nothing to his prejudice, except that they certainly considered he was odd, yet, when they came to consider what a great crime and misdemeanour it really is in this world, to be odd, we shall not be surprised at the ill-odour in which <persName>Sweeney Todd</persName> was held.</p>
+                    
+                    <p>But for all that he did a most thriving business, and was considered by his neighbours to be a very well-to-do sort of man, and decidedly, <note>in city phraseology, warm</note>.</p>
+                    
+                    <p>It was so handy for the young students in the <orgName>Temple</orgName> to pop over to <persName>Sweeney Todd</persName>'s to get their chins new rasped; so that from morning to night he drove a good business, and was evidently a thriving man.</p>
+                    
+                    <p>Such was the state of things, A. D. <note>1785</note>, as regarded <persName>Sweeney Todd</persName>.</p>
+                    
+                    <p>The day is drawing to a close, and a small drizzling kind of ain is falling, so that there are not many <note>passengers</note> in the streets, and <persName>Sweeney Todd</persName> is sitting in his shop looking keenly in the face of a <persName>boy</persName>, who stands in an attitude of trembling subjection before him.</p>
+                    
+                    <p>"You will remember," said <persName>Sweeney Todd</persName>, and he gave his countenance a horrible twist as he spoke, "you will remember, <persName>Tobias Ragg</persName>, that you are now my apprentice, that you have of me board, washing, and lodging, with the exception that you don't seep here, that you take your meals at home, and that your mother, <persName>Mrs. Ragg</persName>, does your washing which she may very well do, being a laundress in the <placeName>Temple</placeName>, and making no end of money; as for lodging, you lodge here, you know, very comfortably in the shop all day. Now, are you not a happy dog?"</p>
+                    
+                    <p>"Yes, sir," said the boy timidly.</p>
+                    
+                    <p>"You will acquire a first-rate profession, quite as good as the law, which your mother tells me she would have put you to, only that a little weakness of the head-piece disqualified you. And now, <placeName>Tobias</placeName>, listen to me, and treasure up every word I say."</p>
+                    
+                    <p>"Yes, sir."</p>
+                    
+                    <p>"I'll cut your throat from ear to ear, if you repeat one word of what passes in this shop, or dare to make any supposition, or draw any conclusion from anything you may see, or hear, or fancy you see or hear. Now you understand me,--I'll cut your throat from ear to ear,--do you understand me?"</p>
+                    
+                    <p>"Yes, sir, I won't say nothing. I wish, sir, as I may be made into veal pies at <persName>Lovett</persName>'s in <placeName>Bell-yard</placeName> if I as much as says a <note>vord</note>."</p>
+                    
+                    <p><persName><note>Sweeny</note> Todd</persName> rose from his seat; and opening his huge mouth, he looked at the boy for a minute or two in silence, as if he fully intended swallowing him, but had not quite made up his mind where to begin.</p>
+                    
+                    <p>"Very good," at length he said, "I am satisfied, I am quite satisfied; and mark me--the shop, and the shop only, is your place."</p>
+                    
+                    <p>"Yes, sir."</p>
+                    
+                    <p>"And if any customer gives you a penny, you can keep it, so that if you get enough of them you will become a rich man; only I will take care of them for <pb n="4"/> you, and when I think you <note>want</note> them I will let you have them. Run out and see what's o'clock by St <placeName>Dunstan</placeName>'s."</p>
+                    
+                    <p>There was a small crowd collected opposite the church, for the figues were about to strike three-quarters past six; and among that crowd was one <persName>man</persName> who gazed with as much curiosity as anybody at the exhibition. </p>
+                    
+                    <p>"Now for it!" he said, "they are going to begin; well, that is ingenious. Look at the fellow lifting up his club, and down it comes bang upon the old bell."</p>
+                    <p>The three-quarters were struck by the figures; and then the people who had loitered to see it done, many of whom had day by day looked at the same exhibition for years past, walked away, with the exception of the man who seemed so deeply interested.</p>
+                    <p>He remained, and crouching at his feet was a noble-looking <persName>dog</persName>, who looked likewise up at the figures; and who, observing his master's attention to be closely fixed upon them, endeavoured to show as great an appearance of interest as he possibly could.</p>
+                    <p>"What do you think of that, <persName>Hector</persName>?" said the man.</p>
+          
+                    <p>The dog gave a short low whine, and then his master proceeded,--</p>
+                    
+                    <p>"There is a barber's shop opposite, so <!--to be continued...--></p></div>
+            </div>
+        </body>
+        <back>
+            
+        </back>
+    </text>
+</TEI>
