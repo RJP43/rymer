@@ -1,5 +1,11 @@
+<?php
+$pt[] = 'James Malcolm Rymer Archive';
+if($pt_post != '') {
+	$pt[] = $pt_post;
+}
+?>
 	<head>
-                <title>Blake/An Illustrated Quarterly <?php echo $pt; ?></title>
+                <title><?php echo implode(' | ', $pt); ?></title>
                 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
                 <link rel="shortcut icon" href="img/general/favicon.ico" type="image/x-icon">
 				<link rel="icon" href="img/general/favicon.ico" type="image/x-icon">

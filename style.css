@@ -56,15 +56,13 @@ ul {
 	color: #282d27;
 }
 /* Header & Search form */
-#logo {
+#site-title {
 	width: 425px;
 	float: left;
 }
-#logo a {
-	color: #FFFFFF;
-}
-#logo a img{
-	margin: 0;
+#site-title a {
+	font-size: 2em;
+	font-variant: small-caps;
 }
 /* Global Navigation */
 #global_nav {

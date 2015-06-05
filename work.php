@@ -2,7 +2,7 @@
 <html>
 	<?php
 	require('include/functions.php');
-	$title = 'Work Contents!';
+	$title = 'Work Contents';
 	$work = '';
 
 	if($_GET["work"]) {
@@ -53,9 +53,8 @@
 				}
 			}
 			
-
+			//usort($docsXml, 'cmpArticle');
 			foreach ($docsXml as $file) {
-				//usort($file, 'cmpArticle');
 				print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('D, d M Y', strtotime($file['date'])).')</a></p>';
 				if(count($file['chapTitles']) > 0) {
 					print '<ul class="chapter-links">';

@@ -9,7 +9,8 @@
 	$fileSplit = '';
 	//$date = '';
 	$title = '';
-	$pt = '';
+	$pt = array();
+	$pt_post = '';
 	
 	if($_GET["file"] && simplexml_load_file('xml/'.$_GET["file"].'.xml')) {
 		$file = $_GET["file"];
@@ -24,7 +25,7 @@
 		$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
 		$title = $XMLtitle[0];
 		
-		$pt = $title;
+		$pt[] = $title;
 	} else {
 		$fileExists = false;
 	}
