@@ -83,7 +83,7 @@ Rymer
     </xsl:template>
     <xsl:template match="persName">
         <a>
-            <xsl:attribute name="href"><xsl:value-of select="@corresp"/></xsl:attribute>
+            <xsl:attribute name="href">person.php?file=<xsl:value-of select="@corresp"/></xsl:attribute>
             <xsl:apply-templates/>
         </a>
     </xsl:template>
