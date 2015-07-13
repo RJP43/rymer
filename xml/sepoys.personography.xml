@@ -196,12 +196,6 @@
                         <p>Soldier of the Nana's crew.</p>
                      </note>
                   </person>
-                  <person xml:id="jessie">
-                     <persName>
-                        <addName type="epithet">Highland</addName>
-                        <forename>Jessie</forename>
-                     </persName>
-                  </person>
                   <person xml:id="vernon">
                      <persName>
                         <roleName type="honorific" full="abb">Mr.</roleName>
@@ -299,15 +293,6 @@
                      <note>
                         <p>A woman in Delhi with the Hawkins family at the time of the
                            rebellion.</p>
-                     </note>
-                  </person>
-                  <person xml:id="bonus">
-                     <persName>
-                        <roleName type="honorofic" full="abb">Mr.</roleName>
-                        <surname>Bonus</surname>
-                     </persName>
-                     <note>
-                        <p>Uncle of <persName corresp="mrshawkins">Mrs. Hawkins</persName>.</p>
                      </note>
                   </person>
                   <person xml:id="hooderali">

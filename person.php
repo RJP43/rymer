@@ -5,14 +5,16 @@
 	
 	$fileExists = true;
 	$file = '';
+	$person = '';
 	$series = '';
 	$fileSplit = '';
 	$title = '';
 	$pt = array();
 	$pt_post = '';
 	
-	if($_GET["file"]) {
+	if($_GET["file"] && $_GET["p"]) {
 		$file = $_GET["file"];
+		$person = $_GET["p"];
 		$fileParts = explode('.', $file);
 		$series = $fileParts[0];
 		if(simplexml_load_file('xml/'.$file)) {			
@@ -24,6 +26,8 @@
 		} else {
 			$fileExists = false;
 		}
+	} else {
+		$fileExists = false;
 	}
 	
 	require('include/head.php');
@@ -36,13 +40,32 @@
 						$XML = new DOMDocument(); 
 						$XML->load( 'xml/'.$file );
 						
+						# Remove all persons but the one indicated
+						$TEI = $XML->documentElement;
+						$persons = $TEI->getElementsByTagName('person');
+						
+						$XMLperson = new DOMDocument;
+						
+						$i = 0;
+						foreach($persons as $pers) { 
+						    $persID = $pers->getAttribute('xml:id'); 
+						    
+						    if($persID == $person) {
+								$persString = $persons->item($i)->ownerDocument->saveXML($persons->item($i));
+
+								$XMLperson->loadXML($persString);
+						    }
+						    
+						    $i = $i + 1;
+						} 
+						
 						# START XSLT 
 						$xslt = new XSLTProcessor(); 
 						$XSL = new DOMDocument(); 
 						$XSL->load( 'xsl/person.xsl'); 
 						$xslt->importStylesheet( $XSL ); 
 						#PRINT 
-						print $xslt->transformToXML( $XML ); 
+						print $xslt->transformToXML( $XMLperson ); // $XMLperson
 
 					} else {
 			?>
