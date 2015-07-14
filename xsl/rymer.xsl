@@ -63,11 +63,20 @@ Rymer
         </p>
     </xsl:template>
     <xsl:template match="encodingDesc"/>
+    <xsl:template match="figure">
+    	<xsl:apply-templates/>
+    </xsl:template>
     <xsl:template match="figure/graphic">
 							<a>	
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="@url"/>
                                 </xsl:attribute>
+                                <xsl:attribute name="class">fancybox</xsl:attribute>
+                                <xsl:if test="ancestor::figure/figDesc">
+                                	<xsl:attribute name="title">
+                                    	<xsl:value-of select="ancestor::figure/figDesc"/>
+                                	</xsl:attribute>
+                                </xsl:if>
 							    <img>
 									<xsl:attribute name="src">
 										<xsl:value-of select="@url"/>
@@ -78,6 +87,7 @@ Rymer
 								</img>
 							</a>    
     </xsl:template>
+    <xsl:template match="figure/figDesc"/>
     <xsl:template match="emph">
         <em><xsl:apply-templates/></em>
     </xsl:template>

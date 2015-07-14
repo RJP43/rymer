@@ -9,6 +9,10 @@ $(window).load(function(){
 	$("#content").on('click', 'a[class=person-link]', loadpersnote);
 });
 
+$(document).ready(function() {
+	$('.fancybox').fancybox();
+});
+
 function loadpersnote (e) {
 		e.preventDefault();
 		var $plink = $(this);
