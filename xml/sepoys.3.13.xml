@@ -99,7 +99,7 @@
             <pb n="97"/>
             <cb n="1"/>
             <head>THE <orgName corresp="sepoys.backmatter.xml#sepoys">SEPOYS</orgName>; OR,
-                  <persName>HIGHLAND JESSIE</persName>.</head>
+                  <persName corresp="sepoys.personography.xml#jessie">HIGHLAND JESSIE</persName>.</head>
             <head>A TALE OF THE PRESENT INDIAN REVOLT.</head>
             <head>AUTHOR OF <title> "JANE BRIGHTWELL,"</title>
                <title>"THE SNOW-DRIFT,"</title> ETC</head>

@@ -137,3 +137,19 @@ a.top-link span.top-link-label {
 #work-contents ul.chapter-links {
 	padding-left: 20px;
 }
+/* Marginal notes */
+span.pers-note {
+	float: right;
+	margin-right: -350px;
+	margin-left: 50px;
+	clear: right;
+	width: 300px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 14px;
+	text-indent: 0;
+	margin-top: .5ex;
+	margin-bottom: 10px;
+	display: block;
+	font-variant: normal;
+}

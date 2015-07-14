@@ -86,6 +86,7 @@ Rymer
     	<xsl:variable name="file"><xsl:value-of select="substring-before($corresp, '#')"/></xsl:variable>
     	<xsl:variable name="person"><xsl:value-of select="substring-after($corresp, '#')"/></xsl:variable>
         <a>
+            <xsl:attribute name="class">person-link</xsl:attribute>
             <xsl:attribute name="href">person.php?file=<xsl:value-of select="$file"/>&amp;p=<xsl:value-of select="$person"/></xsl:attribute>
             <xsl:apply-templates/>
         </a>

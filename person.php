@@ -30,10 +30,7 @@
 		$fileExists = false;
 	}
 	
-	require('include/head.php');
 	?>
-	<body>
-			<div id="person">
 					<?php
 					if($fileExists) {
 						# LOAD XML FILE 
@@ -52,6 +49,7 @@
 						    
 						    if($persID == $person) {
 								$persString = $persons->item($i)->ownerDocument->saveXML($persons->item($i));
+								$persString = str_replace('</person>', '<filename>'.$file.'</filename></person>', $persString);
 
 								$XMLperson->loadXML($persString);
 						    }
@@ -69,11 +67,8 @@
 
 					} else {
 			?>
-						<h3>File Not Found</h3>
-						<p>Return to <a href="/">home page</a>.</p>
+						<h3>Person Not Found</h3>
 			<?php
 			}			
 			?>
-		</div> <!-- #person -->
-	</body>
 </html>
