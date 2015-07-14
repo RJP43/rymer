@@ -45,7 +45,7 @@
 					?>
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1><?php echo $title; ?></h1>
+							<h1><a href="work.php?work=<?php echo $series; ?>"><?php echo $title; ?></a></h1>
 						</div>
 					</div>
 					<?php
