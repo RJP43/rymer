@@ -63,7 +63,13 @@
 			usort($docsXml, 'cmp');
 			foreach ($docsXml as $file) {
 				if(substr($file['num'], 0, 11) == 'Installment') {
-					print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('l, j F Y', strtotime($file['date'])).')</a></p>';
+			?>
+					<p>
+						<a class="issue-link" href="installment.php?file=<?php echo $file['file']; ?>"><?php echo $file['num'].' ('.date('l, j F Y', strtotime($file['date'])).')'; ?></a>
+						<!-- | <a class="xml-link" href="xml/<?php echo $file['file']; ?>.xml">XML</a>-->
+						<!-- | <a class="pdf-link" href="pdf/<?php echo $file['file']; ?>.pdf">PDF</a>-->
+					</p>
+			<?php
 					if(count($file['chapTitles']) > 0) {
 						print '<ul class="chapter-links">';
 						for($i=0; $i<count($file['chapTitles']); $i++) {
@@ -80,7 +86,12 @@
 					} else if($file['num'] == 'personography') {
 						$title = 'Personography';
 					}
-					print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$title.'</a></p>';
+					?>
+					<p>
+						<a class="issue-link" href="installment.php?file=<?php echo $file['file']; ?>"><?php echo $title; ?></a>
+						<!-- | <a class="xml-link" href="xml/<?php echo $file['file']; ?>.xml">XML</a>-->
+					</p>
+					<?php
 				}
 			}
 			
