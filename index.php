@@ -25,14 +25,18 @@
 					<div id="main">
 						<div id="articles-reviews-index">
 			<?php
-				
-			$works = array('sepoys' => 'The Sepoys', 'pearls' => 'The String of Pearls');
+			
+						# LOAD XML FILE 
+						$XML = new DOMDocument(); 
+						$XML->load( 'xml/works.xml' );
+						# START XSLT 
+						$xslt = new XSLTProcessor(); 
+						$XSL = new DOMDocument(); 
+						$XSL->load( 'xsl/works.xsl'); 
+						$xslt->importStylesheet( $XSL ); 
+						#PRINT 
+						print $xslt->transformToXML( $XML ); 
 
-			foreach ($works as $key => $title) {
-				print '<p><a class="issue-link" href="work.php?work='.$key.'">'.$title.'</a></p>';
-			
-			}
-			
 			?>
 						</div> <!-- #articles-reviews-index -->
 					</div> <!-- #main -->

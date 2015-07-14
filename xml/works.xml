@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of Works</title>
+            <author>James Malcolm Rymer</author>
+            <editor>Rebecca Nesvet</editor>
+            <editor>Rae X. Yan</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Rebecca Nesvet</publisher>
+            <publisher>Rae X. Yan</publisher>
+            <availability status="free">
+               <p>Freely available on a non-commercial basis.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <idno>context</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct xml:id="frontmatter">
+               <analytic>
+                  <author>Rebecca Nesvet</author>
+                  <author>Rae X. Yan</author>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <date when="2015" />
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div xml:id="works">
+            <title corresp="sepoys">The Sepoys; Or, Highland Jessie: an electronic edition</title>
+            <title corresp="pearls">The String of Pearls; or, the barber of Fleet Street, a domestic romance: an electronic edition</title>
+         </div>
+      </body>
+   </text>
+</TEI>
