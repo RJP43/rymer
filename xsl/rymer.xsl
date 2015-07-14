@@ -18,6 +18,7 @@ Rymer
                         </div>
                     </div>
     </xsl:template>
+	<xsl:variable name="series" select="//teiHeader/fileDesc/seriesStmt/idno" />
 	<xsl:template match="//teiHeader/fileDesc/seriesStmt/idno" />
     <xsl:template match="text">
         <xsl:apply-templates/>
@@ -91,14 +92,50 @@ Rymer
     <xsl:template match="emph">
         <em><xsl:apply-templates/></em>
     </xsl:template>
-    <xsl:template match="persName">
+    <xsl:template match="persName[@corresp]">
     	<xsl:variable name="corresp"><xsl:value-of select="@corresp"/></xsl:variable>
+    	<xsl:variable name="personography"><xsl:value-of select="$series"/>.personography.xml</xsl:variable>
     	<xsl:variable name="file"><xsl:value-of select="substring-before($corresp, '#')"/></xsl:variable>
-    	<xsl:variable name="person"><xsl:value-of select="substring-after($corresp, '#')"/></xsl:variable>
+    	<xsl:choose>
+    		<xsl:when test="$file = $personography">
+		    	<xsl:variable name="person"><xsl:value-of select="substring-after($corresp, '#')"/></xsl:variable>
+		        <a>
+		            <xsl:attribute name="class">person-link</xsl:attribute>
+        	    	<xsl:attribute name="href">person.php?file=<xsl:value-of select="$file"/>&amp;p=<xsl:value-of select="$person"/></xsl:attribute>
+        	    	<xsl:apply-templates/>
+        		</a>
+        	</xsl:when>
+        	<xsl:otherwise>
+        		<xsl:call-template name="note-link" />
+        	</xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="roleName[@corresp]">
+    	<xsl:call-template name="note-link" />
+    </xsl:template>
+    <xsl:template match="orgName[@corresp]">
+    	<xsl:call-template name="note-link" />
+    </xsl:template>
+    <xsl:template match="foreign[@corresp]">
+    	<xsl:call-template name="note-link" />
+    </xsl:template>
+    <xsl:template match="distinct[@corresp]">
+    	<xsl:call-template name="note-link" />
+    </xsl:template>
+    <xsl:template match="placeName[@corresp]">
+    	<xsl:call-template name="note-link" />
+    </xsl:template>
+    <xsl:template match="addName[@corresp]">
+    	<xsl:call-template name="note-link" />
+    </xsl:template>
+    <xsl:template name="note-link">
+        <xsl:variable name="corresp"><xsl:value-of select="@corresp"/></xsl:variable>
+    	<xsl:variable name="file"><xsl:value-of select="substring-before($corresp, '#')"/></xsl:variable>
+    	<xsl:variable name="note"><xsl:value-of select="substring-after($corresp, '#')"/></xsl:variable>
         <a>
-            <xsl:attribute name="class">person-link</xsl:attribute>
-            <xsl:attribute name="href">person.php?file=<xsl:value-of select="$file"/>&amp;p=<xsl:value-of select="$person"/></xsl:attribute>
+            <xsl:attribute name="class">note-link</xsl:attribute>
+            <xsl:attribute name="href">note.php?file=<xsl:value-of select="$file"/>&amp;n=<xsl:value-of select="$note"/></xsl:attribute>
             <xsl:apply-templates/>
         </a>
-    </xsl:template>
+	</xsl:template>
 </xsl:stylesheet>

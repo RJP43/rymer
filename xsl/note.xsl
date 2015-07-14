@@ -33,34 +33,10 @@ Rymer
     <xsl:template match="emph">
         <em><xsl:apply-templates/></em>
     </xsl:template>
-    <xsl:template match="person">
+    <xsl:template match="note">
         <div>
             <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
 			<xsl:apply-templates/>
 		</div>
     </xsl:template>	
-    <xsl:template match="person/persName">
-        <h3><xsl:apply-templates/></h3>
-    </xsl:template>
-    <xsl:template match="p/persName">
-    	<xsl:variable name="corresp"><xsl:value-of select="@corresp"/></xsl:variable>
-    	<xsl:variable name="person"><xsl:value-of select="substring-after($corresp, '#')"/></xsl:variable>
-        <a>
-            <xsl:attribute name="class">person-link</xsl:attribute>
-            <xsl:attribute name="href">person.php?file=<xsl:value-of select="$file"/>&amp;p=<xsl:value-of select="$person"/></xsl:attribute>
-            <xsl:apply-templates/>
-        </a>
-    </xsl:template>
-    <xsl:template match="note">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="addname">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="forename">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="surname">
-        <xsl:apply-templates/>
-    </xsl:template>
 </xsl:stylesheet>

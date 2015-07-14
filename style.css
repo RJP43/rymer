@@ -138,7 +138,8 @@ a.top-link span.top-link-label {
 	padding-left: 20px;
 }
 /* Marginal notes */
-span.pers-note {
+span.pers-note,
+span.note {
 	float: right;
 	margin-right: -350px;
 	margin-left: 50px;

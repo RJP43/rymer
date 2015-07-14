@@ -5,16 +5,16 @@
 	
 	$fileExists = true;
 	$file = '';
-	$person = '';
+	$note = '';
 	$series = '';
 	$fileSplit = '';
 	$title = '';
 	$pt = array();
 	$pt_post = '';
 	
-	if($_GET["file"] && $_GET["p"]) {
+	if($_GET["file"] && $_GET["n"]) {
 		$file = $_GET["file"];
-		$person = $_GET["p"];
+		$note = $_GET["n"];
 		$fileParts = explode('.', $file);
 		$series = $fileParts[0];
 		if(simplexml_load_file('xml/'.$file)) {			
@@ -37,21 +37,21 @@
 						$XML = new DOMDocument(); 
 						$XML->load( 'xml/'.$file );
 						
-						# Extract only the person indicated
+						# Extract only the note indicated
 						$TEI = $XML->documentElement;
-						$persons = $TEI->getElementsByTagName('person');
+						$notes = $TEI->getElementsByTagName('note');
 						
-						$XMLperson = new DOMDocument;
+						$XMLnote = new DOMDocument;
 						
 						$i = 0;
-						foreach($persons as $pers) { 
-						    $persID = $pers->getAttribute('xml:id'); 
+						foreach($notes as $nt) { 
+						    $ntID = $nt->getAttribute('xml:id'); 
 						    
-						    if($persID == $person) {
-								$persString = $persons->item($i)->ownerDocument->saveXML($persons->item($i));
-								$persString = str_replace('</person>', '<filename>'.$file.'</filename></person>', $persString);
+						    if($ntID == $note) {
+								$ntString = $notes->item($i)->ownerDocument->saveXML($notes->item($i));
+								$ntString = str_replace('</note>', '<filename>'.$file.'</filename></note>', $ntString);
 
-								$XMLperson->loadXML($persString);
+								$XMLnote->loadXML($ntString);
 						    }
 						    
 						    $i = $i + 1;
@@ -60,14 +60,14 @@
 						# START XSLT 
 						$xslt = new XSLTProcessor(); 
 						$XSL = new DOMDocument(); 
-						$XSL->load( 'xsl/person.xsl'); 
+						$XSL->load( 'xsl/note.xsl'); 
 						$xslt->importStylesheet( $XSL ); 
 						#PRINT 
-						print $xslt->transformToXML( $XMLperson );
+						print $xslt->transformToXML( $XMLnote );
 
 					} else {
 			?>
-						<h3>Person Not Found</h3>
+						<h3>Note Not Found</h3>
 			<?php
 			}			
 			?>

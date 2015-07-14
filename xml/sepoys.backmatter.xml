@@ -73,6 +73,7 @@
    <text>
       <body>
          <div xml:id="editorial_notes">
+            <note xml:id="sepoys">Sepoys, definition of <!-- ? --></note>
             <note xml:id="sahib">Sahib, a male honorific in colonial India, equivalent to 'sir', 'friend', or 'master', depending on context. Derives from sāhib (Arabic and Urdu); sāhab (Hindi).</note>
             <note xml:id="eeda">eeda, definition of <!--RAE, what instalment? 'ida' = foundation [of a building] - does this make sense? Also there's an "eeda" in cooking...--></note>
             <note xml:id="feringhee">Feringhee, derogatory colloquialism for a white-skinned person, i.e., a European. Historically, denoted the Portuguese foreigners who were the first significant group of Europeans to attempt to colonize India.</note>
@@ -99,6 +100,7 @@
             <note xml:id="ayah">ayah, nanny (Hindi, from the Portuguese 'aia').</note>
             <note xml:id="elhareeb">El Hareeb, location of ancient Egyptian tombs. See Richard Lepsius, Letters from Egypt, Ethiopia, and the Peninsula of Sinai, translated by Leonora and Joanna B. Horner (London: Bohn, 1853), 16.</note>
             <note xml:id="zemindar">zemindar, landed proprietor (Hindi).</note>
+            <note xml:id="zemindar">zemindar, from the Urdu, a landowner, especially one who leases his land to tenant farmers</note>
             <note xml:id="manillas">Manillas, pennanular armlets made of bronze or copper, and sometimes gold, serving as currency in Western Africa.</note>
             <note xml:id="cresset">cresset, metal container used as a lamp.</note>
             <note xml:id="howdahs">howdahs, carriages usually carried by elephants; often used in hunting or warfare; often a symbol of wealth, decorated with gems.</note>
@@ -111,11 +113,10 @@
             <note xml:id="thug">Thug, Indian hired assassin (Hindi); later became a colloquialism for a ruffian.</note>
             <note xml:id="childofnature">Child of nature, <!--RAE: this seems to be some combination of the 'noble savage' stereotype and the 'wild children' that you've written about. Can you cite some Wild Child sources? thanks. --></note>
             <note xml:id="hubaboo">hubaboo, a riot; also a nonsense term used in Victorian Irish published folksong (Hibernian English). See <em>The Dublin Comic Songster</em> (Dublin: Duffy, 1841), 105, 180. </note>
-            <note xml:id="zemindar">zemindar, from the Urdu, a landowner, especially one who leases his land to tenant farmers</note>
             <note xml:id="creese">creese, of Malay origin from the word "kris", meaning dagger of Malay or Indonesian origin, usually with a wavy blade</note>
             <note xml:id="shieling">shieling, from the Scottish Gaelic, a type of hut or collection of huts once common to lonely places in the hills and mountains of Scotland and northern England, also a word for mountain pasture grazing</note>
             <note xml:id="pibroch">pibroch, Scottish Gaelic for piping, traditionally of the Great Highland Bagpipe</note>
-            <note xml:id="bonny">bonny, Scottish Gaelic for attractice or pretty</note>
+            <note xml:id="bonny">bonny, Scottish Gaelic for attractive or pretty</note>
             <note xml:id="kitchri">kitchri, according to Rymer, a dish of curried fowl with goat, chillies, and other spicing</note>
             <note xml:id="chaffratees">chaffratees, according to Rymer, a type of cake</note>
          </div>

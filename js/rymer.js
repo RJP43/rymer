@@ -1,4 +1,5 @@
 ﻿var persNote = 0;
+var noteNum = 0;
 
 $(window).ready(function(){
 });
@@ -7,6 +8,7 @@ $(window).load(function(){
 	//$('a[class=person-link]').click(loadpersnote);
 	
 	$("#content").on('click', 'a[class=person-link]', loadpersnote);
+	$("#content").on('click', 'a[class=note-link]', loadnote);
 });
 
 $(document).ready(function() {
@@ -43,10 +45,33 @@ function loadpersnote (e) {
 			
 			$( "#pers-"+persNote ).load ($plink.attr('href'));
 			
-			$( "#pers-"+persNote+" a[class=person-link]" ).click(loadpersnote);
-			
 			persNote = persNote + 1;
 			return false;
 		}
 }
+
+function loadnote (e) {
+		e.preventDefault();
+		var $nlink = $(this);
+
+		if(typeof $nlink.attr('id') !== 'undefined') {
+			var noteid = $nlink.attr('id').substr(4);
+			$note = $( "#"+noteid );
+			if($note.attr('style') == 'undefined' || $note.attr('style') == 'display:none;') {
+				$note.attr('style', 'display:block;');
+			} else {
+				$note.attr('style', 'display:none;');
+			}
+		} else {
+			$nlink.attr('id', 'ref-note-'+noteNum);
+			
+			$nlink.after('<span class="note" id="note-'+noteNum+'"></span>');
+			
+			$( "#note-"+noteNum ).load ($nlink.attr('href'));
+			
+			noteNum = noteNum + 1;
+			return false;
+		}
+}
+
 
