@@ -60,17 +60,28 @@
 						<div id="work-contents">
 			<?php
 				
-			//usort($docsXml, 'cmpArticle');
+			usort($docsXml, 'cmp');
 			foreach ($docsXml as $file) {
-				print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('l, j F Y', strtotime($file['date'])).')</a></p>';
-				if(count($file['chapTitles']) > 0) {
-					print '<ul class="chapter-links">';
-					for($i=0; $i<count($file['chapTitles']); $i++) {
-						print '<li><a href="installment.php?file='.$file['file'].'#'.$file['chapIDs'][$i].'">'.$file['chapTitles'][$i].'</a></li>';
+				if(substr($file['num'], 0, 11) == 'Installment') {
+					print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$file['num'].' ('.date('l, j F Y', strtotime($file['date'])).')</a></p>';
+					if(count($file['chapTitles']) > 0) {
+						print '<ul class="chapter-links">';
+						for($i=0; $i<count($file['chapTitles']); $i++) {
+							print '<li><a href="installment.php?file='.$file['file'].'#'.$file['chapIDs'][$i].'">'.$file['chapTitles'][$i].'</a></li>';
+						}
+						print '</ul>';
 					}
-					print '</ul>';
+				} else {
+					$title = '';
+					if($file['num'] == 'frontmatter') {
+						$title = 'Front Matter';
+					} else if($file['num'] == 'backmatter') {
+						$title = 'Back Matter';
+					} else if($file['num'] == 'personography') {
+						$title = 'Personography';
+					}
+					print '<p><a class="issue-link" href="installment.php?file='.$file['file'].'">'.$title.'</a></p>';
 				}
-			
 			}
 			
 			?>
