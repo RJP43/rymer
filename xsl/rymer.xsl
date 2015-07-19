@@ -58,6 +58,19 @@ Rymer
     <xsl:template match="title">
         <xsl:apply-templates/>
     </xsl:template>
+    
+<!--   fix this linebreak problem
+    
+    <xsl:template match="titleStmt">
+        <xsl:value-of select="editor" />
+        <xsl:if test="not(position()=last())">
+            <xsl:text>&#xA;</xsl:text>
+        </xsl:if>
+    </xsl:template>
+   
+ -->   
+   
+    <xsl:template match="pubPlace"/>
     <xsl:template match="p">
         <p>
                     <xsl:apply-templates/>
