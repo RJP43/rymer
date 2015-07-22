@@ -115,6 +115,10 @@ div.issue-heading-inner h2 {
 	font-style:italic;
 	text-transform: capitalize;
 }
+.editor-label,
+.author-label {
+	font-weight: bold;
+}
 /* Issue: page numbers */
 span.page-attributes {
 	display:block;

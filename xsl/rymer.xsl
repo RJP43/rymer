@@ -63,12 +63,16 @@ Rymer
     <xsl:template match="titleStmt//editor">
         <div>
             <xsl:attribute name="class">header-editor</xsl:attribute>
+            <span class="editor-label">Editor</span>
+            &#183;
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="titleStmt//author">
         <div>
             <xsl:attribute name="class">header-author</xsl:attribute>
+            <span class="author-label">Author</span>
+            &#183;
             <xsl:apply-templates/>
         </div>
     </xsl:template>
