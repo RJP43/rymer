@@ -11,6 +11,7 @@
 	$title = '';
 	$pt = array();
 	$pt_post = '';
+	$xslPath = 'rymer.xsl';
 	
 	if($_GET["file"] && simplexml_load_file('xml/'.$_GET["file"].'.xml')) {
 		$file = $_GET["file"];
@@ -18,6 +19,12 @@
 		$fileParts = explode('.', $file);
 		$series = $fileParts[0];
 		$fileSplit = (count($fileParts) > 2) ? $fileParts[1].'.'.$fileParts[2] : $fileParts[1];
+		
+		if($fileSplit == 'backmatter') {
+			$xslPath = 'note.xsl';
+		} else if ($fileSplit == 'personography') {
+			$xslPath = 'person.xsl';
+		}
 			
 		$FullXML = simplexml_load_file('xml/'.$file.'.xml');
 		//$XMLdate = $FullXML->xpath('//editionStmt/edition');
@@ -58,7 +65,7 @@
 						# START XSLT 
 						$xslt = new XSLTProcessor(); 
 						$XSL = new DOMDocument(); 
-						$XSL->load( 'xsl/rymer.xsl'); 
+						$XSL->load( 'xsl/'.$xslPath); 
 						$xslt->importStylesheet( $XSL ); 
 						#PRINT 
 						print $xslt->transformToXML( $XML ); 

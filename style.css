@@ -154,3 +154,11 @@ span.note {
 	display: block;
 	font-variant: normal;
 }
+/* The "note-inner" also appears on the backmatter page */
+div.note-inner {
+	margin: 0.5em 0 0.5em;
+	padding-left: 10px;
+}
+span.note div.note-inner {
+	padding-left: 0;
+}

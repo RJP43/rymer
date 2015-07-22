@@ -36,6 +36,7 @@ Rymer
     <xsl:template match="note">
         <div>
             <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+			<xsl:attribute name="class">note-inner</xsl:attribute>
 			<xsl:apply-templates/>
 		</div>
     </xsl:template>	
