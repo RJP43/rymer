@@ -40,7 +40,17 @@ Rymer
 		</div>
     </xsl:template>	
     <xsl:template match="person/persName">
-        <h3><xsl:apply-templates/></h3>
+        <xsl:choose>
+            <xsl:when test="@type='secondary'">
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                <h3><xsl:apply-templates/></h3>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="person/persName[@type='secondary']/addName">
+        <h4><xsl:apply-templates/></h4>
     </xsl:template>
     <xsl:template match="p/persName">
     	<xsl:variable name="corresp"><xsl:value-of select="@corresp"/></xsl:variable>

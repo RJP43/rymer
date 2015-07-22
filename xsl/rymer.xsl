@@ -58,18 +58,27 @@ Rymer
     <xsl:template match="title">
         <xsl:apply-templates/>
     </xsl:template>
-    
-<!--   fix this linebreak problem
-    
-    <xsl:template match="titleStmt">
-        <xsl:value-of select="editor" />
-        <xsl:if test="not(position()=last())">
-            <xsl:text>&#xA;</xsl:text>
-        </xsl:if>
+    <xsl:template match="titleStmt//title" />
+    <xsl:template match="titleStmt//editor">
+        <div>
+            <xsl:attribute name="class">header-editor</xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
-   
- -->   
-   
+    <xsl:template match="titleStmt//author">
+        <div>
+            <xsl:attribute name="class">header-author</xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="monogr//title">
+        <div>
+            <xsl:attribute name="class">monograph-title</xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="publicationStmt//publisher"/>
+    <xsl:template match="monogr//title[@level='j']" />
     <xsl:template match="pubPlace"/>
     <xsl:template match="p">
         <p>

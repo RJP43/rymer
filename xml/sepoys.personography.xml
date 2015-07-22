@@ -102,11 +102,13 @@
                         <surname>Nana</surname>
                         <roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
                            >Sahib</roleName>
+                     </persName>
+                     <persName type="secondary">
                         <addName type="epithet">Light of my Eyes</addName>
                         <addName type="epithet">Terror of the World</addName>
                         <addName type="epithet">Lord of the World</addName>
                         <addName type="epithet">Light of my Earth</addName>
-                        <addName type="epithet">King of Delhi</addName>
+                        <addName type="epithet">King of Delhi</addName>             
                      </persName>
                   </person>
                   <person xml:id="fletcher">
