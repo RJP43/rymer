@@ -117,7 +117,8 @@ div.issue-heading-inner h2 {
 }
 .editor-label,
 .author-label {
-	font-weight: bold;
+	/* font-weight: bold; */
+	font-style: italic;
 }
 /* Issue: page numbers */
 span.page-attributes {
