@@ -15,6 +15,7 @@ Rymer
                     <div id="main" class="main-doc">
                         <div id="core">
 							<xsl:apply-templates/>
+							<xsl:apply-templates select="//biblStruct"/>
                         </div>
                     </div>
     </xsl:template>
@@ -159,5 +160,61 @@ Rymer
             <xsl:attribute name="href">note.php?file=<xsl:value-of select="$file"/>&amp;n=<xsl:value-of select="$note"/></xsl:attribute>
             <xsl:apply-templates/>
         </a>
+	</xsl:template>
+	<xsl:template match="biblStruct">
+		<xsl:variable name="prev"><xsl:value-of select="@prev"/></xsl:variable>
+    	<xsl:variable name="prevFile"><xsl:value-of select="substring-before($prev, '.xml#')"/></xsl:variable>
+    	<!--<xsl:variable name="prevLabel"><xsl:value-of select="substring-after($prev, '#installment')"/></xsl:variable>-->
+		<xsl:variable name="current"><xsl:value-of select="@xml:id"/></xsl:variable>
+    	<xsl:variable name="currentLabel"><xsl:value-of select="substring-after($current, 'installment')"/></xsl:variable>
+		<xsl:variable name="next"><xsl:value-of select="@next"/></xsl:variable>
+    	<xsl:variable name="nextFile"><xsl:value-of select="substring-before($next, '.xml#')"/></xsl:variable>
+    	<!--<xsl:variable name="nextLabel"><xsl:value-of select="substring-after($next, '#installment')"/></xsl:variable>-->
+		<div>
+			<xsl:attribute name="class">prev-next-nav</xsl:attribute>
+			<xsl:if test="@prev">
+				<a>
+					<xsl:attribute name="class">prev-link</xsl:attribute>
+					<xsl:attribute name="href">installment.php?file=<xsl:value-of select="$prevFile"/></xsl:attribute>
+					&#171; Previous
+				</a>
+				&#183;
+			</xsl:if>
+    		<xsl:choose>
+    			<xsl:when test="$current = 'frontmatter'">
+					<span>
+						<xsl:attribute name="class">current-installment</xsl:attribute>
+						Front Matter
+					</span>
+				</xsl:when>
+    			<xsl:when test="$current = 'backmatter'">
+					<span>
+						<xsl:attribute name="class">current-installment</xsl:attribute>
+						Back Matter
+					</span>
+				</xsl:when>
+    			<xsl:when test="$current = 'personography'">
+					<span>
+						<xsl:attribute name="class">current-installment</xsl:attribute>
+						Personography
+					</span>
+				</xsl:when>
+    			<xsl:otherwise>
+					<span>
+						<xsl:attribute name="class">current-installment</xsl:attribute>
+						Installment <xsl:value-of select="$currentLabel"/>
+					</span>
+				</xsl:otherwise>
+			</xsl:choose>
+			<xsl:if test="@next">
+				&#183;
+				<a>
+					<xsl:attribute name="class">next-link</xsl:attribute>
+					<xsl:attribute name="href">installment.php?file=<xsl:value-of select="$nextFile"/></xsl:attribute>
+					Next &#187;
+				</a>
+			</xsl:if>	
+		</div>
+		<xsl:apply-templates/>
 	</xsl:template>
 </xsl:stylesheet>
