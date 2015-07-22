@@ -62,7 +62,17 @@ Rymer
         </a>
     </xsl:template>
     <xsl:template match="note">
-        <xsl:apply-templates/>
+    	<xsl:choose>
+    		<xsl:when test="@type='spoiler'">
+    			<a class="spoiler-toggle">Show Spoilers</a>
+    			<div class="spoiler" style="display:none;">
+    				<xsl:apply-templates/>
+    			</div>
+    		</xsl:when>
+    		<xsl:otherwise>
+        		<xsl:apply-templates/>
+        	</xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="addname">
         <xsl:apply-templates/>

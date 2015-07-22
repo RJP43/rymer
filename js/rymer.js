@@ -9,6 +9,7 @@ $(window).load(function(){
 	
 	$("#content").on('click', 'a[class=person-link]', loadpersnote);
 	$("#content").on('click', 'a[class=note-link]', loadnote);
+	$("#content").on('click', 'a[class=spoiler-toggle]', togglespoiler);
 });
 
 $(document).ready(function() {
@@ -72,6 +73,16 @@ function loadnote (e) {
 			noteNum = noteNum + 1;
 			return false;
 		}
+}
+
+function togglespoiler (e) {
+	if($('.spoiler').attr('style') == 'display:none;') {
+		$('.spoiler').attr('style', 'display:block;');
+		$(this).text('Hide Spoilers');
+	} else {
+		$('.spoiler').attr('style', 'display:none;');
+		$(this).text('Show Spoilers');
+	}
 }
 
 
