@@ -32,7 +32,7 @@
                </analytic>
                <monogr>
                   <imprint>
-                     <date when="2015" />
+                     <date when="2015"/>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -77,33 +77,125 @@
    <text>
       <body>
          <div xml:id="frontmatter">
-            <div xml:id="full_intro">
-               <head xml:id="text_intro">Introduction</head>
-               <!-- this is where the introductory material about the text that we write up goes, will be written by Rae Yan, some sort of hook, explain the 
-               narrative frame, when Jessie comes, include blockquote of her monologue from 4.10 (ch. 7), the legend of Jessie Brown; Rebecca writing about
-               British/Scottish context and the literary references -->
-               <head xml:id="author_info">Author</head>
-               <!-- this is where the information about James Malcolm Rymer, will be written by Rebecca Nesvet -->
-               <head xml:id="text_serialization">Serial Publication</head>
-               <!-- This is where information about serial publication and Reynold's Miscellany will go, will be written by Rebecca Nesvet -->
-               <head xml:id="illustrations">Illustrations</head>
-               <!-- This is where information about illustrations and Reynold's Miscellany will go, will be written by Rae Yan -->
-            </div>
-            <div xml:id="text_contexts">
-               <!-- include more headers for various historical subjects as necessary in future front matter, 
-            currently I just have a few but we're probably going to want to talk about Scotland, Ireland, etc. -->
-               <head xml:id="indian_revolt">The Indian Revolt or Sepoy Rebellion</head>
-               <!-- this is where information about the Indian Revolt will be explained, will be written by Rae Yan -->
-               <head xml:id="chartism">Chartism</head>
-               <!-- this is where information about Chartism will be explained, will be written by Rebecca Nesvet  -->
-               <head xml:id="civilwar">Civil War</head>
-               <!-- this is where information about Civil War will be explained, will be written by Rebecca Nesvet  -->
-               <head xml:id="frenchrevolution">French Revolution</head>
-               <!-- this is where information about French Revolution will be explained, will be written by Rae Yan -->
-            </div>
-            <div xml:id="text_geography">
-               <!-- maps, explanation of <roleName type="military">Major</roleName> places -->
-            </div>
+            <head xml:id="collection_disclaimer">Disclaimer</head>
+            <p>This collection is a work in progress and, as such, subject to continual
+               modification, evolution, and revision. Please pardon instances where information or
+               content is missing as we continue to build out our collection. </p>
+            <head xml:id="collection_mission">Mission Statement</head>
+            <p>A prolific author of 'penny bloods' and ‘dreadfuls’, James Malcolm Rymer is credited
+               with inventing the enduring pseudo-historical villain Sweeney Todd. Rymer also made
+               major interventions in British fictional representations of nautical life and
+               Victorian transoceanic imperialism. The James Malcolm Rymer Collection aims to
+               recover this influential and engaging author's attributed texts and the genre of the
+               'penny blood' for scholarly and general readers. To these ends, the Collection will
+               consist of open access, intellectually accessible digital editions of selected
+               fiction by and/or attributed to James Malcolm Rymer (1814-1884). These editions will
+               be published at <a href="http://www.priceonepenny.info/">Price One Penny
+               Editions</a>. The Collection will reveal Rymer's surprisingly nuanced writing's
+               subtexts, historical contexts, and potential modern applications. Along with the <a
+                  href="http://www.priceonepenny.info/">Price One Penny</a> edition of <a
+                  href="http://www.priceonepenny.info/editions/Inquisition_static/index.html">The
+                  Mysteries of the Inquisition</a>, the James Malcolm Rymer Collection will serve
+               editors of succeeding <a href="http://www.priceonepenny.info/">Price One Penny
+                  Editions</a> as an exemplar. It also aims to showcase new approaches and the
+               application of best practices in digital documentary editing of illustrated fiction
+               and serials. </p>
+            <head xml:id="collection_selection">Selection Statement</head>
+            <p> The collection will consist of:</p>
+            <ol>
+               <li>critical editions of penny fiction composed by or attributed to James Malcolm
+                  Rymer,</li>
+               <li>diplomatic transcriptions and facsimiles of any holograph manuscripts composed by
+                  Rymer,</li>
+               <li>and transcriptions of archival materials, photographic reproductions of images,
+                  and original digital visualizations, including maps, that help to contextualize
+                  Rymer's fiction.</li>
+            </ol>
+            <p>In particular, texts attributed to Rymer that prove to have been composed in whole or
+               part by others will be included for the light they might shed on the development of
+               Rymer's image and the penny 'blood' genre. Selections in the fiction genre will
+               appear as diplomatic transcriptions, with versioning to reveal the texts' evolution.
+               Engravings and 'gutter advertisements' will appear in photographic facsimiles. When
+               extant and available to the editors for reproduction online, illustrated wrappers,
+               detached illustrated inserts, and colored versions of engravings will also be
+               provided as photographic facsimiles. </p>
+            <head xml:id="collection_annotation">Annotation Statement</head>
+            <p> Identifications will consist of document-centered notes and XML tags, created in
+               conformity with TEI-5 guidelines. They will appear as marginal notes or pop-ups.
+               These notes will refer to the prosopography, which will be compiled in accordance
+               with TEI-5 standards. Annotations may include permalinks to open access material.
+               Proprietary material will not be hyperlinked. </p>
+            <p> Place tags will in future include geo-coordinates for historical places that exist
+               at the time of tagging. Fictional places with historical street addresses or
+               geo-locations will likewise be identified as such. Fictional places with vast or
+               vaguely defined locations will be identified as such, and the geo-coordinates
+               conjectured as accurately as possible. </p>
+            <p> Annotators will strive for objectivity, political neutrality, and accessibility. To
+               these ends: Historical persons' identifications will derive when possible from the
+               Encyclopaedia Britannica and/or the Oxford Dictionary of National Biography. When
+               this is not possible, identifications will derive from appropriate scholarly sources. </p>
+            <p> Where an annotation will likely function as a plot spoiler, this will be noted and
+               the reader prompted to accede or refuse to continue to the relevant part of the note. </p>
+            <p> Citations will follow the TEI-5. </p>
+            <p> Authors of annotations will be credited as "annotators" using their discrete XML
+               IDs. It is particularly important to recognize the original, scholarly contributions
+               of student annotators. Where such annotators work in teams, the team will be credited
+               using both XML IDs. </p>
+            <head xml:id="collection_transcription">Transcription Statement</head>
+            <p>Published fiction will be diplomatically transcribed in XML. It will be tagged and
+               annotated in accordance with TEI-5 guidelines. Multiple editions will be represented
+               as versions. Where an open-access photographic facsimile or a text or part thereof
+               exists with a stable URL, the stable URL will be hyperlinked. Silent amendation will
+               standardize spacing by removing extraneous and distracting overuse of white space.
+               Nonstandard spelling and obsolete language will be retained. Most typos will be
+               identified as such in notes. However, the editors will correct rare typographical
+               errors that could distort meaning, such as the substitution of a roman numeral VI for
+               IV. Such corrections will be explained in notes. </p>
+            <p>Contextualizing manuscripts will be transcribed diplomatically and encoded in keeping
+               with TEI-5 guidelines. Where manuscripts can be legibly reproduced in photographic
+               facsimile and rights for open access publication may be obtained, they will be.
+               Transcriptions of engravings will be stored as metadata, and will represent plate
+               number (if any), page number (if any), caption (if any), and any legible text
+               inscribed within the image. This text will be encoded in keeping with TEI-5
+               guidelines. </p>
+            <p>In keeping with the MLA Guidelines for Editors of Scholarly Editions: </p>
+            <ol>
+               <li>all transcriptions will be fully compared by an editor (at present. Rebecca
+                  Nesvet or Rae Yan) with the original documents, as distinct from a photocopy of
+                  those documents;</li>
+               <li> Someone other than the original transcriber will carry out a thorough and
+                  complete check of each transcription, whether against the original or a photocopy
+                  of the original;</li>
+               <li>Transcriptions will be sampled by an editor for accuracy, and the results of that
+                  sampling included in a published note.</li>
+            </ol>
+            <head xml:id="collection_tagging">Tagging Policy</head>
+            <p>Generally, tagging of prose fiction will follow the TEI-5 guidelines, with a few
+               exceptions and clarifications. These include identifying words in British dialects
+               (i.e., Hibernian English, Scots Gaelic) as foreign words. This is necessary firstly
+               because the dialect in THE SEPOYS tends to conform to the TEI definition of foreign
+               language ("belonging to some language other than that of the surrounding text"), and
+               secondly, so as not to imply a racist distinction between British and non-British
+               languages other than 'Home Counties' English. Language XML IDs derive from the IANA
+               Registry.</p>
+            <p>Honorifics for particular characters may be added to character XML IDs as additional
+               names, using the "addName" tag, but will not be tagged inline. Glosses will derive
+               etymological and historical usage information, when possible, from the Oxford English
+               Dictionary.</p>
+            <head xml:id="collection_imagemetadata">Image Metadata Policy</head>
+            <p>Image metadata will conform to the CDWA template endorsed by the College Art
+               Association, but will include additional categories as appropriate: <ol>
+                  <li> Where the composition includes a clock with readable time, this will be
+                     indicated in the metadata. Where the clock and other context allows the exact
+                     time of day (AM or PM) to be determined, this time will be indicated using the
+                     military/European time format. Time zones will not be specified because in the
+                     1840s, they had not been standardized globally. </li>
+                  <li>Metadata will also identify characters and locations using person and place
+                     name tags </li>
+                  <li>Metadata will indicate whether an engraving accompanies or previews particular
+                     chapters or instalments, as appropriate </li>
+                  <li>4) Images will include typed captions, including place numbers.</li>
+               </ol></p>
          </div>
       </body>
    </text>
