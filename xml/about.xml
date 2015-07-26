@@ -13,6 +13,7 @@
             <author>James Malcolm Rymer</author>
             <editor>Rebecca Nesvet</editor>
             <editor>Rae X. Yan</editor>
+            <editor type="technical">Adam McCune</editor>
          </titleStmt>
          <publicationStmt>
             <publisher>Rebecca Nesvet</publisher>
@@ -25,7 +26,7 @@
             <idno>context</idno>
          </seriesStmt>
          <sourceDesc>
-            <biblStruct xml:id="frontmatter">
+            <biblStruct xml:id="about">
                <analytic>
                   <author>Rebecca Nesvet</author>
                   <author>Rae X. Yan</author>

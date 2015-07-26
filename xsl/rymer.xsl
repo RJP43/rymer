@@ -63,12 +63,24 @@ Rymer
     </xsl:template>
     <xsl:template match="titleStmt//title" />
     <xsl:template match="titleStmt//editor">
-        <div>
-            <xsl:attribute name="class">header-editor</xsl:attribute>
-            <span class="editor-label">Editor</span>
-            &#183;
-            <xsl:apply-templates/>
-        </div>
+    	<xsl:choose>
+    		<xsl:when test="@type='technical'">
+		        <div>
+        		    <xsl:attribute name="class">header-technical-editor</xsl:attribute>
+        		    <span class="technical-editor-label">Technical Editor</span>
+        		    &#183;
+        		    <xsl:apply-templates/>
+        		</div>
+        	</xsl:when>
+        	<xsl:otherwise>
+		        <div>
+        		    <xsl:attribute name="class">header-editor</xsl:attribute>
+        		    <span class="editor-label">Editor</span>
+        		    &#183;
+        		    <xsl:apply-templates/>
+        		</div>
+        	</xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="titleStmt//author">
         <div>
@@ -203,6 +215,12 @@ Rymer
 					<span>
 						<xsl:attribute name="class">current-installment</xsl:attribute>
 						Personography
+					</span>
+				</xsl:when>
+    			<xsl:when test="$current = 'about'">
+					<span>
+						<xsl:attribute name="class">current-installment</xsl:attribute>
+						About
 					</span>
 				</xsl:when>
     			<xsl:otherwise>

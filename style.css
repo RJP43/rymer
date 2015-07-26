@@ -115,8 +115,9 @@ div.issue-heading-inner h2 {
 	font-style:italic;
 	text-transform: capitalize;
 }
+.author-label,
 .editor-label,
-.author-label {
+.technical-editor-label {
 	/* font-weight: bold; */
 	font-style: italic;
 }
