@@ -121,6 +121,7 @@ Rymer
     	<xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="figure/graphic">
+    					<!--
 							<a>	
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="@url"/>
@@ -139,7 +140,8 @@ Rymer
 								        500
 								    </xsl:attribute>
 								</img>
-							</a>    
+							</a>   
+						-->
     </xsl:template>
     <xsl:template match="figure/figDesc"/>
     <xsl:template match="emph">
