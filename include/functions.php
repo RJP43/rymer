@@ -1,4 +1,6 @@
 <?php
+   			$root = root();
+
 			function cmp(array $a, array $b) {
 				if ($a['num'] == 'frontmatter') {
 					return -1;
@@ -9,4 +11,11 @@
 				}
 			}
 
+			function root () {
+				if ($_SERVER['SERVER_NAME'] == 'localhost') {
+					return '/rymer/';
+				} else {
+					return '/';
+				}
+			}
 ?>
