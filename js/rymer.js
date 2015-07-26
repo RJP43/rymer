@@ -66,7 +66,18 @@ function loadnote (e) {
 		} else {
 			$nlink.attr('id', 'ref-note-'+noteNum);
 			
-			$nlink.after('<span class="note" id="note-'+noteNum+'"></span>');
+			var insideSecondaryNote = $(this).closest('.pers-note-secondary').length;
+			var insideNote = $(this).closest('.pers-note').length;
+			
+			if(insideSecondaryNote) {
+				var $nlinkAncestor = $(this).closest('.pers-note-secondary');
+				$nlinkAncestor.append('<span class="note-secondary" id="note-'+noteNum+'"></span>');
+			} else if(insideNote) {
+				var $nlinkAncestor = $(this).closest('.pers-note');
+				$nlinkAncestor.append('<span class="note-secondary" id="note-'+noteNum+'"></span>');
+			} else {
+				$nlink.after('<span class="note" id="note-'+noteNum+'"></span>');
+			}			
 			
 			$( "#note-"+noteNum ).load ($nlink.attr('href'));
 			
