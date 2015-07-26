@@ -63,6 +63,26 @@ Rymer
     </xsl:template>
     <xsl:template match="titleStmt//title" />
     <xsl:template match="titleStmt//editor">
+    	<xsl:call-template name="editor"/>
+    </xsl:template>
+    <xsl:template match="titleStmt//editor">
+    	<xsl:call-template name="editor"/>
+    </xsl:template>
+    <xsl:template match="titleStmt//author">
+        <xsl:call-template name="author"/>
+    </xsl:template>
+    <xsl:template match="sourceDesc/biblStruct/analytic/author">
+        <xsl:call-template name="author"/>
+    </xsl:template>
+    <xsl:template name="author">
+        <div>
+            <xsl:attribute name="class">header-author</xsl:attribute>
+            <span class="author-label">Author</span>
+            &#183;
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template name="editor">
     	<xsl:choose>
     		<xsl:when test="@type='technical'">
 		        <div>
@@ -81,14 +101,6 @@ Rymer
         		</div>
         	</xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
-    <xsl:template match="titleStmt//author">
-        <div>
-            <xsl:attribute name="class">header-author</xsl:attribute>
-            <span class="author-label">Author</span>
-            &#183;
-            <xsl:apply-templates/>
-        </div>
     </xsl:template>
     <xsl:template match="monogr//title">
         <div>
