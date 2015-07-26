@@ -24,6 +24,8 @@ Rymer
 				</div>
     </xsl:template>
     <xsl:template match="title">
+    	<xsl:choose>
+    		<xsl:when test="@corresp">
 				<p>
 					<a>
 						<xsl:attribute name="class">issue-link</xsl:attribute>
@@ -31,5 +33,12 @@ Rymer
 						<xsl:apply-templates/>
 					</a>
 				</p>
+			</xsl:when>
+			<xsl:otherwise>
+				<p>
+						<xsl:apply-templates/>
+				</p>
+			</xsl:otherwise>
+		</xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

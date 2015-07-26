@@ -41,7 +41,7 @@
       <body>
          <div xml:id="works">
             <title corresp="sepoys">The Sepoys; Or, Highland Jessie: an electronic edition</title>
-            <title corresp="pearls">The String of Pearls; or, the barber of Fleet Street, a domestic romance: an electronic edition</title>
+            <title><!--corresp="pearls"-->The String of Pearls; or, the barber of Fleet Street, a domestic romance: an electronic edition (to be developed 2016)</title>
          </div>
       </body>
    </text>
