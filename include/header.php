@@ -2,7 +2,7 @@
                         <div id="header-inner">
                         	<div id="logo-search">
                         		<div id="site-title">
-                            		<a href="<?php echo $root; ?>">James Malcolm Rymer Archive</a>
+                            		<a href="<?php echo $root; ?>">James Malcolm Rymer Collection</a>
                             	</div>
                             	<div class="clear"></div>
                             </div>
