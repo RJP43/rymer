@@ -52,7 +52,17 @@
 					?>
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
+							<?php
+							if($file == 'about') {
+							?>
+							<h1><?php echo $title; ?></h1>
+							<?php
+							} else {
+							?>
 							<h1><a href="work.php?work=<?php echo $series; ?>"><?php echo $title; ?></a></h1>
+							<?php
+							}
+							?>
 						</div>
 					</div>
 					<?php

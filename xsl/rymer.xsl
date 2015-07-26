@@ -15,7 +15,9 @@ Rymer
                     <div id="main" class="main-doc">
                         <div id="core">
 							<xsl:apply-templates/>
-							<xsl:apply-templates select="//biblStruct"/>
+							<xsl:if test="$series != 'context'">
+								<xsl:apply-templates select="//biblStruct"/>
+							</xsl:if>
                         </div>
                     </div>
     </xsl:template>
