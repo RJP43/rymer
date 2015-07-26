@@ -75,31 +75,294 @@
          <div xml:id="frontmatter">
             <div xml:id="full_intro">
                <head xml:id="text_intro">Introduction</head>
-               <!-- this is where the introductory material about the text that we write up goes, will be written by Rae Yan, some sort of hook, explain the 
-               narrative frame, when Jessie comes, include blockquote of her monologue from 4.10 (ch. 7), the legend of Jessie Brown; Rebecca writing about
-               British/Scottish context and the literary references -->
-               <head xml:id="author_info">Author</head>
-               <!-- this is where the information about James Malcolm Rymer, will be written by Rebecca Nesvet -->
-               <head xml:id="text_serialization">Serial Publication</head>
-               <!-- This is where information about serial publication and Reynold's Miscellany will go, will be written by Rebecca Nesvet -->
-               <head xml:id="illustrations">Illustrations</head>
-               <!-- This is where information about illustrations and Reynold's Miscellany will go, will be written by Rae Yan -->
-            </div>
-            <div xml:id="text_contexts">
-               <!-- include more headers for various historical subjects as necessary in future front matter, 
-            currently I just have a few but we're probably going to want to talk about Scotland, Ireland, etc. -->
-               <head xml:id="indian_revolt">The Indian Revolt or Sepoy Rebellion</head>
-               <!-- this is where information about the Indian Revolt will be explained, will be written by Rae Yan -->
-               <head xml:id="chartism">Chartism</head>
-               <!-- this is where information about Chartism will be explained, will be written by Rebecca Nesvet  -->
-               <head xml:id="civilwar">Civil War</head>
-               <!-- this is where information about Civil War will be explained, will be written by Rebecca Nesvet  -->
-               <head xml:id="frenchrevolution">French Revolution</head>
-               <!-- this is where information about French Revolution will be explained, will be written by Rae Yan -->
-            </div>
-            <div xml:id="text_geography">
-               <!-- maps, explanation of <roleName type="military">Major</roleName> places -->
-            </div>
+               <p>On 10 May 1857, there was a disturbance in the central Indian garrison of
+                  <placeName>Meerut</placeName>. A group of <orgName>sipahis</orgName> or
+                  ‘<orgName>Sepoys</orgName>’, indigenous soldiers, rebelled against their
+                  British commanders. Over the two years following, this ‘Sepoy Mutiny’ quickly
+                  spread to nearby <placeName>Delhi</placeName> and then fanned out across the vast
+                  subcontinent. Meanwhile, in <placeName>Britain</placeName>, it inspired many
+                  literary, dramatic, and artistic representations. One of the earliest--and perhaps
+                  the earliest such work of prose fiction--was the ‘penny blood’ <emph rend="italic"
+                     ><title>The Sepoys, or Highland Jessie: A Tale of the Present Indian
+                        Revolt</title></emph> (1858). Written while the rebellion was in progress by
+                  the prolific ‘<persName corresp="sepoys.personography.xml#JMR">M. J.
+                     Errym</persName>’ (<persName corresp="sepoys.personography.xml#JMR">James
+                        Malcolm Rymer</persName>, creator of <persName>Sweeney Todd</persName>),
+                  <title><emph rend="italic">The Sepoys</emph></title> was serialized in
+                  <title><emph>Reynolds’s Miscellany</emph></title>. In its first instalment,
+                  <persName corresp="sepoys.personography.xml#JMR">Rymer</persName> explains that
+                  ‘[t]he political and public incidents of the Indian Revolt will be the stream in
+                  the current of which will be carried forward the individuals whose adventures we
+                  shall pourtray’. Those ‘individuals’ include the fictional ‘<persName
+                     corresp="sepoys.personography.xml#jessie">Jessie Brown</persName>’, the
+                  Scottish Highlander heroine of a widely circulated urban legend about the Indian
+                  Revolt.</p>
+               <p>Today, scholarship on literary representations of the Indian Revolt and the legend
+                  of <persName corresp="sepoys.personography.xml#jessie">Jessie Brown</persName>
+                  wholly neglects <title><emph rend="italic">The Sepoys</emph></title>. ‘For a
+                  decade or so’ after the Revolt, states the scholar <persName>Christopher
+                     Herbert</persName>, it was ‘at the same time too overwhelmingly a matter of
+                  experiential fact and too lacerating emotionally to allow for fictional
+                  representation except in refracted forms’. <persName>Gautam Chakravarty</persName>
+                  disagrees. He identifies Revolt poetry, prose, and drama dating from the late
+                  1850s, but, like <persName>Herbert</persName>, does not mention <title><emph
+                     rend="italic">The Sepoys</emph></title>. This silence is not surprising, as
+                  penny fiction of all kinds tends to receive less critical attention than the
+                  canonical high literature of the Victorian era, and <title><emph rend="italic">The
+                     Sepoys</emph></title> was no bestseller. Despite its obscurity, <title><emph
+                        rend="italic">The Sepoys</emph></title>’ early depiction of the Indian
+                  Revolt, its treatment of Indian and British subaltern subjects, and its eclectic
+                  take on ‘<persName corresp="sepoys.personography.xml#jessie">Highland
+                     Jessie</persName>’ all merit its recovery for the Victorian canon.</p>
+               <p><title><emph rend="italic">The Sepoys</emph></title> begins in the besieged city
+                  of <placeName>Cawnpore</placeName> (<placeName>Kanpur</placeName>). Enter our
+                  hero, a fictional young Sepoy and ‘mountain chieftain’ named <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>. He is trying
+                  to rescue a British woman he loves, one <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>, who is among
+                  the British women and children imprisoned by the tyrannical (and historical)
+                  <persName corresp="sepoys.personography.xml#nana">Nana Sahib</persName>, an
+                  ally of the Sepoys. <persName corresp="sepoys.personography.xml#nana">Nana
+                     Sahib</persName> has incarcerated these Britons in the <placeName>Cawnpore
+                        Assembly Room</placeName>. This place name would have struck <persName
+                           corresp="sepoys.personography.xml#JMR">Rymer</persName>’s readers with terror:
+                  at the end of the historical siege, <persName
+                     corresp="sepoys.personography.xml#nana">Nana Sahib</persName> had all the
+                  <placeName>Assembly Room</placeName>’s inmates murdered. Would <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> save <persName
+                        corresp="sepoys.personography.xml#bessie">Bessie</persName>, or must she must
+                  perish in the liquidation of the makeshift dungeon? </p>
+               <p> At this suspenseful point, <persName corresp="sepoys.personography.xml#rymer"
+                  >Rymer</persName> turns back the clock several weeks to question the dominant
+                  British narrative. He reveals that before the revolt’s outbreak, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> had interceded on
+                  his tyrannized peasant subjects’ behalf with Bessie’s English friends. Key among
+                  these are the ruthless East India Company army captain <persName
+                     corresp="sepoys.personography.xml#hannibal">Hannibal Hawkins</persName> and his
+                  avaricious bureaucrat brother <persName corresp="sepoys.personography.xml#caesar"
+                     >Caesar</persName>. Their characterization hardly flatters the regime they
+                  represent. Their surnames suggest that they are state-sanctioned pirates, like the
+                  English privateer <persName>Sir John Hawkins</persName>, cousin of
+                  <persName>Francis Drake</persName>. The Hawkinses' decidedly unchristian
+                  forenames identify them with two ruthless empire-builders, one of whom,
+                  <persName>Julius Caesar</persName>, invaded ancient
+                  <placeName>Britain</placeName>. This allusion shifts the text's perspective by
+                  drawing parallels between the disenfranchised Indians and the British readers' own
+                  ancestors. </p>
+               <p>The Hawkinses' actions make the revolution's outbreak intelligible. In their first
+                  scene, in pre-revolutionary <placeName>Delhi</placeName>, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName> begs the two men
+                  for assistance for an Indian peasant family whom their recreational hunting has
+                  rendered homeless and whose crops they have destroyed. Unconcerned by the deaths
+                  of indigenous peasant children, the Hawkinses anticipate the <persName>Marquis of
+                     St-Evremonde</persName>, aristocratic villain of <persName>Dickens</persName>’
+                  <title><emph rend="italic">A Tale of Two Cities</emph></title> (1859). The
+                  Hawkinses abuse many Indian characters with the ‘N’ word and also call them
+                  ‘rascals’. In <persName corresp="sepoys.personography.xml#JMR">Rymer</persName>’s
+                  words, before the Revolt, these ‘European residents’ in
+                  <placeName>India</placeName> ‘idly lolled upon their silken cushions, little
+                  dreaming of the volcano that was to explode over and around them!’ When the revolt
+                  erupts, they risk reaping what they have sown. Tyrants in peacetime, the
+                  <persName>Hawkins</persName> brothers are transformed by war. Adversity enables
+                  <persName corresp="sepoys.personography.xml#hannibal">Captain
+                     Hawkins</persName> to become an active military hero--and the protective lover
+                  of an Indian princess, <persName corresp="sepoys.personography.xml#zeelook"
+                     >Zeelook</persName>. <persName corresp="sepoys.personography.xml#jeffur"
+                        >Jeffur</persName> does not overthrow the British Empire; instead, he learns to
+                  reform it from within. He protects <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> and other British
+                  characters from their Sepoy enemies, who, with the exception of himself, are
+                  represented as atavistic savages or Oriental tyrants. He is capable of
+                  revolutionary violence but suppresses it in himself and others. </p>
+               <p> In this sense, he is an Indian proponent of‘ nonviolent or ‘moral force’
+                  Chartism’, a movement that <persName corresp="sepoys.personography.xml#JMR"
+                     >Rymer</persName> and his fiction workshop colleagues promoted in the 1840s.
+                  ‘Chartism’ (1837-48) was the struggle for expanded suffrage, food security, and
+                  other rudimentary civil rights for working-class Britons. Its name derived from
+                  the ‘People’s Charter’, a <emph rend="italics">Magna Carta</emph>-inspired list of
+                  demands drawn up in 1838, primarily by <persName>William Lovett</persName>, the
+                  founder of the <orgName>London Working-Men’s Association</orgName>
+                  (<orgName>LWMA</orgName>). <persName>Lovett</persName> promoted nonviolent
+                  Chartism, and found himself at odds with the MP for
+                  <placeName>Nottingham</placeName>
+                  <persName>Feargus O’Connor</persName>, who argued, to the alarm of much of the
+                  establishment, that working-class rights would be won only if the
+                  <orgName>Chartists</orgName> displayed a credible threat of violent revolt.
+                  <orgName>Parliament</orgName> refused to ratify the Charter, and the outcome of
+                  the Chartist movement remains the matter of debate. Either the
+                  <orgName>Chartists</orgName>, split ideologically between
+                  <persName>Lovett</persName> and <persName>O’Connor</persName>’s philosophies
+                  and lacking elite buy-in, failed, or their campaign indirectly contributed to the
+                  suffrage and Parliamentary reform that, in the shadow of the continental
+                  revolutions of 1848, created modern British government. </p>
+               <p> In any case, one of the Chartists’ key vehicles was the penny press. <persName
+                  corresp="sepoys.personography.xml#JMR">Rymer</persName>’s publishers
+                  <persName>G.W.M. Reynolds</persName> and <persName>Edward Lloyd</persName> were
+                  both <orgName>Chartists</orgName>. The critic <persName>Troy Boone</persName> has
+                  shown that the genre of the penny blood tended in its content and even narrative
+                  structure to promote moral force Chartism. Boone demonstrates this argument with a
+                  persuasive reading of the 1842 blood <title><emph rend="italic">Varney the
+                     Vampire, or, The Feast of Blood</emph></title>, which <persName>Helen R.
+                        Smith</persName> and others have attributed conclusively to <persName
+                           corresp="sepoys.personography.xml#JMR">Rymer</persName>. </p>
+               <p> In 1858, the Chartist moment had long since passed. The Charter was abandoned,
+                  <persName>O’Connor</persName> was dead, and <persName>Lovett</persName>
+                  languished in obscurity. However, <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur Sahib</persName> is a Chartist
+                  in all but name, because he first employs moral force to rescue his people from
+                  the Hawkins’ casual depredation, then, despairing of moral force’s efficacy, joins
+                  the <orgName>Sepoys</orgName> in their rebellion, and finally abandons that on
+                  account of its cruelty. He tries all the competing Chartist strategies, and ends
+                  the serial as a conscientious, uneasy, yet essential collaborator with an elite
+                  that otherwise will not let him save his people and theirs. </p>
+               <p>As important as this ambivalence is <persName
+                  corresp="sepoys.personography.xml#JMR">Rymer</persName>’s superimposition of
+                  Chartist history over the Indian Rebellion. It suggests that despite his often
+                  disturbingly racist depiction of Indians, he understood that the people of
+                  <placeName>Britain</placeName> and <placeName>India</placeName> were fighting
+                  the same battle against a common elite enemy, represented not only by the
+                  Hawkinses but by their entitled upper-class hanger-on <persName
+                     corresp="sepoys.personography.xml#missflint">The Honourable Miss
+                     Flint</persName>, the butt of much cruel humor. As hard-headed and hearted as
+                  the stone for which she is named, <persName
+                     corresp="sepoys.personography.xml#missflint">The Honourable Miss
+                     Flint</persName> delusionally persists in believing that one of the Hawkinses
+                  will marry her, is upset not to be treated, by the villains, as a desirable
+                  heroine, and endangers the entire party of British refugees in order to rescue her
+                  ‘reticule’, or handbag. <persName>Boone</persName> points out that penny bloods
+                  often taught working-class families to question the elite narrative of Victorian
+                  imperialism. <title><emph rend="italic">The Sepoys</emph></title> seems to, a
+                  decade after the height of the Chartist struggle. </p>
+               <p>
+                  <persName corresp="sepoys.personography.xml#rymer">Rymer</persName> also
+                  dynamically revamps the legend of <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie Brown</persName>. This
+                  mythical tradition began in <placeName>Britain</placeName> a few months after the
+                  outbreak of the revolt. In December 1857 and well into 1858, papers across
+                  <placeName>England</placeName>, <placeName>Scotland</placeName>,
+                  <placeName>Wales</placeName>, <placeName>Ireland</placeName>, and the
+                  <placeName>United States</placeName> printed a report on the 1857 Sepoy Siege
+                  of <placeName>Lucknow</placeName> allegedly derived from a French physician,
+                  ‘<placeName>M. Banneroi</placeName>’s’ ‘Letter to the Editor’ of a Parisian
+                  paper. The fictional doctor claimed that during the siege, one <perName
+                     corresp="sepoys.personography.xml#jessie">Jessie Brown</perName>, the
+                  <placeName>Highland</placeName> Scottish wife or fiancee of a British soldier,
+                  had a delirious vision of traditional <placeName>Highland</placeName> bagpiping or
+                  folksong. ‘Dinna ye hear it?’ she is said to have asked her bewildered carers.
+                  Shortly thereafter, the letter claims, her lover’s <placeName>Highland</placeName>
+                  regiment arrives and ends the siege. </p>
+               <p> Only, it never happened. Quickly, journalists discovered that no ‘<persName
+                  corresp="sepoys.personography.xml#jessie">Jessie Brown</persName>’ was at
+                  <placeName>Lucknow</placeName>. The story was a ‘fable’, a ‘falsehood’, or, as
+                  one Scottish paper put it, ‘a shave’. By that point, however, the story had taken
+                  on a life of its own, in popular music, published and performance poetry,
+                  painting, and stage drama. The Irish-American playwright <persName>Dion
+                     Boucicault</persName> staged his <title><emph rend="italic"><persName
+                        corresp="sepoys.personography.xml#jessie">Jessie Brown</persName>, or the
+                        Relief at <placeName>Lucknow</placeName></emph></title> in <placeName>New
+                           York</placeName>’s <placeName>Wallack’s Theatre</placeName> as early as
+                  February 22, 1858, with ads appearing by February 16th. Three days earlier, in
+                  <placeName>London</placeName>, <title><emph rend="italic">Reynolds’s
+                     Miscellany</emph></title> had published the first instalment of <persName
+                        corresp="sepoys.personography.xml#JMR">Rymer</persName>’s <title><emph
+                           rend="italic">The Sepoys</emph></title>. Evidently, neither
+                  <persName>Boucicault</persName> nor <persName
+                     corresp="sepoys.personography.xml#JMR">Rymer</persName> appropriated material
+                  from the other, as they had not time. Instead, they both ripped the same story
+                  from the pages of their respective local newspapers. </p>
+               <p> By February 1858, the <persName corresp="sepoys.personography.xml#jessie">Jessie
+                  Brown</persName> story was ‘completely exploded’, but in <title><emph
+                     rend="italic">The Sepoys</emph></title>, <persName
+                        corresp="sepoys.personography.xml#JMR">Rymer</persName> makes it relatively
+                  fresh and surprising. Firstly, he refrains from introducing <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie</persName> until chapter
+                  <!--what chapter?-->. In the meantime, he builds the audience’s admiration for the
+                  true hero <persName corresp="sepoys.personography.xml#jeffur">Jeffur</persName>,
+                  the suspense concerning <persName corresp="sepoys.personography.xml#bessie"
+                     >Bessie</persName>’s captivity among the doomed women of
+                  <placeName>Cawnpore</placeName>, and the <persName
+                     corresp="sepoys.personography.xml#jeffur">Jeffur</persName>-<persName
+                        corresp="sepoys.personography.xml#bessie">Bessie</persName> romance plot.
+                  Secondly, while most accounts of <persName
+                     corresp="sepoys.personography.xml#jessie">Jessie Brown</persName>’s vision
+                  present her as a passive heroine, <persName corresp="sepoys.personography.xml#JMR"
+                     >Rymer</persName> makes her an action figure. Granted, she pines for her
+                  soldier love and rejects <persName corresp="sepoys.personography.xml#nana">Nana
+                     Sahib</persName>'s advances, but she also wields a cavalry sword and an Enfield
+                  rifle. Thus armed, she protects not only <persName
+                     corresp="sepoys.personography.xml#bessie">Bessie</persName> and other British
+                  women, but several rather feckless British soldiers, too. This masculine heroism
+                  makes <title><emph rend="italic">The Sepoys</emph></title> a foil for the
+                  initially decadent Hawkins brothers. She challenges them to shape up and fulfill
+                  their potential as defenders of the Empire and all its people: Scottish and
+                  English, British and Indian.</p>
+               <p>
+                  <persName corresp="sepoys.personography.xml#JMR">Rymer</persName>’s other minor
+                  characters offer versions of Scottish and Irish identities that promote British
+                  cohesion without English supremacism. <persName
+                     corresp="sepoys.personography.xml#sandy">Sandy</persName> and <persName
+                        corresp="sepoys.personography.xml#dennis">Dennis</persName>, the most capable
+                  and courageous of the British characters, demonstrate the necessity of Scottish
+                  and Irish labor to the defense of <placeName>Britain</placeName>’s overseas
+                  empire. At the tale’s conclusion, two transcultural marriages take place, and will
+                  evolve under the eye of a new regime: the British Raj. Notably, the two Indians
+                  involved, northern Muslims, are depicted as light-skinned in relation to the
+                  Hindus. <persName corresp="sepoys.personography.xml#JMR">Rymer</persName>’s
+                  progressivism extended to Chartist rhetoric, but not to imagining a British Empire
+                  not ruled whites, nor to interracial marriage. The marriage plot is a device that
+                  dramatizes the willing wedding of British and Indian elites. As such, it seems to
+                  legitimate the Raj--the system of direct rule that replaced the <orgName>East
+                     India Company</orgName>'s management of colonial <orgName>India</orgName>. </p>
+               <p> Why should <orgName>Price One Penny Editions</orgName> revive this problematic,
+                  unpopular, and not particularly well-written baggy monster? Firstly, our edition
+                  will reveal the ‘penny blood’ genre’s engagement not only with the dynamics of
+                  urban life--in this case, in 1857 <placeName>Delhi</placeName>--but with the
+                  global as well. Secondly, it is a seminal and relatively late component of the
+                  <persName corresp="sepoys.personography.xml#JMR">James Malcolm Rymer</persName>
+                  canon, which ought to be recovered, as <persName
+                     corresp="sepoys.personography.xml#JMR">Rymer</persName> was not only extremely
+                  prolific and influential, but, in his own time, admiringly paralleled with
+                  <persName>Shelley</persName>. Comparing <title><emph rend="italic">The
+                     Sepoys</emph></title> with other ‘bloods’ attributed to <persName
+                        corresp="sepoys.personography.xml#JMR">Rymer</persName>, such as <title><emph
+                           rend="italic">Varney the Vampire</emph></title>, <title><emph rend="italic"
+                              >Ada, the Betrayed</emph></title>, or the ‘Sweeney Todd’ story <title><emph
+                                 rend="italic">The String of Pearls</emph></title> may help to identify
+                  <persName>Rymer</persName>'s aesthetic, political, and philosophical leanings.
+                  <title><emph rend="italic">The Sepoys</emph></title> also belongs to the
+                  Scottish diasporic literary tradition, not on account of its Scottish wanderer
+                  characters, but because <persName corresp="sepoys.personography.xml#JMR"
+                     >Rymer</persName> himself was the <placeName>London</placeName>-born son of a
+                  (<placeName>Lowland</placeName>) Scot: <persName>Malcolm Rymer</persName>,
+                  originally of <persName>Midlothian</persName>.</p>
+               <p> Finally, <title><emph rend="italic">The Sepoys</emph></title> deserves attention
+                  from scholars of postcolonial movements across the globe. As an early example of
+                  Indian Revolt literature that engages the discourse of universal human rights, it
+                  anticipates <persName>Reynolds</persName>’s fellow Chartist <persName>Ernest
+                     Jones</persName>’s newspaper journalism and his poem <title><emph rend="italic"
+                        >The Revolt of <placeName>Hindostan</placeName>, or, The New
+                        World</emph></title>. In an 1857 editorial, <persName>Jones</persName>
+                  proclaims that the rebel Sepoys oppose ‘one of the most iniquitous usurpations
+                  that ever disgraced the annals of humanity’. By resisting this occupation, they
+                  righteously defend ‘all that is sacred to man’. <persName>Jones</persName> then
+                  exhorts his working-class British target readers to ‘recognize the independence of
+                  the Indian race’, refuse to bear arms against the revolutionaries, and pursue
+                  their own liberation. He reiterates this revolutionary rhetoric in the
+                  aforementioned poem, which repeatedly equates revolutionary
+                  <placeName>India</placeName> with ‘<placeName>America</placeName>’ (the
+                  <placeName>United States</placeName>). Reinforcing the Revolt’s role in the
+                  history of anticolonial revolution, its title recalls
+                  <persName>Shelley</persName>’s <title><emph rend="italic">Cythna and Laon, or the
+                     Revolt of Islam</emph></title> (1816). In that epic romance,
+                  <persName>Shelley</persName> prophesies a nineteenth century revolution against
+                  the Ottoman Empire. Like <persName>Jones</persName>’s <title><emph rend="italic"
+                     >Revolt</emph></title>, <persName corresp="sepoys.personography.xml#JMR"
+                        >Rymer</persName>’s <title><emph rend="italic">The Sepoys</emph></title> played
+                  a role in the Victorian imagination of the Indian independence struggle. It is
+                  fortuitous that the digital revolution enables <orgName>Price One Penny</orgName>
+                  to disseminate <title><emph rend="italic">The Sepoys</emph></title>, for the first
+                  time in its history, to a global public.</p>
+         </div>
          </div>
       </body>
    </text>
