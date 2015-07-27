@@ -103,14 +103,16 @@
             <head>BY <persName type="pseudo">M. J. ERRYM</persName>.</head>
             <head>AUTHOR OF "<title>JANE BRIGHTWELL</title>," "<title>THE SNOW-DRIFT</title>,"
                ETC.</head>
-            <p>[Given a faithful Account of the Perils and Adventures of Two Families in <placeName
-                  type="country">India</placeName>—the Private and Public life of <persName
+               <p>-----</p>
+            <p>[Giving a faithful Account of the Perils and Adventures of Two Families in <placeName
+                  type="country">India</placeName>—the <orgName>Hawkins</orgName>'s and the <orgName>Hopes</orgName>--Private and Public life of <persName
                   corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
                      corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>, and numerous
                romantic Episodes of Rebellion, from authentic and exclusive sources.]</p>
+               <p>-----</p>
             <p>The romantic and exciting character of the events in <placeName type="country"
                   >India</placeName>, both public and private, are here woven into a <cb n="2"/>
-               narrative, which, while it borrowsa little from imagination, presents in a more
+               narrative, which, while it borrows a little from imagination, presents in a more
                personal shape than the records of history, events and occurrences which far
                transcend all that the pages of old romance could hope to present to its readers. The
                political and public incidents of the Indian Revolt will be the stream, in the
@@ -119,27 +121,28 @@
                reasons; but the incidents themselves are derived from the most veritable sources;
                and it is presumed that so deeply interesting a leaf from the great volume of
                existence never yet spread its regard before human gaze.</p>
+               <p>-----</p>
             <cb n="3"/>
 
             <div type="chapter">
                <head xml:id="Ch1">CHAPTER I.</head>
                <head>THE <placeName type="building">ASSEMBLY ROOM</placeName> AT <placeName
                      type="city">CAWNPORE</placeName>.</head>
-               <p>Clinging to each other with the frantic grasp of despair—uncertainty and fear upon
-                  every countenance—blanched cheeks and trembling limbs, bespeaking the terror of
-                  those throbbing hearts—eyes quivering through tears of agonised apprehension, as
+               <p>CLINGING to each other with the frantic grasp of despair—-uncertainty and fear upon
+                  every countenance—-blanched cheeks and trembling limbs, bespeaking the terror of
+                  those throbbing hearts—-eyes quivering through tears of agonised apprehension, as
                   they cast their hurried glances from door to window, and then from face to face of
                   the poor horror-stricken throng; listening with an agony of dread for any sound
                   from without, striving with a preternatural eagerness to separate the sobs and
-                  moans of children from all extraneous noises—silent and hopeless, with the slant
+                  moans of children from all extraneous noises-—silent and hopeless, with the slant
                      <cb n="1"/> beams <pb n="82"/> of an Indian moon tipping with silver the torn
-                  apparel, and giving a spiritual character to the wan faces—stood, sat, and clung,
+                  apparel, and giving a spiritual character to the wan faces—-stood, sat, and clung,
                   breast to breast, or knelt apart and prayed, the throng of victims in the
                      <placeName type="building">Assembly Room</placeName> at <placeName type="city"
                      >Cawnpore</placeName>, on the eve of that awful day when Hindoo treachery had
                   gathered back its victims after the capitulation of the few and faint defenders of
                      <placeName type="city">Cawnpore</placeName>.</p>
-               <p>There crouched the mother—clasping to her heart the little ones wailing for food,
+               <p>There crouched the mother—-clasping to her heart the little ones wailing for food,
                   and dabbled with the blood of the father who had fallen in their defense—despair
                   on her face, terror of yet unheard-of horrors to come, in her eyes.</p>
                <p>There the maiden in the first flush and pride of her girlish beauty, so pale and
@@ -147,11 +150,11 @@
                   dread of the still more terrible future! Where are the fond hearts that love her?
                   where the tender arms that would enfold her from even the winds of heaven, should
                   they visit her cheek too roughly? where is the gallant lover who has looked to her
-                  as the star in the East, by the light of which he hoped to march to flory and
-                  renown? Not there! not there!—where she like a pale spectra, with those clasped
+                  as the star in the East, by the light of which he hoped to march to glory and
+                  renown? Not there! not there!—-where she like a pale spectre, with those clasped
                   hands and that faint moaning sound from her lips, awaits her dreadful doom.</p>
-               <p>Wives—sisters—gentle little ones, who have but yet, through their blue eyes,
-                  peeped at the great world, which so soon for them is to pass away for ever;—young,
+               <p>Wives—-sisters—-gentle little ones, who have but yet, through their blue eyes,
+                  peeped at the great world, which so soon for them is to pass away for ever;—-young,
                   fair children, with the sweet cherub faces of English youth, and the soft voices
                   of our own happy clime—beings of love, and to be beloved, with all the wild
                   idolatry of human passion;—beauty, gentleness—every charm that, in the fairest and
@@ -177,18 +180,18 @@
                <p>Then, the mothers clasp their little ones yet closer to their hearts. Then the
                   young maidens sink to the floor, their breath coming short and thick; and there is
                   wringing of hands, and there are frantic prayers, and cries of help, where help
-                  there is none—for mercy, which comes not.</p>
+                  there is none—-for mercy, which comes not.</p>
                <p>Loudly clash the cymbals again! The monotonous beat of the Indian drum falls as
                   though each tap was on some poor victim's heart! A blaze of yellow light mingles
                   with the moonbeams, and the shouts of many voices awaken echo in the blood-stained
                   streets of the city.</p>
                <p>"Death! Death to the <orgName xml:lang="ur" type="european"
                      corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>!" is the cry.
-                  "Long life to the lord of the earth—the conqueror of nations—<persName
+                  "Long life to the lord of the earth—the conqueror of nations—-<persName
                      corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
                         corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName>!"</p>
-               <p>Then, with the bray of trumpets—the confused clatter of arms—the crashing of the
-                  cymbals—the jingle of the silver-belled <emph><foreign xml:lang="ur"
+               <p>Then, with the bray of trumpets —- the confused clatter of arms—-the crashing of the
+                  cymbals-—the jingle of the silver-belled <emph><foreign xml:lang="ur"
                         corresp="sepoys.backmatter.xml#chunar">chunar</foreign></emph>, and the tap!
                   tap! of the drums—there sweeps past the <placeName type="building">Assembly
                      House</placeName>, bearing hundreds of torches, a confused mass of the <orgName
@@ -198,19 +201,19 @@
                   visit, propitiatory and thankful, to one of the Hindoo temples in the
                   vicinity.</p>
                <p>And now, as the rabble band neared the prison-house of these sad victims we have
-                  fairly touched upon there is one who, in her despair—for she thinks the destroyer
-                  is at hand—shrieks aloud. Another, in vain, tries to take her own life—for death,
+                  fairly touched upon there is one who, in her despair—-for she thinks the destroyer
+                  is at hand—-shrieks aloud. Another, in vain, tries to take her own life—-for death,
                   simply death, has lost its horrors in higher horrors still. A third bemoans her
                   fate, in bitter anguished words, which keep up a strange cadence with the clash of
                   barbarous sounds without.</p>
                <p>"Oh, mercy, heaven! Why is all this? What have we done, to be so lost? So happy
-                  were we in our dear home—kind kindred about us—every word a sound of true
-                  affection—life so dear, so beautiful to us all! The earth so beautiful—the sky so
-                  blue and fair! Each day but the harbinger of new happiness!—and now, death!
-                  death!—worse than death! Help! help!—mercy! help! Father!—mother!—brother! In
-                  mercy help me!—save me! Will you all leave me here to die? Help—Oh, help!"</p>
-               <p>The intellect had tottered and fallen, and the young <cb n="2"/>girl—for such she
-                  was—screamed with the wild energy of a maniac.</p>
+                  were we in our dear home—-kind kindred about us—-every word a sound of true
+                  affection—-life so dear, so beautiful to us all! The earth so beautiful—-the sky so
+                  blue and fair! Each day but the harbinger of new happiness!—-and now, death!
+                  death!—-worse than death! Help! help!—-mercy! help! Father!—-mother!—-brother! In
+                  mercy help me!—-save me! Will you all leave me here to die? Help—-Oh, help!"</p>
+               <p>The intellect had tottered and fallen, and the young <cb n="2"/>girl—-for such she
+                  was—-screamed with the wild energy of a maniac.</p>
                <p>Then another sat mute and smiled; she was mad! Before her eyes a father and two
                   brothers had fallen, and heaven spared her further woe. She was weaving a strange
                   kind of chapel from some Indian grasses that, by chance, were in the place; but
@@ -226,8 +229,8 @@
                <p>And now all crouched low down, as by an instinct which teaches that death, however
                   inevitable it may seem, is yet to be avoided, if possible, to the last. All was
                   still, too, except the moaning of some children, and the painful throbbing of
-                  every heart there. Another—yet another shot, and the splinters from the windows
-                  flew about the room. Another yet—and there is a faint cry. All eyes are turned in
+                  every heart there. Another—-yet another shot, and the splinters from the windows
+                  flew about the room. Another yet—-and there is a faint cry. All eyes are turned in
                   that direction, and in the moonbeams they see a stream of blood. The bullet has
                   found its home in one fair breast, and soon death is an inhabitant of that fearful
                   place.</p>
@@ -244,17 +247,17 @@
                   wife of a <persName corresp="sepoys.personography.xml#fletcher">Major
                      Fletcher</persName>, who is with the army; a young child of three year of age
                   is clinging around her neck. Her sister, <persName
-                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>—on whose fair
-                  brow but sixteen summer had shone—clings closely to her, and with gasping sobs
+                     corresp="sepoys.personography.xml#bessie">Bessie Hope</persName>—-on whose fair
+                  brow but sixteen summer had shone—-clings closely to her, and with gasping sobs
                   rather strives to keep her back then aid her in making her way to the centre of
                   the desolate throng, which seems to be <persName
                      corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>'s object. The
                   latter, however, perseveres, and although tears are streaming from her eyes, and
                   she is half-choked by emotions, she speaks.</p>
-               <p>"Dear friends, all!—dear in misfortune, and dearer still in this dreadful time—oh!
-                  be patient! Do not—oh! do not let us abandon ourselves, if we have no hope
+               <p>"Dear friends, all!—-dear in misfortune, and dearer still in this dreadful time—-oh!
+                  be patient! Do not—-oh! do not let us abandon ourselves, if we have no hope
                   elsewhere! What but more certain and dreadful destruction can we expect by clamour
-                  and by resistance here? Oh, be still and patient! I cannot—will not think we are
+                  and by resistance here? Oh, be still and patient! I cannot—-will not think we are
                   wholly lost! The retribution for any ill that could be done to us will surely make
                   even <persName corresp="sepoys.personography.xml#nana">Nana <roleName
                         type="honorific" corresp="sepoys.backmatter.xml#sahib"
@@ -290,7 +293,7 @@
                   wild notions of the deliverance of <placeName type="country">India</placeName>
                   from all foreign rule, and that will place him in the ranks against us; but his
                   noble heart will make him the sworn foe to all cruelty and bloodshed. Listen,
-                  sister—I have yet hope in him!"</p>
+                  sister—-I have yet hope in him!"</p>
                <p>"Alas! alas! my poor <persName corresp="sepoys.personography.xml#bessie"
                      >Bessie</persName>! What hope?"</p>
                <p>"He loves me!"</p>
@@ -306,7 +309,7 @@
                   you not, with his chain-mail glittering in the sun? Oh, <persName
                      corresp="sepoys.personography.xml#annie">Annie</persName>! <persName
                      corresp="sepoys.personography.xml#annie">Annie</persName>! if we could only let
-                  him know—if he could but guess that we—I was here, he would save us yet! Yes, dear
+                  him know—-if he could but guess that we—-I was here, he would save us yet! Yes, dear
                      <persName corresp="sepoys.personography.xml#annie">Annie</persName>, he would
                   save us yet!"</p>
                <p>"Hush! oh, hush, <persName corresp="sepoys.personography.xml#bessie"
@@ -320,10 +323,10 @@
                      >Bessie</persName>! may heaven keep you!"</p>
                <p>"Hush! Ah, what is that?—this way! Listen! Oh, <persName
                      corresp="sepoys.personography.xml#annie">Annie</persName>, God is good and
-                  merciful! If I could only speak—speak, for tears! This way, to the window, here! I
+                  merciful! If I could only speak—-speak, for tears! This way, to the window, here! I
                   heard something!"</p>
                <p>"What? Oh, what!"</p>
-               <p>"Hush!—hush!—hush!"</p>
+               <p>"Hush!—-hush!—-hush!"</p>
                <p><persName corresp="sepoys.personography.xml#bessie">Bessie Hope</persName> was too
                   agitated to say more; but she led her sister to a corner of the large apartment,
                   where a window, latticed with thin jalousies, let in the slant rays of the moon.
@@ -337,8 +340,8 @@
                <p>"<persName corresp="sepoys.personography.xml#bessie">Bessie</persName>, dear
                      <persName corresp="sepoys.personography.xml#bessie">Bessie</persName>, what is
                   it? Oh, what is it?"</p>
-               <p>"He—he!—God bless and aid him!—<persName corresp="sepoys.personography.xml#jeffur"
-                     >Jeffur</persName>—'tis he! He will save us yet! He is so good, so—so noble,
+               <p>"He—-he!—-God bless and aid him!—-<persName corresp="sepoys.personography.xml#jeffur"
+                     >Jeffur</persName>—-'tis he! He will save us yet! He is so good, so—-so noble,
                   and he loves me!"</p>
                <p>The soft tinkle of the lute came quickly on the night air, and then it paused, and
                   a few words in different English were spoken from without in a low soft voice.</p>
@@ -347,24 +350,24 @@
                <p>"'Tis he!" gasped <persName corresp="sepoys.personography.xml#bessie"
                      >Bessie</persName>, with a half shriek of delight. "Oh, <persName
                      corresp="sepoys.personography.xml#annie">Annie</persName>, we shall see them
-                  all again! Our mother—your dear
-                     <persName>Edward</persName><!-- who is Edward!? in 2.27, Annie says her husband's name is George, not sure if Edward is supposed to be Major Fletcher -->—<persName
-                     corresp="sepoys.personography.xml#adrian">Adrian</persName>—all friends! We are
+                  all again! Our mother—-your dear
+                     <persName>Edward</persName><!-- <note #resp="rnes">This is Rymer's error. In the instalment of 2.27, Annie says her husband's first name is George</note>-->—<persName
+                     corresp="sepoys.personography.xml#adrian">Adrian</persName>—-all friends! We are
                   saved!"</p>
                <p>The lute again was gently touched.</p>
                <p>The prospect of deliverance now indeed began to dawn on the hopes of <persName
                      corresp="sepoys.personography.xml#annie">Mrs. Fletcher</persName>, and the
                   mother's first impulse was to cover her child with tears and kisses.
                   "Sister—sister!" said <persName corresp="sepoys.personography.xml#bessie"
-                     >Bessie</persName>, "how shall I let him know that I am here?—that we are here?
-                  Oh, yes—yes! I know now! Hush!—be still! Oh, I know he loves me! You have a small
+                     >Bessie</persName>, "how shall I let him know that I am here?—-that we are here?
+                  Oh, yes—yes! I know now! Hush!—-be still! Oh, I know he loves me! You have a small
                   knife with you, <persName corresp="sepoys.personography.xml#annie"
                      >Annie</persName>! Give it me! That is well! Oh, <persName
                      corresp="sepoys.personography.xml#annie">Annie</persName>, these are tears of
                   joy now! I remember once he said my hair was like the clear sunlight of his native
-                  hills. He will know it well—he will be sure to know it! We must not cry out, for
+                  hills. He will know it well—-he will be sure to know it! We must not cry out, for
                   he would be in danger. One tender, good heart among a thousand fiends! He will
-                  know this!—he will know this!"</p>
+                  know this!—-he will know this!"</p>
                <p>The young girl severed from her head one of the long tresses of her beautiful
                   hair, and with trembling fingers she thrust it through the narrow crevices of the
                   jalousies at the window. Then there was a slight cry without of surprise and joy,
@@ -421,9 +424,9 @@
                   and the clash of the cymbal with the roll of the European drum made up a most
                   martial discord.</p>
                <p>The scene was, in truth, a strange and a gorgeous one of wild barbaric pomp. The
-                  flashing of the flambeaux on the arms and jewels—the hum of the multitude—the
+                  flashing of the flambeaux on the arms and jewels—-the hum of the multitude—the
                   crashing sound of the music—the glitter of arms and accoutrements, and the flutter
-                  and sparkling beauty of the rich Oriental hangings—all made a semblance to the
+                  and sparkling beauty of the rich Oriental hangings—-all made a semblance to the
                   past magnificence of old <placeName type="country">India</placeName> in the height
                   of her native power and glory.</p>
                <p>And evidences, too, were there of the recent battle, in which the troops of the
@@ -433,8 +436,8 @@
                      type="city">Cawnpore</placeName> but a few short hours before. There were drops
                   of blood upon many a gorgeous vest, and bound-up heads and arms, and blanched
                   faces even among those immediately surrounding the Chief. But wine had done much
-                  of its work, and was doing more. A wild revel—the last in <placeName type="city"
-                     >Cawnpore</placeName> before its evacuation—was on hand, and with all the rage
+                  of its work, and was doing more. A wild revel—-the last in <placeName type="city"
+                     >Cawnpore</placeName> before its evacuation—-was on hand, and with all the rage
                   of recent defeat and present semi-intoxication, <persName
                      corresp="sepoys.personography.xml#nana">Nana <roleName type="honorific"
                         corresp="sepoys.backmatter.xml#sahib">Sahib</roleName></persName> presided
@@ -471,14 +474,14 @@
                   The war has scared the bright eyes and the supple limbs, but there is other sport!
                   Sit thou there, friend! We shall want thy cunning hand! Wine here! said I not
                   wine? Ah, that is rich and rare! Why, there is blood upon my caftan! It looks
-                  well, too! Defeated—defeated, are we? Well, well! such defeats are costly to the
+                  well, too! Defeated—-defeated, are we? Well, well! such defeats are costly to the
                      <orgName xml:lang="ur" type="european"
                      corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName>! Ah, the foe! But
-                  yet, ere I go, a deed!—a deed! Ha! ha! there will be tears yet—tears of blood!
+                  yet, ere I go, a deed!—-a deed! Ha! ha! there will be tears yet—-tears of blood!
                      <persName corresp="sepoys.personography.xml#lolltall">Loll Tall</persName>?</p>
                <p>"Ay, my good lord!"</p>
                <p>"The <orgName xml:lang="ur" type="european"
-                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName> women!—eh?"</p>
+                     corresp="sepoys.backmatter.xml#feringhee">Feringhee</orgName> women!—-eh?"</p>
                <p>He jerked his head in the direction of the <placeName type="building">Assembly
                      House</placeName>.</p>
                <p>"Safely confined," whispered the minister.</p>
@@ -493,7 +496,7 @@
                   upon the youthful and handsome countenance of a splendidly-attired warrior in the
                   fanciful costume of the hill tribes, with his buckler slung at his back, who had
                   approached close to the divan.</p>
-               <p>"Ah! I should have known thee!—I saw thy plume in the fight!"</p>
+               <p>"Ah! I should have known thee!—-I saw thy plume in the fight!"</p>
                <p>"<persName><roleName type="honorific" corresp="sepoys.backmatter.xml#sahib"
                         >Sahib</roleName></persName>! I am <persName
                      corresp="sepoys.personography.xml#jeffur">Jeffur Ahib</persName>, son of the
@@ -759,7 +762,7 @@
                <p>"<distinct type="irishdialects">Hould hard!" cried <persName
                         corresp="sepoys.personography.xml#dennis">Dennis</persName>; "an', if I tell
                      yer, will you swear, by the bad saints of
-                        <!-- what does Ingy refer to? --><orgName>Ingy</orgName>, that you'll be
+                        <!-- what does Ingy refer to? RN: I think he's calling the Scot English? Not sure.--><orgName>Ingy</orgName>, that you'll be
                      peaceful, and not be blazing away the mother's son of me?</distinct>"</p>
                <p>"By <persName corresp="seapoys.backmatter.xml#vishnu">Vishnu</persName>! <persName
                      corresp="sepoys.backmatter.xml#dowga">Dowga</persName>! <persName
