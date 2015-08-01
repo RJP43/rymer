@@ -109,7 +109,7 @@
                         <addName type="epithet">Terror of the World</addName>
                         <addName type="epithet">Lord of the World</addName>
                         <addName type="epithet">Light of my Earth</addName>
-                        <addName type="epithet">King of Delhi</addName>             
+                        <addName type="epithet">King of Delhi</addName>
                      </persName>
                   </person>
                   <person xml:id="fletcher">
@@ -118,9 +118,9 @@
                         <forename>George</forename>
                         <surname>Fletcher</surname>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>The husband of <persName corresp="annie">Annie Fletcher</persName>.
-                           Believed to be stationed in Cawnpore.</p>
+                           Believed to be stationed in <placeName>Cawnpore</placeName>.</p>
                      </note>
                   </person>
                   <person xml:id="bessie">
@@ -128,8 +128,10 @@
                         <forename>Bessie</forename>
                         <surname>Hope</surname>
                      </persName>
-                     <note>Sister of <persName corresp="annie">Annie Fletcher</persName>. Jessie
-                        later comments that Hope is a good Scotch name.</note>
+                     <note resp="#RN">Sister of <persName corresp="annie">Annie Fletcher</persName>.
+                        Loves <persName corresp="#jeffur">Jeffur Ahib</persName>.
+                           <persName>Jessie</persName> later comments that Hope is a good Scotch
+                        name.</note>
                   </person>
                   <person xml:id="annie">
                      <persName>
@@ -139,21 +141,26 @@
                         <surname type="married">Fletcher</surname>
                      </persName>
                      <note>
-                        <p>Sister of <persName corresp="#bessie">Bessie Hope</persName>. Loves
-                              <persName corresp="#jeffur">Jeffur Ahib</persName></p>
+                        <p>Sister of <persName corresp="#bessie">Bessie Hope</persName>. Wife of
+                              <persName corresp="fletcher">George Fletcher</persName>, with who, she
+                           has a child.</p>
                      </note>
                   </person>
                   <person xml:id="jeffur">
                      <persName>
                         <roleName>Prince</roleName>
-                        <roleName>Young Mountain Chief</roleName>
                         <forename>Jeffur</forename>
                         <surname>Ahib</surname>
                      </persName>
-                     <note>
+                     <persName type="secondary">
+                        <roleName>Young Mountain Chief</roleName>
+                     </persName>
+                     <note resp="#RN">
                         <p>Indian chieftan of the <orgName corresp="sepoys.backmatter.xml#dooctees"
-                              >Dooctee</orgName> hill tribe from the mountains. Loves <persName
-                              corresp="#bessie">Bessie Hope</persName></p>
+                              >Dooctee</orgName> hill tribe from 'the mountains'. Loves <persName
+                              corresp="#bessie">Bessie Hope</persName>. Implicitly Muslim. The
+                           British characters see him as light-skinned in comparison to the
+                           Hindus.</p>
                      </note>
                   </person>
                   <person xml:id="adrian">
@@ -161,7 +168,7 @@
                         <roleName type="military">Lieutenant</roleName>
                         <forename>Adrian</forename>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>Cousin to <persName corresp="#fletcher">Major Fletcher</persName>.
                            Unrequited attachment to <persName corresp="#bessie">Bessie
                               Hope</persName></p>
@@ -172,14 +179,19 @@
                         <forename>Loll</forename>
                         <surname>Tall</surname>
                      </persName>
-                     <note>
-                        <p>Works for <persName corresp="#nana">Nana Sahib</persName></p>
+                     <note resp="#RN">
+                        <p>Works for <persName corresp="#nana">Nana Sahib</persName>. "Loll" (<emph
+                              rend="italic">lal</emph> is an honorific.</p>
                      </note>
                   </person>
                   <person xml:id="dennis">
                      <persName>
                         <forename>Dennis</forename>
                         <addName type="epithet">the Irishman</addName>
+                        <note resp="#RN">An ethnic caricature; speaks in dialect and defers to his
+                           Scottish comrade <persName corresp="sandy">Sandy M'Laren</persName>. Compare with the
+                           Irish fighter <persName>Cassidy</persName> in <persName>Dion
+                              Boucicault</persName>'s 1858 play <emph><title>Jessie Brown</title></emph>. </note>
                      </persName>
                   </person>
                   <person xml:id="sandy">
@@ -189,14 +201,58 @@
                         <surname>M'Laren</surname>
                         <addName type="epithet">the Highlander</addName>
                      </persName>
+                     <note resp="#RN">An ethnic caricature; speaks in dialect and has an Irish
+                        sidekick, <persName corresp="dennis">Dennis</persName>. Compare with the Scottish fighter
+                           <persName>Sweenie Jones</persName> in <persName>Dion
+                           Boucicault</persName>'s 1858 play <title>Jessie Brown</title>. A major
+                        difference is that <persName>Sweenie</persName> is the fiance of
+                           <persName corresp="#jessie">Jessie Brown</persName>.</note>
                   </person>
                   <person xml:id="gabali">
                      <persName>
                         <forename>Gab</forename>
                         <surname>Ali</surname>
                      </persName>
+                     <note resp="#RN">
+                        <p>Soldier of the <persName corresp="#nana">Nana</persName>'s crew.</p>
+                     </note>
+                  </person>
+                  <person xml:id="jessie">
+                     <persName>
+                        <addName type="epithet">Highland</addName>
+                        <forename>Jessie</forename>
+                        <surname>Campbell</surname>
+                     </persName>
                      <note>
-                        <p>Soldier of the Nana's crew.</p>
+                        <p>First appears in the April 10th issue, a Scottish girl described thus: "a
+                           young and frank-looking girl of some twenty years of age--her face pale
+                           with anxiety, but a look of courage and determination in her blue eyes
+                           that was a joy to see--brought a soldier's musket to the charge and stood
+                           resolutely on the defensive. Her dress was picturesque, for she wore a
+                           foraging cap with a gold band and tassel, from beneath which, in long
+                           wavy masses, escaped her fair hair, which was of that beautiful colour
+                           called golden in the north, and upon which the light from the Hindoo's
+                           torch shone as if there were literally threads of gold interwoven among
+                           it. A scarf of tartan was wound tightly about her, and set off her fine
+                           figure to advantage. Her atititude<!--sic--> combined grace with dignity;
+                           and there was a chivalric courage about her, as she there stood with the
+                           musket at the charge, and the bayonet gleaming in the flickering light
+                           from the Hindoo's torch, that would have won the admiration of a
+                           painter." Jessie reveals that she is the daughter of a soldier. She in in love with
+                              <persName corresp="#donald">Donald</persName>.</p>
+                        <p>Originally, a pseudohistorical character well known in late 1857 and
+                           throughout 1858. A fraudulent 'letter to the Editor', printed in several
+                           British, Irish, and American newspapers claimed that this fiancee or wife
+                           of a Highlander fighting in <placeName>India</placeName> had
+                           clairvoyantly predicted <persName corresp="#havelock">Havelock</persName>'s capture of
+                              <placeName>Lucknow</placeName> from the <orgName>Sepoys</orgName>. The
+                           story was rapidly discredited, but informed many imaginative
+                           representations, including <persName>Rymer</persName>'s penny dreadful
+                           and <persName>Dion Boucicault</persName>'s play <title>Highland
+                              Jessie</title>, which opened in <placeName>New York</placeName>'s
+                              <placeName>Wallack Theatre</placeName> in February 1858; the month of
+                              <persName>Rymer</persName>'s serial's first instalment's
+                           publication.</p>
                      </note>
                   </person>
                   <person xml:id="vernon">
@@ -205,8 +261,10 @@
                         <forename>Vernon</forename>
                         <surname>Hawkins</surname>
                      </persName>
-                     <note>
-                        <p>Patriarch of the Hawkins family. Works for the British East India</p>
+                     <note resp="#RN">
+                        <p>Patriarch of the Hawkins family. Works for the <orgName>East India
+                              Company</orgName>. Possibly, his surname is intended to suggest the
+                           English pirate <persName>Francis Hawkins</persName></p>
                      </note>
                   </person>
                   <person xml:id="hannibal">
@@ -218,7 +276,10 @@
                      <note>
                         <p>Son of <persName corresp="#vernon">Vernon Hawkins</persName>. Older
                            brother of <persName corresp="#caesar">Caesar Hawkins</persName>. Rapidly
-                           rising in the army at time of revolt.</p>
+                           rising in the army at time of revolt. Initially a ruthless colonist,
+                           changes somewhat after he falls in love with an Indian Muslim princess,
+                              <persName corresp="#zeelook">Zeelook</persName>. Possibly, his surname is intended to
+                           suggest the English pirate <persName>Francis Hawkins</persName>.</p>
                      </note>
                   </person>
                   <person xml:id="caesar">
@@ -226,12 +287,10 @@
                         <forename>Caesar</forename>
                         <surname>Hawkins</surname>
                      </persName>
-                     <note>
-                        <p>Son of <persName corresp="#vernon">Vernon Hawkins</persName>. Younger
-                           brother of <persName corresp="#hannibal">Hannibal Hawkins</persName>.
-                           Brother of <persName corresp="#volumina">Volumina</persName>. Works in
-                           civil service as collector in <placeName type="city"
-                           >Delhi</placeName>.</p>
+                     <note resp="#RN">
+                        <p>Works in civil service as collector in <placeName type="city"
+                              >Delhi</placeName>. Possibly, his surname is intended to suggest the
+                           English pirate <persName>Francis Hawkins</persName></p>
                      </note>
                   </person>
                   <person xml:id="volumina">
@@ -240,10 +299,16 @@
                         <forename>Volumina</forename>
                         <surname>Hawkins</surname>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>Only daughter of <persName corresp="#vernon">Vernon Hawkins</persName>.
                            Brothers are <persName corresp="#hannibal">Hannibal Hawkins</persName>
-                           and <persName corresp="#caesar">Caesar Hawkins</persName>.</p>
+                           and <persName corresp="#caesar">Caesar Hawkins</persName>. Possibly, her
+                           surname is intended to suggest the English pirate <persName>Francis
+                              Hawkins</persName>. Her forename may be a misspelling of the Roman
+                           Republican matron <persName>Volumnia</persName>, heroine of
+                              <persName>Shakespeare</persName>'s <title>Coriolanus</title>. Like
+                              <persName>Volumnia</persName>, <persName>Volumina</persName> behaves
+                           as a Stoic matron--eventually.</p>
                      </note>
                   </person>
                   <person xml:id="mrhope">
@@ -251,7 +316,7 @@
                         <roleName type="honorofic" full="abb">Mr.</roleName>
                         <surname>Hope</surname>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>Father of <persName corresp="#bessie">Bessie</persName> and <persName
                               corresp="#annie">Annie</persName> Hope. Friend of <persName
                               corresp="#vernon">Mr. Hawkins</persName>. Worked in civil service,
@@ -263,7 +328,7 @@
                         <roleName type="honorofic" full="abb">Mrs.</roleName>
                         <surname>Hope</surname>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>Mother of <persName corresp="#bessie">Bessie</persName> and <persName
                               corresp="#annie">Annie</persName> Hope. Wife of <persName
                               corresp="#mrhope">Mr. Hope</persName>.</p>
@@ -274,7 +339,7 @@
                         <roleName type="honorofic" full="abb">Mrs.</roleName>
                         <surname>Hawkins</surname>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>Matriarch of the Hawkins family. Wife of <persName corresp="vernon">Mr.
                               Hawkins</persName>.</p>
                      </note>
@@ -284,7 +349,7 @@
                         <roleName type="honorofic" full="abb">Mr.</roleName>
                         <surname>Bonus</surname>
                      </persName>
-                     <note>
+                     <note resp="#RN">
                         <p>Uncle of <persName corresp="mrshawkins">Mrs. Hawkins</persName>.</p>
                      </note>
                   </person>
@@ -293,9 +358,27 @@
                         <roleName type="honorofic" full="abb">Miss</roleName>
                         <surname>Flint</surname>
                      </persName>
-                     <note>
-                        <p>A woman in Delhi with the Hawkins family at the time of the
-                           rebellion.</p>
+                     <note resp="#RN">
+                        <p>"The Hon. Miss Flint" is anything but honorable. A broad, often cruel
+                           caricature, this woman has come to <persName>India</persName> in search o
+                           a British husband. Vain, petty, acquisitive, deceitful, and
+                           self-deceiving, she constantly brags about the "offers" (of marriage) she
+                           has allegedly received back in the British Isles. There are several
+                           suggestions that these 'offers' are misprisions of casual conversation or
+                           wholly made up. She fishes for an 'offer' from one or more of the Hawkins
+                           brothers, who find her repugnant. Her age (late thirties) and pretensions
+                           to being a heroine incur a great deal of mockery, and she is jealous of
+                           the true heroines <persName corresp="#bessie">Bessie Hope</persName> and
+                              <persName corresp="#zeelook">Zeelook</persName>. </p>
+                     </note>
+                  </person>
+                  <person xml:id="bonus">
+                     <persName>
+                        <roleName type="honorofic" full="abb">Mr.</roleName>
+                        <surname>Bonus</surname>
+                     </persName>
+                     <note resp="RXY">
+                        <p>Uncle of <persName corresp="mrshawkins">Mrs. Hawkins</persName>.</p>
                      </note>
                   </person>
                   <person xml:id="hooderali">
@@ -303,7 +386,7 @@
                         <forename>Hooder</forename>
                         <surname>Ali</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 20th issue as one of the Sepoys attempting to find the
                            Hawkins and Hope families as they hide in the quarry.</p>
                      </note>
@@ -314,7 +397,7 @@
                         <forename>Akbar</forename>
                         <surname>Ai</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 20th issue as one of the Sepoys attempting to find the
                            Hawkins and Hope families as they hide in the quarry.</p>
                      </note>
@@ -324,7 +407,7 @@
                         <roleName>Colonel</roleName>
                         <surname>Hood</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 27th issue as one of the British troops that arrive to
                            save the Hopes and Hawkins.</p>
                      </note>
@@ -334,7 +417,7 @@
                         <roleName>Major</roleName>
                         <surname>Holmes</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 27th issue as one of the British troops that arrive to
                            save the Hopes and Hawkins.</p>
                      </note>
@@ -344,7 +427,7 @@
                         <roleName>General</roleName>
                         <surname>Wheeler</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 27th issue as one of the British troops that arrive to
                            save the Hopes and Hawkins.</p>
                      </note>
@@ -354,7 +437,7 @@
                         <roleName>Captain</roleName>
                         <surname>Harris</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 27th issue as one of the British troops that arrive to
                            save the Hopes and Hawkins.</p>
                      </note>
@@ -363,29 +446,34 @@
                      <persName>
                         <surname>Hopkins</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in March 27th issue as one of the British troops that arrive to
-                           save the Hopes and Hawkins. He dies with an arrow through his throat.</p>
+                           save the Hopes and Hawkins. He dies from an arrow wound to the
+                           throat.</p>
                      </note>
                   </person>
                   <person xml:id="zeelook">
                      <persName>
                         <forename>Zeelook</forename>
                      </persName>
-                     <note>
-                        <p>Appears in April 3rd issue as a young Muslim girl saved by <persName
-                              corresp="#hannibal">Hannibal Hawkins</persName> in the stone temple.
-                           She was supposedly going to be sacrificed to a giant snake by some
-                           Brahmins.</p>
+                     <note resp="RN">
+                        <p>An Indian girl of high birth. She is Muslim and falls in love with
+                              <persName corresp="#hannibal">Hannibal Hawkins</persName> and becomes a friend to
+                              <persName corresp="#bessie">Bessie Hope</persName>. In many ways, a female double of
+                              <persName corresp="#jeffur">Jeffur Ahib</persName>. Like him, she is represented as
+                           lighter-complexioned and more pious, humane, and eloquent than the Hindu
+                           majority population. As a heroine, she saves her hero, Hannibal, and also
+                           plays an active role in the salvation of the party of refugees. Her name
+                           might be a corruption of Zuleika (Persian for 'beauty').</p>
                      </note>
                   </person>
                   <person xml:id="wootton">
                      <persName>
                         <surname>Wootton</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in April 10th issue, a cavalry soldier that is fighting alongside
-                           Jessie.</p>
+                              <persName corresp="#jessie">Jessie</persName>.</p>
                      </note>
                   </person>
                   <person xml:id="hargrave">
@@ -393,42 +481,17 @@
                         <roleName>Colonel</roleName>
                         <surname>Hargrave</surname>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Appears in April 10th issue, a wounded officer that is fighting alongside
-                           Jessie but is injured and stays in a cart of hay.</p>
-                     </note>
-                  </person>
-                  <person xml:id="jessie">
-                     <persName>
-                        <addName type="epithet">Highland</addName>
-                        <forename>Jessie</forename>
-                        <surname>Campbell</surname>
-                     </persName>
-                     <note>
-                        <p>Appears in April 10th issue, a Scottish girl described thus: "a young and
-                           frank-looking girl of some twenty years of age--her face pale with
-                           anxiety, but a look of courage and determination in her blue eyes that
-                           was a joy to see--brought a soldier's musket to the charge and stood
-                           resolutely on the defensive. Her dress was picturesque, for she wore a
-                           foraging cap with a gold band and tassel, from beneath which, in long
-                           wavy masses, escaped her fair hair, which was of that beautiful colour
-                           called golden in the north, and upon which the light from the Hindoo's
-                           torch shone as if there were literally threads of gold interwoven among
-                           it. A scarf of tartan was wound tightly about her, and set off her fine
-                           figure to advantage. Her atititude<!--sic--> combined grace with dignity;
-                           and there was a chivalric courage about her, as she there stood with the
-                           musket at the charge, and the bayonet gleaming in the flickering light
-                           from the Hindoo's torch, that would have won the admiration of a
-                           painter." Jessie reveals that she is the daughter of a soldier. Loves
-                              <persName corresp="#donald">Donald</persName>.</p>
+                           Jessie. Injured, he is propped up in a hay wagon.</p>
                      </note>
                   </person>
                   <person xml:id="donald">
                      <persName>
                         <forename>Donald</forename>
                      </persName>
-                     <note>
-                        <p>Mentioned in April 10th issue, <persName corresp="#jessie"
+                     <note resp="RXY">
+                        <p>First mentioned in April 10th issue, <persName corresp="#jessie"
                               >Jessie's</persName> lover.</p>
                      </note>
                   </person>
@@ -437,7 +500,7 @@
                         <roleName>Colonel</roleName>
                         <forename>Lane</forename>
                      </persName>
-                     <note>
+                     <note resp="RXY">
                         <p>Mentioned in April 10th issue, a wounded cavalry officer in the cart.</p>
                      </note>
                   </person>
@@ -446,16 +509,26 @@
                         <roleName>Rao</roleName>
                         <addName>Patan</addName>
                      </persName>
-                     <note>
-                        <p>Mentioned in April 10th issue as the father of a small child found in the loft of a hut that Jessie, Annie, and Bessie flee to. Rao is usually the title of the royal family associated with the city of Patan in the Indian state of Rajasthan.</p>
+                     <note resp="RXY">
+                        <p>Mentioned in April 10th issue as the father of a small child found in the
+                           loft of a hut to which <persName corresp="#jessie">Jessie Campbell</persName>,
+                              <persName corresp="#annie">Annie Fletcher</persName>, and <persName corresp="#bessie">Bessie
+                              Hope</persName> flee. Rao is usually the title of the royal family
+                           associated with the city of <placeName>Patan</placeName> in the Indian
+                           state of <placeName>Rajasthan</placeName>.</p>
                      </note>
                   </person>
                   <person xml:id="Aza">
                      <persName>
                         <foreName>Aza</foreName>
                      </persName>
-                     <note>
-                        <p>Mentioned in April 10th issue as a small child found in the loft of a hut that Jessie, Annie, and Bessie flee to. She is the daughter of the Rao Patan. Rao is usually the title of the royal family associated with the city of Patan in the Indian state of Rajasthan.</p>
+                     <note resp="RXY">
+                        <p>Mentioned in April 10th issue as a small child found in the loft of a hut
+                           to which <persName corresp="#jessie">Jessie Campbell</persName>, <persName corresp="#annie">Annie
+                              Fletcher</persName>, and <persName corresp="#bessie">Bessie Hope</persName> flee. Rao is
+                           usually the title of the royal family associated with the city of
+                              <placeName>Patan</placeName> in the Indian state of
+                              <placeName>Rajasthan</placeName>.</p>
                      </note>
                   </person>
                </listPerson>
@@ -468,8 +541,17 @@
                         <forename>Henry</forename>
                         <surname>Havelock</surname>
                      </persName>
-                     <note>
-                        <p><!-- include some information about Havelock --></p>
+                     <birth when="1795-04-05">
+                        <placeName>Durham</placeName>
+                     </birth>
+                     <death when="1857-11-24">
+                        <placeName>Lucknow</placeName>
+                     </death>
+                     <note resp="RN">
+                        <p>Most famous for his 'too little, too late' (as <persName>Neil
+                              Hultgren</persName> has discussed) relief of
+                              <persName>Lucknow</persName>, he died almost immediately afterward, of
+                           dysentery.</p>
                      </note>
                   </person>
                   <person xml:id="dalhousie">
@@ -478,9 +560,19 @@
                         <roleName type="rank">Earl of Dalhousie</roleName>
                         <forename>James</forename>
                         <surname>Broun-Ramsay</surname>
+                        <birth when="1812-04-22">
+                           <placeName>Dalhousie Castle</placeName>
+                        </birth>
+                        <death when="1860-12-19">
+                           <placeName>Dalhousie Castle</placeName>
+                        </death>
                      </persName>
-                     <note>
-                        <p><!-- include some information about Dalhousie --></p>
+                     <note resp="#RN">
+                        <p>The youngest Governor-General of <persName>India</persName>, a Peelite
+                           Tory. Responsible for the suppression of the revolt in the
+                              <placeName>Punjab</placeName> and, in 1849, the
+                           <orgName>Raj</orgName>'s conquest of the
+                           <placeName>Punjab</placeName>.</p>
                      </note>
                   </person>
                   <person xml:id="muhammad">
@@ -488,8 +580,22 @@
                         <roleName type="honorofic">the Prophet</roleName>
                         <surname>Muhammad</surname>
                      </persName>
-                     <note>
-                        <p><!-- include some information about Muhammad and the significance of his being referenced by Sepoys --></p>
+                     <birth precision="low" when="500">ca. 500 <placeName>Mecca</placeName></birth>
+                     <death when="632-06-08">
+                        <placeName>Medina</placeName>
+                     </death>
+                     <note resp="RN">
+                        <p>Hindu (mostly) and Muslim Indians took part in the revolt. Possibly,
+                              <persName>Rymer</persName>'s Sepoys' invocation of the
+                              <persName>Prophet</persName> connects this revolt with the
+                              Anglo-<placeName>Mysore</placeName> Wars of the late eighteenth
+                           century, wherein the Muslim Indian rulers <persName>Haider Ali</persName>
+                           (d. 1782) and his son and successor <persName>Tipu Sultan</persName> (d.
+                           1799) resisted the British conquest of <placeName>India</placeName>.
+                           Rymer's most famous work, The String of Pearls (1846-7), takes place in
+                           the immediate aftermath of the Anglo-<placeName>Mysore</placeName> Wars,
+                           and features several characters in the '<orgName>Indian army</orgName>'
+                              (<orgName>East India Company</orgName> forces) of that era.</p>
                      </note>
                   </person>
                </listPerson>
