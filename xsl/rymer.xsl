@@ -166,7 +166,22 @@ Rymer
         </xsl:choose>
     </xsl:template>
     <xsl:template match="roleName[@corresp]">
-    	<xsl:call-template name="note-link" />
+    	<xsl:variable name="corresp"><xsl:value-of select="@corresp"/></xsl:variable>
+    	<xsl:variable name="personography"><xsl:value-of select="$series"/>.personography.xml</xsl:variable>
+    	<xsl:variable name="file"><xsl:value-of select="substring-before($corresp, '#')"/></xsl:variable>
+    	<xsl:choose>
+    		<xsl:when test="$file = $personography">
+		    	<xsl:variable name="person"><xsl:value-of select="substring-after($corresp, '#')"/></xsl:variable>
+		        <a>
+		            <xsl:attribute name="class">person-link</xsl:attribute>
+        	    	<xsl:attribute name="href">person.php?file=<xsl:value-of select="$file"/>&amp;p=<xsl:value-of select="$person"/></xsl:attribute>
+        	    	<xsl:apply-templates/>
+        		</a>
+        	</xsl:when>
+        	<xsl:otherwise>
+        		<xsl:call-template name="note-link" />
+        	</xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="orgName[@corresp]">
     	<xsl:call-template name="note-link" />
