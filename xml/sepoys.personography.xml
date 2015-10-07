@@ -188,11 +188,11 @@
                      <persName>
                         <forename>Dennis</forename>
                         <addName type="epithet">the Irishman</addName>
+                     </persName>
                         <note resp="#RN">An ethnic caricature; speaks in dialect and defers to his
                            Scottish comrade <persName corresp="sandy">Sandy M'Laren</persName>. Compare with the
                            Irish fighter <persName>Cassidy</persName> in <persName>Dion
-                              Boucicault</persName>'s 1858 play <emph><title>Jessie Brown</title></emph>. </note>
-                     </persName>
+                              Boucicault</persName>'s 1858 play "Jessie Brown." </note>       
                   </person>
                   <person xml:id="sandy">
                      <persName>

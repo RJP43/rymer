@@ -78,6 +78,20 @@
    <text>
       <body>
          <div xml:id="frontmatter">
+            <head xml:id="salisbury">Salisbury</head>
+            <p>The James Malcolm Rymer Collection's internet address, Salisbury Square, was the
+               physical address where much of James Malcolm Rymer's fiction was printed. At No. 12,
+               Salisbury Square, the publisher Edward Lloyd kept his premises from 1843-73. The
+               association of Lloyd's group of writers with this address gave them the name 'the
+               Salisbury School'. The building was damaged by a fire in 1873 (precipitating Lloyd's
+               relocation) and obliterated during the Blitz, but you can see Victorian photographs
+               of it at the <a href="http://www.edwardlloyd.org/houses.htm"> Edward Lloyd
+                  website</a>. However, with the development of innovative open access fiction
+               databases carrying Rymer's work, such as <a href="http://www.priceonepenny.info"
+                  >Price One Penny: Cheap Literature 1837-60</a> and the <a
+                  href="http://www.archive.org">Electronic Archive</a>, Salisbury Square has risen
+               from the ashes. We are honored to bring two out-of-print examples of Rymer's fiction
+               to a digital version of its original home--and to your home, too.</p>
             <head xml:id="collection_disclaimer">Disclaimer</head>
             <p>This collection is a work in progress and, as such, subject to continual
                modification, evolution, and revision. Please pardon instances where information or
@@ -211,21 +225,20 @@
                United Kingdom and Canada-based site <emph rend="italic"><a
                      href="www.reviewingtheevidence">Reviewing the Evidence</a></emph>.</p>
             <p>
-               <strong>Rae Yan</strong> is a PhD candidate in nineteenth-century British
-               literature at the University of North Carolina at Chapel Hill. Her research explores
-               the "obsession with China" in Victorian literature and how this literature influenced
+               <strong>Rae Yan</strong> is a PhD candidate in nineteenth-century British literature
+               at the University of North Carolina at Chapel Hill. Her research explores the
+               "obsession with China" in Victorian literature and how this literature influenced
                revolutionary impulses in early twentieth-century China. She is currently pursuing a
                certificate in digital humanities through UNC Chapel Hill. </p>
             <p>
-               <strong>Adam McCune</strong> is a PhD candidate in the 
-               Department of English and Comparative Literature at the University of North 
-               Carolina at Chapel Hill, writing a dissertation on nineteenth-century 
-               British representations of childhood as a performance. He is also Project 
-               Director for the digital archive of <emph>Blake/An Illustrated 
-               Quarterly</emph> (bq.blakearchive.org).
-            </p>
+               <strong>Adam McCune</strong> is a PhD candidate in the Department of English and
+               Comparative Literature at the University of North Carolina at Chapel Hill, writing a
+               dissertation on nineteenth-century British representations of childhood as a
+               performance. He is also Project Director for the digital archive of <emph>Blake/An
+                  Illustrated Quarterly</emph> (bq.blakearchive.org). </p>
             <head xml:id="collection_contactus">Contact Us</head>
-            <p>You may contact the James Malcolm Rymer Collection at <a href="mailto:rymer.collection@gmail.com">rymer.collection@gmail.com</a>.</p>
+            <p>You may contact the James Malcolm Rymer Collection at <a
+                  href="mailto:rymer.collection@gmail.com">rymer.collection@gmail.com</a>.</p>
          </div>
       </body>
    </text>
